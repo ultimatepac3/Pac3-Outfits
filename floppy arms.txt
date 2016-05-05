@@ -1,0 +1,224 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "543646085",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "250",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Max"] = 171.7,
+						["ClassName"] = "proxy",
+						["UniqueID"] = "3694671654",
+						["Axis"] = "y",
+						["InputMultiplier"] = 25,
+						["EditorExpand"] = true,
+						["VariableName"] = "Angles",
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(6.6875, 54.501808166504, 0),
+				["UniqueID"] = "1326073809",
+				["Bone"] = "left upperarm",
+				["ClassName"] = "bone",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1541458322",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "250",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "324169972",
+						["Expression"] = "time()*500",
+						["ClassName"] = "proxy",
+						["Function"] = "none",
+						["VariableName"] = "Angles",
+					},
+				},
+			},
+			["self"] = {
+				["AngleOffset"] = Angle(859, 0, 0),
+				["UniqueID"] = "1184504624",
+				["Angles"] = Angle(601670.375, 156.46875, 0),
+				["Bone"] = "spine 2",
+				["ClassName"] = "bone",
+				["EditorExpand"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "543646085",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "250",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Max"] = 171.7,
+						["ClassName"] = "proxy",
+						["UniqueID"] = "3694671654",
+						["Axis"] = "y",
+						["InputMultiplier"] = 25,
+						["EditorExpand"] = true,
+						["VariableName"] = "Angles",
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(6.6875, 54.501808166504, 0),
+				["EditorExpand"] = true,
+				["UniqueID"] = "1326073809",
+				["ClassName"] = "bone",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "543646085",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "250",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Max"] = 171.7,
+						["ClassName"] = "proxy",
+						["UniqueID"] = "3694671654",
+						["Axis"] = "y",
+						["InputMultiplier"] = 10,
+						["EditorExpand"] = true,
+						["VariableName"] = "Angles",
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(6.6875, 162.63543701172, 0),
+				["UniqueID"] = "1326073809",
+				["Bone"] = "spine 1",
+				["ClassName"] = "bone",
+				["EditorExpand"] = true,
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "543646085",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "250",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Max"] = 171.7,
+						["ClassName"] = "proxy",
+						["UniqueID"] = "3694671654",
+						["InputMultiplier"] = 25,
+						["EditorExpand"] = true,
+						["VariableName"] = "Angles",
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(54.501808166504, 0, 0),
+				["UniqueID"] = "1326073809",
+				["Bone"] = "right upperarm",
+				["ClassName"] = "bone",
+				["EditorExpand"] = true,
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "543646085",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "250",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Max"] = 158.4,
+						["ClassName"] = "proxy",
+						["UniqueID"] = "3694671654",
+						["InputMultiplier"] = 25,
+						["EditorExpand"] = true,
+						["Min"] = -118.7,
+						["VariableName"] = "Angles",
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(-30.741636276245, 0, 0),
+				["UniqueID"] = "1326073809",
+				["Bone"] = "right forearm",
+				["ClassName"] = "bone",
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "1427039196",
+		["Description"] = "add parts to me!",
+	},
+},

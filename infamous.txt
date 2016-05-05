@@ -1,0 +1,2970 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.4,
+				["Bone"] = "left foot",
+				["UniqueID"] = "3198207155",
+				["ClassName"] = "bone",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.4,
+				["Bone"] = "right toe",
+				["UniqueID"] = "3076979014",
+				["ClassName"] = "bone",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.4,
+				["Bone"] = "right foot",
+				["UniqueID"] = "863166792",
+				["ClassName"] = "bone",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.4,
+				["Bone"] = "left toe",
+				["UniqueID"] = "3754936417",
+				["ClassName"] = "bone",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.325,
+				["EditorExpand"] = true,
+				["UniqueID"] = "1688862608",
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2786559048",
+		["Name"] = "bones",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "2881654894",
+								["Model"] = "models/pac/default.mdl",
+								["Brightness"] = 0.8,
+								["Name"] = "default 4",
+								["Scale"] = Vector(1, 1, 2.5999999046326),
+								["Position"] = Vector(6.732421875, -0.24871826171875, -0.564697265625),
+								["Angles"] = Angle(-85.53125, 0, 0),
+								["Size"] = 0.425,
+								["Material"] = "models/props_combine/portalball001_sheet",
+								["Color"] = Vector(220, 0, 255),
+								["Bone"] = "left upperarm",
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 7,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1561446974",
+												["Axis"] = "x",
+												["InputMultiplier"] = -3,
+												["VariableName"] = "Position",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 0,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1384139398",
+												["InputMultiplier"] = -2,
+												["Axis"] = "z",
+												["Min"] = 360,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(0, 161, 255),
+												["ClassName"] = "trail",
+												["UniqueID"] = "1650016602",
+												["EndColor"] = Vector(255, 0, 191),
+												["Length"] = 30,
+												["Position"] = Vector(0, -3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[4] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(0, 161, 255),
+												["ClassName"] = "trail",
+												["UniqueID"] = "2439766545",
+												["EndColor"] = Vector(255, 0, 191),
+												["Length"] = 30,
+												["Position"] = Vector(0, 3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "3034549122",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(1.5787880420685, 0, 0),
+										["Name"] = "default 1",
+										["Angles"] = Angle(0, 0, 110568.671875),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(0, 161, 255),
+												["ClassName"] = "trail",
+												["UniqueID"] = "1677709167",
+												["EndColor"] = Vector(255, 0, 191),
+												["Length"] = 30,
+												["Position"] = Vector(0, 3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(0, 161, 255),
+												["ClassName"] = "trail",
+												["UniqueID"] = "1085025639",
+												["EndColor"] = Vector(255, 0, 191),
+												["Length"] = 30,
+												["Position"] = Vector(0, -3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 360,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "313509709",
+												["Axis"] = "z",
+												["InputMultiplier"] = 2,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[4] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 7,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1769074223",
+												["Axis"] = "x",
+												["InputMultiplier"] = 3,
+												["VariableName"] = "Position",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "3464351973",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(5.5223941802979, 0, 0),
+										["Name"] = "default 2",
+										["Angles"] = Angle(0, 0, 11851),
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "jiggle",
+								["UniqueID"] = "196857401",
+								["Speed"] = 7,
+								["Bone"] = "right forearm",
+								["Position"] = Vector(6.787109375, -0.000244140625, -0.000244140625),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3473393471",
+								["Model"] = "models/pac/default.mdl",
+								["Brightness"] = 0.8,
+								["Name"] = "default 1",
+								["Scale"] = Vector(1, 1, 2.5999999046326),
+								["Position"] = Vector(7.11328125, -0.2489013671875, 0.8935546875),
+								["Angles"] = Angle(-89.15625, 0, 0),
+								["Size"] = 0.425,
+								["Material"] = "models/props_combine/portalball001_sheet",
+								["Color"] = Vector(220, 0, 255),
+								["Bone"] = "right upperarm",
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "1717468135",
+								["Model"] = "models/pac/default.mdl",
+								["Brightness"] = 4.7,
+								["Name"] = "default 1",
+								["Scale"] = Vector(1, 1, 2.5999999046326),
+								["Position"] = Vector(6.8154296875, -0.24853515625, 0.5361328125),
+								["Angles"] = Angle(-86.78125, 179.96875, -179.96875),
+								["Size"] = 0.425,
+								["Material"] = "models/props_combine/portalball001_sheet",
+								["Color"] = Vector(220, 0, 255),
+								["Bone"] = "right forearm",
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[5] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(0, 161, 255),
+												["ClassName"] = "trail",
+												["UniqueID"] = "61740045",
+												["EndColor"] = Vector(255, 0, 191),
+												["Length"] = 30,
+												["Position"] = Vector(0, -3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(0, 161, 255),
+												["ClassName"] = "trail",
+												["UniqueID"] = "2016361000",
+												["EndColor"] = Vector(255, 0, 191),
+												["Length"] = 30,
+												["Position"] = Vector(0, 3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 0,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2140545293",
+												["InputMultiplier"] = -2,
+												["Axis"] = "z",
+												["Min"] = 360,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[4] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 7,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2534713355",
+												["Axis"] = "x",
+												["InputMultiplier"] = -3,
+												["VariableName"] = "Position",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "346496831",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(1.4776059389114, 0, 0),
+										["Name"] = "default 1",
+										["Angles"] = Angle(0, 0, 11851),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 360,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "4182506155",
+												["Axis"] = "z",
+												["InputMultiplier"] = 2,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 7,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1301706265",
+												["Axis"] = "x",
+												["InputMultiplier"] = 3,
+												["VariableName"] = "Position",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(0, 161, 255),
+												["ClassName"] = "trail",
+												["UniqueID"] = "1726506967",
+												["EndColor"] = Vector(255, 0, 191),
+												["Length"] = 30,
+												["Position"] = Vector(0, 3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[4] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(0, 161, 255),
+												["ClassName"] = "trail",
+												["UniqueID"] = "166315852",
+												["EndColor"] = Vector(255, 0, 191),
+												["Length"] = 30,
+												["Position"] = Vector(0, -3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "1209323512",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(5.5223941802979, 0, 0),
+										["Name"] = "default 2",
+										["Angles"] = Angle(0, 0, 11851),
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "jiggle",
+								["UniqueID"] = "1123327633",
+								["Speed"] = 7,
+								["Bone"] = "left forearm",
+								["Position"] = Vector(6.787109375, -0.000244140625, -0.000244140625),
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "2226457199",
+								["Model"] = "models/pac/default.mdl",
+								["Brightness"] = 4.7,
+								["Name"] = "default 1",
+								["Scale"] = Vector(1, 1, 2.5999999046326),
+								["Position"] = Vector(6.732421875, -0.24871826171875, -0.564697265625),
+								["Angles"] = Angle(-85.53125, 0, 0),
+								["Size"] = 0.425,
+								["Material"] = "models/props_combine/portalball001_sheet",
+								["Color"] = Vector(220, 0, 255),
+								["Bone"] = "left forearm",
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[7] = {
+							["children"] = {
+							},
+							["self"] = {
+								["EditorExpand"] = true,
+								["UniqueID"] = "408891884",
+								["SpritePath"] = "sprites/glow04_noz",
+								["Size"] = 20.475,
+								["Bone"] = "right hand",
+								["Position"] = Vector(3.548828125, -0.52325439453125, 0.003173828125),
+								["ClassName"] = "sprite",
+							},
+						},
+						[8] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "sprite",
+								["Position"] = Vector(3.548828125, -0.52325439453125, 0.003173828125),
+								["SpritePath"] = "sprites/physg_glow1",
+								["Color"] = Vector(255, 0, 191),
+								["Bone"] = "left hand",
+								["Size"] = 48.8,
+								["UniqueID"] = "3353473756",
+							},
+						},
+						[9] = {
+							["children"] = {
+							},
+							["self"] = {
+								["EditorExpand"] = true,
+								["UniqueID"] = "2027496638",
+								["SpritePath"] = "sprites/glow04_noz",
+								["Size"] = 20.475,
+								["Bone"] = "left hand",
+								["Position"] = Vector(3.548828125, -0.52325439453125, 0.003173828125),
+								["ClassName"] = "sprite",
+							},
+						},
+						[10] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "sprite",
+								["Position"] = Vector(3.548828125, -0.52325439453125, 0.003173828125),
+								["SpritePath"] = "sprites/physg_glow1",
+								["Color"] = Vector(255, 0, 191),
+								["Bone"] = "right hand",
+								["Size"] = 48.8,
+								["UniqueID"] = "3983978516",
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "neon",
+						["ClassName"] = "group",
+						["UniqueID"] = "3828761313",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3991987816",
+						["Event"] = "command",
+						["Arguments"] = "command",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "2813491785",
+				["Name"] = "neon",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "command",
+						["Arguments"] = "command",
+						["UniqueID"] = "512329465",
+						["ClassName"] = "event",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "1670547096",
+								["Model"] = "models/pac/default.mdl",
+								["Brightness"] = 0.8,
+								["Name"] = "default 4",
+								["Scale"] = Vector(1, 1, 2.5999999046326),
+								["Position"] = Vector(6.732421875, -0.24871826171875, -0.564697265625),
+								["Angles"] = Angle(-85.53125, 0, 0),
+								["Size"] = 0.425,
+								["Material"] = "models/props_combine/portalball001_sheet",
+								["Color"] = Vector(255, 0, 0),
+								["Bone"] = "left upperarm",
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "2208134983",
+								["Model"] = "models/pac/default.mdl",
+								["Brightness"] = 4.7,
+								["EditorExpand"] = true,
+								["Name"] = "default 1",
+								["Scale"] = Vector(1, 1, 2.5999999046326),
+								["Position"] = Vector(6.8154296875, -0.24853515625, 0.5361328125),
+								["Angles"] = Angle(-86.78125, 179.96875, -179.96875),
+								["Size"] = 0.425,
+								["Material"] = "models/props_combine/portalball001_sheet",
+								["Color"] = Vector(255, 17, 0),
+								["Bone"] = "right forearm",
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(225, 255, 0),
+												["ClassName"] = "trail",
+												["UniqueID"] = "1429236652",
+												["EndColor"] = Vector(255, 0, 0),
+												["Length"] = 10,
+												["Position"] = Vector(0, -3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 7,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1149066414",
+												["Axis"] = "x",
+												["InputMultiplier"] = -3,
+												["VariableName"] = "Position",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 0,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2089923137",
+												["InputMultiplier"] = -2,
+												["Axis"] = "z",
+												["Min"] = 360,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[4] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(225, 255, 0),
+												["ClassName"] = "trail",
+												["UniqueID"] = "3548284353",
+												["EndColor"] = Vector(255, 0, 0),
+												["Length"] = 10,
+												["Position"] = Vector(0, 3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "3732659665",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(0.54134130477905, 0, 0),
+										["Name"] = "default 1",
+										["Angles"] = Angle(0, 0, 129985.8046875),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(225, 255, 0),
+												["ClassName"] = "trail",
+												["UniqueID"] = "4024686825",
+												["EndColor"] = Vector(255, 0, 0),
+												["Length"] = 10,
+												["Position"] = Vector(0, 3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 7,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1080064151",
+												["Axis"] = "x",
+												["InputMultiplier"] = 3,
+												["VariableName"] = "Position",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(225, 255, 0),
+												["ClassName"] = "trail",
+												["UniqueID"] = "893849329",
+												["EndColor"] = Vector(255, 0, 0),
+												["Length"] = 10,
+												["Position"] = Vector(0, -3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[4] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 360,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1993307884",
+												["Axis"] = "z",
+												["InputMultiplier"] = 2,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "1880512138",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(6.4586586952209, 0, 0),
+										["Name"] = "default 2",
+										["Angles"] = Angle(0, 0, 129985.8046875),
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "jiggle",
+								["UniqueID"] = "2272600859",
+								["Speed"] = 7,
+								["Bone"] = "right forearm",
+								["Position"] = Vector(6.787109375, -0.000244140625, -0.000244140625),
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "228212081",
+								["Model"] = "models/pac/default.mdl",
+								["Brightness"] = 4.7,
+								["EditorExpand"] = true,
+								["Name"] = "default 1",
+								["Scale"] = Vector(1, 1, 2.5999999046326),
+								["Position"] = Vector(6.732421875, -0.24871826171875, -0.564697265625),
+								["Angles"] = Angle(-85.53125, 0, 0),
+								["Size"] = 0.425,
+								["Material"] = "models/props_combine/portalball001_sheet",
+								["Color"] = Vector(255, 17, 0),
+								["Bone"] = "left forearm",
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[5] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "effect",
+										["UniqueID"] = "3370969145",
+										["Rate"] = 0,
+										["EditorExpand"] = true,
+										["Bone"] = "right hand",
+										["Effect"] = "muzzle_shotgun_smoke",
+										["Position"] = Vector(-0.6103515625, -0.001953125, 0.0029296875),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Effect"] = "muzzle_shotgun",
+												["ClassName"] = "effect",
+												["UniqueID"] = "3609054214",
+												["Rate"] = 0,
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["Angles"] = Angle(0, 10.1875, 0),
+										["UniqueID"] = "3545808851",
+										["Position"] = Vector(-3.91162109375, 0.345703125, 1.4443359375),
+										["EditorExpand"] = true,
+										["Model"] = "models/pac/default.mdl",
+										["ClassName"] = "model",
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Velocity"] = 0,
+										["UniqueID"] = "1479313047",
+										["DieTime"] = 0.25,
+										["PositionSpread"] = 1,
+										["FireDelay"] = -0.05,
+										["RandomRollSpeed"] = 100,
+										["EndSize"] = 1,
+										["ClassName"] = "particles",
+										["Gravity"] = Vector(0, 0, 1),
+										["Lighting"] = false,
+										["Material"] = "sprites/flamelet1",
+										["Bone"] = "right hand",
+										["StartSize"] = 5,
+										["RollDelta"] = 1.5,
+									},
+								},
+								[4] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Velocity"] = 0,
+										["UniqueID"] = "4282783702",
+										["PositionSpread"] = 1,
+										["FireDelay"] = -0.05,
+										["DieTime"] = 0.25,
+										["EndSize"] = 1,
+										["ClassName"] = "particles",
+										["Gravity"] = Vector(0, 0, 1),
+										["Lighting"] = false,
+										["Material"] = "sprites/flamelet1",
+										["Bone"] = "right hand",
+										["StartSize"] = 5,
+										["RollDelta"] = 15,
+									},
+								},
+								[5] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Effect"] = "muzzle_smg",
+												["ClassName"] = "effect",
+												["UniqueID"] = "2182389110",
+												["Rate"] = 0,
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["Angles"] = Angle(0, 5.71875, 0),
+										["UniqueID"] = "4187891860",
+										["Position"] = Vector(-2.96044921875, -2.126953125, 0.74609375),
+										["EditorExpand"] = true,
+										["Model"] = "models/pac/default.mdl",
+										["ClassName"] = "model",
+									},
+								},
+								[6] = {
+									["children"] = {
+									},
+									["self"] = {
+										["StartColor"] = Vector(225, 255, 0),
+										["UniqueID"] = "2463520704",
+										["Length"] = 10,
+										["Name"] = "fire",
+										["ClassName"] = "trail",
+										["Translucent"] = false,
+										["EndAlpha"] = 0.25,
+										["EndColor"] = Vector(255, 63, 0),
+										["StartSize"] = 10,
+										["TrailPath"] = "trails/smoke",
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "114145359",
+								["Name"] = "rh",
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["Position"] = Vector(4.263671875, -1.6572265625, -0.244140625),
+								["Angles"] = Angle(0, -179.96875, 179.96875),
+								["Bone"] = "right hand",
+								["Model"] = "models/pac/default.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "2247819824",
+								["Model"] = "models/pac/default.mdl",
+								["Brightness"] = 0.8,
+								["EditorExpand"] = true,
+								["Name"] = "default 1",
+								["Scale"] = Vector(1, 1, 2.5999999046326),
+								["Position"] = Vector(7.11328125, -0.2489013671875, 0.8935546875),
+								["Angles"] = Angle(-89.15625, 0, 0),
+								["Size"] = 0.425,
+								["Material"] = "models/props_combine/portalball001_sheet",
+								["Color"] = Vector(255, 0, 0),
+								["Bone"] = "right upperarm",
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[7] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 7,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2000877935",
+												["Axis"] = "x",
+												["InputMultiplier"] = 3,
+												["VariableName"] = "Position",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(225, 255, 0),
+												["ClassName"] = "trail",
+												["UniqueID"] = "1976281851",
+												["EndColor"] = Vector(255, 0, 0),
+												["Length"] = 10,
+												["Position"] = Vector(0, 3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(225, 255, 0),
+												["ClassName"] = "trail",
+												["UniqueID"] = "2108294655",
+												["EndColor"] = Vector(255, 0, 0),
+												["Length"] = 10,
+												["Position"] = Vector(0, -3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[4] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 360,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "314983888",
+												["Axis"] = "z",
+												["InputMultiplier"] = 2,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "3423873054",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(6.4586586952209, 0, 0),
+										["Name"] = "default 2",
+										["Angles"] = Angle(0, 0, 129985.8046875),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(225, 255, 0),
+												["ClassName"] = "trail",
+												["UniqueID"] = "298033010",
+												["EndColor"] = Vector(255, 0, 0),
+												["Length"] = 10,
+												["Position"] = Vector(0, -3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 0,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1287824072",
+												["InputMultiplier"] = -2,
+												["Axis"] = "z",
+												["Min"] = 360,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["StartColor"] = Vector(225, 255, 0),
+												["ClassName"] = "trail",
+												["UniqueID"] = "1772414306",
+												["EndColor"] = Vector(255, 0, 0),
+												["Length"] = 10,
+												["Position"] = Vector(0, 3.2000000476837, 0),
+												["TrailPath"] = "trails/plasma",
+											},
+										},
+										[4] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 7,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2631153104",
+												["Axis"] = "x",
+												["InputMultiplier"] = -3,
+												["VariableName"] = "Position",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "789443289",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(0.54134130477905, 0, 0),
+										["Name"] = "default 1",
+										["Angles"] = Angle(0, 0, 129985.8046875),
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "jiggle",
+								["UniqueID"] = "3590981780",
+								["Speed"] = 7,
+								["Bone"] = "left forearm",
+								["Position"] = Vector(6.787109375, -0.000244140625, -0.000244140625),
+							},
+						},
+						[8] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Effect"] = "muzzle_smg",
+												["ClassName"] = "effect",
+												["UniqueID"] = "1992126632",
+												["Rate"] = 0,
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "1087367553",
+										["EditorExpand"] = true,
+										["Model"] = "models/pac/default.mdl",
+										["Position"] = Vector(-0.2607421875, -3.6396484375, 2.4970703125),
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "effect",
+										["UniqueID"] = "3484997233",
+										["Rate"] = 0,
+										["EditorExpand"] = true,
+										["Bone"] = "right hand",
+										["Effect"] = "muzzle_shotgun_smoke",
+										["Position"] = Vector(-0.6103515625, -0.001953125, 0.0029296875),
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Velocity"] = 0,
+										["UniqueID"] = "657080204",
+										["DieTime"] = 0.25,
+										["RandomRollSpeed"] = 100,
+										["PositionSpread"] = 1,
+										["FireDelay"] = -0.05,
+										["Position"] = Vector(1.7421875, -3.427734375, 3.99609375),
+										["EndSize"] = 1,
+										["ClassName"] = "particles",
+										["Lighting"] = false,
+										["Material"] = "sprites/flamelet1",
+										["EditorExpand"] = true,
+										["Gravity"] = Vector(0, 0, 1),
+										["StartSize"] = 5,
+										["RollDelta"] = 1.5,
+									},
+								},
+								[4] = {
+									["children"] = {
+									},
+									["self"] = {
+										["StartColor"] = Vector(225, 255, 0),
+										["UniqueID"] = "1493194237",
+										["Length"] = 10,
+										["Name"] = "fire",
+										["ClassName"] = "trail",
+										["Translucent"] = false,
+										["EndAlpha"] = 0.25,
+										["EndColor"] = Vector(255, 63, 0),
+										["StartSize"] = 10,
+										["TrailPath"] = "trails/smoke",
+									},
+								},
+								[5] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Velocity"] = 0,
+										["UniqueID"] = "1117812451",
+										["DieTime"] = 0.25,
+										["RandomRollSpeed"] = 100,
+										["PositionSpread"] = 1,
+										["FireDelay"] = -0.05,
+										["Position"] = Vector(2.8193359375, -3.6220703125, 3.81640625),
+										["EndSize"] = 1,
+										["ClassName"] = "particles",
+										["Gravity"] = Vector(0, 0, 1),
+										["Lighting"] = false,
+										["Material"] = "sprites/flamelet1",
+										["Bone"] = "right hand",
+										["StartSize"] = 5,
+										["RollDelta"] = 1.5,
+									},
+								},
+								[6] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["ClassName"] = "effect",
+												["UniqueID"] = "629839137",
+												["Rate"] = 0,
+												["Position"] = Vector(0.005859375, -0.00634765625, 2.263671875),
+												["Effect"] = "muzzle_shotgun",
+												["Angles"] = Angle(0, 6.0625, 0),
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["Angles"] = Angle(-2.4375, 5.28125, 0),
+										["UniqueID"] = "2824845769",
+										["Position"] = Vector(-0.2763671875, -0.80859375, 1.724609375),
+										["EditorExpand"] = true,
+										["Model"] = "models/pac/default.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "3097977935",
+								["Name"] = "lh",
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["Position"] = Vector(6.12890625, 0.6708984375, 3.1630859375),
+								["Angles"] = Angle(0, -179.96875, 179.96875),
+								["Bone"] = "left hand",
+								["Model"] = "models/pac/default.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "1928859728",
+						["Name"] = "smoke",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "1609098515",
+				["Name"] = "smoke",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "544958595",
+		["Name"] = "arms",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "370",
+										["UniqueID"] = "900424581",
+										["Event"] = "speed",
+										["Operator"] = "equal or above",
+										["ClassName"] = "event",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["BoneMerge"] = true,
+								["ClassName"] = "model",
+								["UniqueID"] = "1623134876",
+								["Model"] = "models/player/Group01/Male_04.mdl",
+								["TextureFilter"] = 2.4,
+								["Bone"] = "none",
+								["Name"] = "male  2",
+								["Material"] = "http://puu.sh/jNqt8/defa2587e5.png",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["Position"] = Vector(-6.8525390625, 0.40625, -2.66552734375),
+										["Bone"] = "neck",
+										["Angles"] = Angle(-58.25, 6.84375, 0),
+										["UniqueID"] = "4191520285",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["Position"] = Vector(3.1015625, 0.77783203125, 0.009033203125),
+										["Bone"] = "neck",
+										["Angles"] = Angle(0, -136.625, 0),
+										["UniqueID"] = "336953833",
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["Position"] = Vector(-6.5546875, 0.44873046875, 2.2255859375),
+										["Bone"] = "neck",
+										["Angles"] = Angle(52.71875, 6.84375, 0),
+										["UniqueID"] = "2859825134",
+									},
+								},
+								[4] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["Position"] = Vector(-6.8642578125, 0.4130859375, -0.0047607421875),
+										["Bone"] = "neck",
+										["Angles"] = Angle(0, 6.84375, 0),
+										["UniqueID"] = "248270031",
+									},
+								},
+								[5] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["Position"] = Vector(2.193359375, 0.3125, -0.00634765625),
+										["Bone"] = "neck",
+										["Angles"] = Angle(0, -171.5625, 0),
+										["UniqueID"] = "4090052873",
+									},
+								},
+								[6] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["Position"] = Vector(-0.734375, -3.66845703125, -0.005126953125),
+										["Bone"] = "neck",
+										["Angles"] = Angle(0, 55.15625, 0),
+										["UniqueID"] = "385919209",
+									},
+								},
+								[7] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "speed",
+										["UniqueID"] = "1199971599",
+										["Operator"] = "equal or above",
+										["ClassName"] = "event",
+										["Arguments"] = "370",
+									},
+								},
+							},
+							["self"] = {
+								["BoneMerge"] = true,
+								["ClassName"] = "model",
+								["UniqueID"] = "976834856",
+								["Color"] = Vector(145, 145, 145),
+								["Model"] = "models/player/alyx.mdl",
+								["Name"] = "hood",
+								["Material"] = "http://puu.sh/jNqhA/513e562b62.png",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "1212206748",
+						["Name"] = "neon + smoke",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(4.708984375, 1.7548828125, -0.09320068359375),
+								["Name"] = "converse left",
+								["UniqueID"] = "3115603556",
+								["EditorExpand"] = true,
+								["Angles"] = Angle(-89.9375, -32.21875, 0),
+								["Size"] = -1.25,
+								["ClassName"] = "model",
+								["Material"] = "http://puu.sh/iTCJ9/22e101396a.jpg",
+								["Bone"] = "left foot",
+								["Model"] = "http://puu.sh/iTCVg/af10c0b6b2.obj",
+								["Invert"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "command",
+										["Arguments"] = "command",
+										["UniqueID"] = "3124309143",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "370",
+								["UniqueID"] = "302590083",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["ClassName"] = "event",
+								["EditorExpand"] = true,
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "1787669001",
+								["Name"] = "plaid",
+								["Scale"] = Vector(1.7000000476837, 0.80000001192093, 1.1000000238419),
+								["Position"] = Vector(0.89999997615814, -3.2119140625, 0),
+								["ClassName"] = "model",
+								["Size"] = 0.3,
+								["EditorExpand"] = true,
+								["Angles"] = Angle(0, -112.875, 180),
+								["Bone"] = "neck",
+								["Model"] = "models/pac/default.mdl",
+								["Material"] = "http://puu.sh/jNlgI/00f47dc08e.jpg",
+							},
+						},
+						[4] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["Position"] = Vector(1.6953125, -1.36181640625, 0.021484375),
+										["EditorExpand"] = true,
+										["Bone"] = "neck",
+										["Angles"] = Angle(0, -0.4375, 0),
+										["UniqueID"] = "3188803221",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "bone",
+										["UniqueID"] = "3699015955",
+										["FollowPartName"] = "head",
+										["EditorExpand"] = true,
+										["FollowPartUID"] = "1091714556",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(1.931640625, -1.94384765625, -0.0078125),
+								["Name"] = "face",
+								["Angles"] = Angle(0, -45, -89.96875),
+								["Model"] = "models/Humans/Group01/Male_04.mdl",
+								["PositionOffset"] = Vector(0, 0, -62.200000762939),
+								["ClassName"] = "model",
+								["Bone"] = "neck",
+								["Translucent"] = true,
+								["UniqueID"] = "2177887961",
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3904545302",
+								["Name"] = "beanie",
+								["Scale"] = Vector(1, 1, 0.89999997615814),
+								["Position"] = Vector(3.4521484375, -1.44482421875, -0.02490234375),
+								["Angles"] = Angle(0, 84.15625, 179.96875),
+								["Size"] = 4.3,
+								["EditorExpand"] = true,
+								["Color"] = Vector(161, 94, 94),
+								["Material"] = "http://puu.sh/jNnHd/69c83da2fb.jpg",
+								["Model"] = "http://puu.sh/jNnMP/05680ac757.obj",
+								["ClassName"] = "model",
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3507931314",
+								["Name"] = "converse right",
+								["Position"] = Vector(4.7080078125, 1.7490234375, 0.16339111328125),
+								["EditorExpand"] = true,
+								["Size"] = 1.25,
+								["ClassName"] = "model",
+								["Angles"] = Angle(-89.96875, 145.8125, 0),
+								["Bone"] = "right foot",
+								["Model"] = "http://puu.sh/iTCVg/af10c0b6b2.obj",
+								["Material"] = "http://puu.sh/iTCJ9/22e101396a.jpg",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "2082295228",
+						["Name"] = "smoke",
+					},
+				},
+			},
+			["self"] = {
+				["Name"] = "hide",
+				["ClassName"] = "group",
+				["UniqueID"] = "4272512226",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "1091714556",
+				["Model"] = "models/pac/default.mdl",
+				["Name"] = "head",
+				["EditorExpand"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Arguments"] = "370",
+						["Invert"] = true,
+						["UniqueID"] = "263924039",
+						["Event"] = "speed",
+						["Operator"] = "equal or above",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["Run"] = "run_all_02",
+				["ClassName"] = "holdtype",
+				["UniqueID"] = "3088004620",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["HideEntity"] = true,
+				["Model"] = "models/player/breen.mdl",
+				["UniqueID"] = "2715084520",
+				["DrawWeapon"] = false,
+				["Name"] = "base model",
+				["ClassName"] = "entity",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2425613983",
+		["Name"] = "outfit",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Arguments"] = "crowbar",
+								["Invert"] = true,
+								["Event"] = "weapon_class",
+								["UniqueID"] = "669000541",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Velocity"] = 0,
+										["DieTime"] = 0.25,
+										["UniqueID"] = "4184025144",
+										["RandomRollSpeed"] = 100,
+										["FireDelay"] = -0.05,
+										["PositionSpread"] = 1,
+										["Name"] = "left hand",
+										["Position"] = Vector(6.83984375, -3.61328125, 0.810302734375),
+										["EndSize"] = 1,
+										["ClassName"] = "particles",
+										["Gravity"] = Vector(0, 0, 1),
+										["Lighting"] = false,
+										["Material"] = "sprites/flamelet1",
+										["Bone"] = "left hand",
+										["StartSize"] = 8,
+										["RollDelta"] = 21.5,
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Velocity"] = 0,
+										["DieTime"] = 0.25,
+										["UniqueID"] = "3407465649",
+										["RandomRollSpeed"] = 100,
+										["FireDelay"] = -0.05,
+										["PositionSpread"] = 1,
+										["Name"] = "right hand",
+										["Position"] = Vector(5.80859375, -2.783203125, 0.853515625),
+										["EndSize"] = 1,
+										["ClassName"] = "particles",
+										["Gravity"] = Vector(0, 0, 1),
+										["Lighting"] = false,
+										["Material"] = "sprites/flamelet1",
+										["Bone"] = "right hand",
+										["StartSize"] = 8,
+										["RollDelta"] = 21.5,
+									},
+								},
+							},
+							["self"] = {
+								["WeaponHoldType"] = "fist",
+								["ClassName"] = "animation",
+								["UniqueID"] = "2084813328",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "2611578033",
+						["Name"] = "fireball",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "command",
+						["Arguments"] = "command",
+						["UniqueID"] = "143396855",
+						["ClassName"] = "event",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "2271370634",
+										["Event"] = "animation_event",
+										["Arguments"] = "attack",
+										["Invert"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "effect",
+								["UniqueID"] = "141534149",
+								["Rate"] = 0,
+								["Position"] = Vector(17.13427734375, 0.0087890625, 0),
+								["Bone"] = "none",
+								["Effect"] = "Weapon_Combine_Ion_Cannon_Explosion_k",
+								["Follow"] = false,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["ClassName"] = "effect",
+														["UseParticleTracer"] = true,
+														["Rate"] = 0.1,
+														["EditorExpand"] = true,
+														["Follow"] = false,
+														["Effect"] = "envelope_smoke_puff",
+														["UniqueID"] = "3689532938",
+													},
+												},
+											},
+											["self"] = {
+												["AffectChildrenOnly"] = true,
+												["ClassName"] = "event",
+												["UniqueID"] = "2042014206",
+												["Event"] = "ranger",
+												["RootOwner"] = false,
+												["Operator"] = "below",
+												["EditorExpand"] = true,
+												["Arguments"] = "5@@10",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "2228495395",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "sprite",
+										["Size"] = 100,
+										["SpritePath"] = "sprites/physg_glow1",
+										["Color"] = Vector(255, 93, 0),
+										["UniqueID"] = "1449353723",
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["StartColor"] = Vector(225, 255, 0),
+										["UniqueID"] = "3919588563",
+										["Length"] = 20,
+										["Name"] = "fire",
+										["ClassName"] = "trail",
+										["Translucent"] = false,
+										["EndAlpha"] = 0.25,
+										["EndColor"] = Vector(255, 63, 0),
+										["StartSize"] = 10,
+										["TrailPath"] = "trails/smoke",
+									},
+								},
+								[4] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Size"] = 36.075,
+										["ClassName"] = "sprite",
+										["UniqueID"] = "320733539",
+										["SpritePath"] = "sprites/glow04_noz",
+									},
+								},
+								[5] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "sprite",
+										["Size"] = 50,
+										["SpritePath"] = "sprites/glow04_noz",
+										["Color"] = Vector(255, 191, 0),
+										["UniqueID"] = "3322259066",
+									},
+								},
+								[6] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Velocity"] = 0,
+										["UniqueID"] = "1049657909",
+										["DieTime"] = 0.5,
+										["RandomRollSpeed"] = 100,
+										["PositionSpread"] = 1,
+										["FireDelay"] = 0.05,
+										["Gravity"] = Vector(0, 0, 1),
+										["EndSize"] = 1,
+										["ClassName"] = "particles",
+										["Lighting"] = false,
+										["Material"] = "sprites/flamelet1",
+										["EditorExpand"] = true,
+										["Bone"] = "right hand",
+										["StartSize"] = 10,
+										["RollDelta"] = 9.7,
+									},
+								},
+								[7] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Velocity"] = 0,
+										["DieTime"] = 0.5,
+										["UniqueID"] = "2574022256",
+										["RandomRollSpeed"] = 100,
+										["FireDelay"] = -0.05,
+										["PositionSpread"] = 1,
+										["Name"] = "right hand",
+										["RollDelta"] = 21.5,
+										["EndSize"] = 1,
+										["ClassName"] = "particles",
+										["Lighting"] = false,
+										["Material"] = "sprites/flamelet1",
+										["EditorExpand"] = true,
+										["Bone"] = "right hand",
+										["StartSize"] = 10,
+										["Gravity"] = Vector(0, 0, 1),
+									},
+								},
+								[8] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Color"] = Vector(255, 76, 0),
+										["ClassName"] = "light",
+										["UniqueID"] = "1574541235",
+										["Size"] = 50,
+									},
+								},
+								[9] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Effect"] = "env_fire_small_smoke",
+														["ClassName"] = "effect",
+														["UniqueID"] = "3668185604",
+														["Follow"] = false,
+													},
+												},
+											},
+											["self"] = {
+												["AffectChildrenOnly"] = true,
+												["Invert"] = true,
+												["ClassName"] = "event",
+												["UniqueID"] = "626004857",
+												["EditorExpand"] = true,
+												["Arguments"] = "5@@10",
+												["Operator"] = "below",
+												["Event"] = "ranger",
+												["RootOwner"] = false,
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "3087801861",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["UniqueID"] = "2618574981",
+								["Hide"] = true,
+								["Name"] = "projectile_fire",
+								["Model"] = "models/pac/default.mdl",
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "attack",
+										["Invert"] = true,
+										["Event"] = "animation_event",
+										["UniqueID"] = "1087450005",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["DamageType"] = "burn",
+								["UniqueID"] = "4087205172",
+								["BulletImpact"] = true,
+								["Mass"] = 1000000,
+								["Sticky"] = true,
+								["LifeTime"] = 10,
+								["ClassName"] = "projectile",
+								["Damage"] = 10000,
+								["Physical"] = true,
+								["OutfitPartUID"] = "2618574981",
+								["OutfitPartName"] = "projectile_fire",
+								["EyeAngles"] = true,
+								["Gravity"] = false,
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "projectile",
+						["ClassName"] = "group",
+						["UniqueID"] = "3365485891",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "1085343647",
+				["Name"] = "smoke",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "430990196",
+		["Name"] = "attacks",
+	},
+},
+[5] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "command",
+						["Arguments"] = "command",
+						["UniqueID"] = "458795909",
+						["ClassName"] = "event",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 100,
+								["DieTime"] = 1,
+								["UniqueID"] = "1414722226",
+								["AirResistance"] = 100,
+								["Position"] = Vector(-0.002197265625, -0.0009765625, 33.6279296875),
+								["Color1"] = Vector(255, 0, 0),
+								["FireDelay"] = 0,
+								["Angles"] = Angle(0, 176.28125, 0),
+								["EndSize"] = 15,
+								["ClassName"] = "particles",
+								["Lighting"] = false,
+								["PositionSpread"] = 20,
+								["Material"] = "sprites/light_ignorez",
+								["Bone"] = "none",
+								["Color2"] = Vector(255, 93, 0),
+								["Gravity"] = Vector(0, 0, 10),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(225, 255, 0),
+								["UniqueID"] = "3170041665",
+								["Length"] = 20,
+								["Name"] = "r hand",
+								["ClassName"] = "trail",
+								["EndColor"] = Vector(255, 0, 0),
+								["Bone"] = "right hand",
+								["StartSize"] = 7,
+								["TrailPath"] = "trails/plasma",
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 360,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "597136084",
+												["Axis"] = "y",
+												["InputMultiplier"] = 0.5,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[2] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["StartColor"] = Vector(225, 229, 0),
+														["UniqueID"] = "3811452035",
+														["Length"] = 20,
+														["ClassName"] = "trail",
+														["EditorExpand"] = true,
+														["Position"] = Vector(35, 0, 0),
+														["EndColor"] = Vector(255, 0, 0),
+														["StartSize"] = 5,
+														["TrailPath"] = "trails/smoke",
+													},
+												},
+												[2] = {
+													["children"] = {
+													},
+													["self"] = {
+														["StartColor"] = Vector(255, 0, 0),
+														["ClassName"] = "trail",
+														["UniqueID"] = "2303061651",
+														["EndColor"] = Vector(255, 191, 0),
+														["EditorExpand"] = true,
+														["Length"] = 10,
+														["StartSize"] = 10,
+														["TrailPath"] = "trails/smoke",
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["ClassName"] = "model",
+												["UniqueID"] = "3047796108",
+												["Model"] = "models/pac/default.mdl",
+												["EditorExpand"] = true,
+												["Name"] = "default",
+												["Position"] = Vector(0, 0, 11.699999809265),
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = -360,
+												["Offset"] = 2,
+												["UniqueID"] = "1793468940",
+												["InputMultiplier"] = 2.5,
+												["Axis"] = "z",
+												["ClassName"] = "proxy",
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "2835630152",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(0, 33.671001434326, 0),
+										["Name"] = "default 2",
+										["Angles"] = Angle(0, 28066.16796875, -140510.84375),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 360,
+												["Offset"] = 2,
+												["UniqueID"] = "1239626331",
+												["InputMultiplier"] = -0.5,
+												["Axis"] = "y",
+												["ClassName"] = "proxy",
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = -360,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "1082709061",
+												["Axis"] = "z",
+												["InputMultiplier"] = 2.5,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[3] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+															},
+															["self"] = {
+																["StartColor"] = Vector(255, 0, 0),
+																["ClassName"] = "trail",
+																["UniqueID"] = "3423404092",
+																["EndColor"] = Vector(255, 191, 0),
+																["EditorExpand"] = true,
+																["Length"] = 10,
+																["StartSize"] = 10,
+																["TrailPath"] = "trails/smoke",
+															},
+														},
+													},
+													["self"] = {
+														["Alpha"] = 0,
+														["ClassName"] = "model",
+														["UniqueID"] = "4130492474",
+														["Model"] = "models/pac/default.mdl",
+														["EditorExpand"] = true,
+														["Name"] = "default",
+														["Position"] = Vector(0, 0, 19.10000038147),
+													},
+												},
+												[2] = {
+													["children"] = {
+													},
+													["self"] = {
+														["StartColor"] = Vector(255, 229, 0),
+														["ClassName"] = "trail",
+														["UniqueID"] = "938517352",
+														["EndColor"] = Vector(255, 0, 0),
+														["EditorExpand"] = true,
+														["Length"] = 20,
+														["StartSize"] = 5,
+														["TrailPath"] = "trails/smoke",
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["ClassName"] = "model",
+												["UniqueID"] = "145625001",
+												["Model"] = "models/pac/default.mdl",
+												["EditorExpand"] = true,
+												["Name"] = "default",
+												["Position"] = Vector(0, 0, 18.60000038147),
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "3997595973",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(0, 33.671001434326, 0),
+										["Name"] = "default 1",
+										["Angles"] = Angle(0, -27886.16796875, -139610.84375),
+									},
+								},
+							},
+							["self"] = {
+								["Angles"] = Angle(0, -90, 0),
+								["UniqueID"] = "2052337721",
+								["Speed"] = 5,
+								["Bone"] = "none",
+								["Position"] = Vector(0, 0, 42.9501953125),
+								["ClassName"] = "jiggle",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3520738269",
+								["Name"] = "red light",
+								["Style"] = 1,
+								["ClassName"] = "light",
+								["Size"] = 70,
+								["Color"] = Vector(255, 0, 0),
+								["Bone"] = "pelvis",
+								["Translucent"] = true,
+								["EditorExpand"] = true,
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 100,
+								["DieTime"] = 1,
+								["UniqueID"] = "1993534866",
+								["AirResistance"] = 100,
+								["Position"] = Vector(-0.002197265625, -0.0009765625, 33.6279296875),
+								["Color1"] = Vector(255, 191, 0),
+								["FireDelay"] = 0,
+								["Angles"] = Angle(0, 176.28125, 0),
+								["EndSize"] = 15,
+								["ClassName"] = "particles",
+								["Lighting"] = false,
+								["PositionSpread"] = 20,
+								["Material"] = "sprites/light_ignorez",
+								["Bone"] = "none",
+								["Color2"] = Vector(225, 255, 0),
+								["Gravity"] = Vector(0, 0, 10),
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "effect",
+								["UseParticleTracer"] = true,
+								["Rate"] = 0.1,
+								["EditorExpand"] = true,
+								["Follow"] = false,
+								["Effect"] = "envelope_smoke_puff",
+								["UniqueID"] = "159792077",
+							},
+						},
+						[7] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(225, 255, 0),
+								["UniqueID"] = "3281446058",
+								["Length"] = 20,
+								["Name"] = "l hand",
+								["ClassName"] = "trail",
+								["EndColor"] = Vector(255, 0, 0),
+								["EditorExpand"] = true,
+								["Bone"] = "left hand",
+								["StartSize"] = 7,
+								["TrailPath"] = "trails/plasma",
+							},
+						},
+						[8] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 100,
+								["DieTime"] = 1,
+								["UniqueID"] = "2612031502",
+								["AirResistance"] = 100,
+								["Position"] = Vector(-0.002197265625, -0.0009765625, 33.6279296875),
+								["Color1"] = Vector(83, 83, 83),
+								["FireDelay"] = 0.1,
+								["Angles"] = Angle(0, 176.28125, 0),
+								["EndSize"] = 15,
+								["ClassName"] = "particles",
+								["Lighting"] = false,
+								["PositionSpread"] = 20,
+								["Material"] = "sprites/light_ignorez",
+								["Bone"] = "none",
+								["Color2"] = Vector(255, 0, 0),
+								["Gravity"] = Vector(0, 0, 10),
+							},
+						},
+						[9] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "effect",
+										["UniqueID"] = "2811180694",
+										["Rate"] = 0,
+										["EditorExpand"] = true,
+										["Bone"] = "none",
+										["Effect"] = "Weapon_Combine_Ion_Cannon_Explosion_k",
+										["Follow"] = false,
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["UniqueID"] = "3010830854",
+								["Bone"] = "none",
+								["Model"] = "models/pac/default.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[10] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 70,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "513045896",
+										["InputMultiplier"] = 50,
+										["Min"] = 65,
+										["VariableName"] = "Size",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "sprite",
+								["UniqueID"] = "3916697777",
+								["SpritePath"] = "sprites/animglow02",
+								["Bone"] = "spine 2",
+								["Size"] = 65.247250783732,
+							},
+						},
+						[11] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(255, 93, 0),
+								["UniqueID"] = "2011818488",
+								["Length"] = 20,
+								["Name"] = "smoke",
+								["ClassName"] = "trail",
+								["EndColor"] = Vector(255, 0, 0),
+								["EndAlpha"] = 0.1,
+								["StartAlpha"] = 0.2,
+								["Bone"] = "spine 2",
+								["StartSize"] = 50,
+								["TrailPath"] = "trails/smoke",
+							},
+						},
+						[12] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 300,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "2928215623",
+										["InputMultiplier"] = 50,
+										["Min"] = 250,
+										["VariableName"] = "Size",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0.625,
+								["ClassName"] = "sprite",
+								["UniqueID"] = "2825496268",
+								["SpritePath"] = "sprites/physg_glow1",
+								["Color"] = Vector(225, 255, 0),
+								["Bone"] = "spine 2",
+								["Name"] = "physg glow1 white",
+								["Size"] = 252.47250783732,
+							},
+						},
+						[13] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(255, 191, 0),
+								["UniqueID"] = "2868044019",
+								["Length"] = 20,
+								["Name"] = "spine",
+								["ClassName"] = "trail",
+								["EndColor"] = Vector(255, 0, 0),
+								["Bone"] = "spine 2",
+								["StartSize"] = 30,
+								["TrailPath"] = "trails/smoke",
+							},
+						},
+						[14] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "582242068",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "370",
+								["Invert"] = true,
+							},
+						},
+						[15] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 500,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "2340614858",
+										["InputMultiplier"] = 50,
+										["Min"] = 450,
+										["VariableName"] = "Size",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0.625,
+								["ClassName"] = "sprite",
+								["UniqueID"] = "397661459",
+								["SpritePath"] = "sprites/physg_glow1",
+								["Color"] = Vector(255, 0, 0),
+								["Bone"] = "spine 2",
+								["Size"] = 497.61740729372,
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "streams",
+						["ClassName"] = "group",
+						["UniqueID"] = "1482353825",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "585813690",
+				["Name"] = "smoke",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3510855387",
+						["Event"] = "command",
+						["Arguments"] = "command",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(29, 0, 255),
+								["UniqueID"] = "1249275319",
+								["Length"] = 20,
+								["Name"] = "r hand",
+								["ClassName"] = "trail",
+								["EndColor"] = Vector(255, 0, 191),
+								["Bone"] = "right hand",
+								["StartSize"] = 7,
+								["TrailPath"] = "trails/plasma",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 500,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "2378600216",
+										["InputMultiplier"] = 50,
+										["Min"] = 450,
+										["VariableName"] = "Size",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0.625,
+								["ClassName"] = "sprite",
+								["UniqueID"] = "2650175402",
+								["SpritePath"] = "sprites/physg_glow1",
+								["Color"] = Vector(212, 0, 255),
+								["Bone"] = "spine 2",
+								["Size"] = 451.26400199771,
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["BoneMerge"] = true,
+								["UniqueID"] = "56923792",
+								["Model"] = "models/player/Group01/Male_04.mdl",
+								["Name"] = "male  2",
+								["TextureFilter"] = 2.3,
+								["Alpha"] = 0.999,
+								["ClassName"] = "model",
+								["Size"] = 1.05,
+								["Brightness"] = 14.5,
+								["Color"] = Vector(210, 34, 255),
+								["Fullbright"] = true,
+								["Translucent"] = true,
+								["Material"] = "http://puu.sh/jF1OV/9c973309d0.png",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "light",
+								["EditorExpand"] = true,
+								["UniqueID"] = "722803518",
+								["Size"] = 70,
+								["Color"] = Vector(220, 0, 255),
+								["Bone"] = "pelvis",
+								["Translucent"] = true,
+								["Style"] = 1,
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 100,
+								["UniqueID"] = "1523293749",
+								["DieTime"] = 1,
+								["Position"] = Vector(-0.002197265625, -0.0009765625, 33.6279296875),
+								["PositionSpread"] = 20,
+								["FireDelay"] = 0.1,
+								["AirResistance"] = 100,
+								["EndSize"] = 15,
+								["ClassName"] = "particles",
+								["Material"] = "sprites/light_ignorez",
+								["Lighting"] = false,
+								["Angles"] = Angle(0, 176.28125, 0),
+								["Bone"] = "none",
+								["Color2"] = Vector(220, 0, 255),
+								["Gravity"] = Vector(0, 0, 10),
+							},
+						},
+						[6] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 300,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "1833968309",
+										["InputMultiplier"] = 50,
+										["Min"] = 250,
+										["VariableName"] = "Size",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0.625,
+								["ClassName"] = "sprite",
+								["UniqueID"] = "3731656971",
+								["SpritePath"] = "sprites/physg_glow1",
+								["Bone"] = "spine 2",
+								["Name"] = "physg glow1 white",
+								["Size"] = 251.26400199771,
+							},
+						},
+						[7] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 70,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "516357323",
+										["InputMultiplier"] = 50,
+										["Min"] = 65,
+										["VariableName"] = "Size",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "sprite",
+								["UniqueID"] = "3891079434",
+								["SpritePath"] = "sprites/animglow02",
+								["Bone"] = "spine 2",
+								["Size"] = 65.126400199771,
+							},
+						},
+						[8] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(29, 0, 255),
+								["UniqueID"] = "1490820210",
+								["Length"] = 30,
+								["Name"] = "smoke",
+								["ClassName"] = "trail",
+								["EndColor"] = Vector(127, 0, 255),
+								["EndAlpha"] = 0.1,
+								["StartAlpha"] = 0.2,
+								["Bone"] = "spine 2",
+								["StartSize"] = 50,
+								["TrailPath"] = "trails/smoke",
+							},
+						},
+						[9] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["StartColor"] = Vector(0, 63, 255),
+														["ClassName"] = "trail",
+														["UniqueID"] = "2368436170",
+														["Position"] = Vector(35, 0, 0),
+														["EditorExpand"] = true,
+														["Length"] = 10,
+														["StartSize"] = 10,
+														["TrailPath"] = "trails/smoke",
+													},
+												},
+												[2] = {
+													["children"] = {
+													},
+													["self"] = {
+														["StartColor"] = Vector(255, 0, 191),
+														["ClassName"] = "trail",
+														["UniqueID"] = "2456131405",
+														["EndColor"] = Vector(29, 0, 255),
+														["EditorExpand"] = true,
+														["Length"] = 20,
+														["StartSize"] = 5,
+														["TrailPath"] = "trails/smoke",
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["ClassName"] = "model",
+												["UniqueID"] = "3300351151",
+												["Model"] = "models/pac/default.mdl",
+												["EditorExpand"] = true,
+												["Name"] = "default",
+												["Position"] = Vector(18.89999961853, 0, 34.700000762939),
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 360,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "990446879",
+												["Axis"] = "y",
+												["InputMultiplier"] = 0.5,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = -360,
+												["Offset"] = 2,
+												["UniqueID"] = "513302528",
+												["InputMultiplier"] = 2.5,
+												["Axis"] = "z",
+												["ClassName"] = "proxy",
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "649015551",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(0, 33.671001434326, 0),
+										["Name"] = "default 2",
+										["Angles"] = Angle(0, 11289.75, -7476.5),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+															},
+															["self"] = {
+																["StartColor"] = Vector(0, 63, 255),
+																["ClassName"] = "trail",
+																["UniqueID"] = "846957067",
+																["EditorExpand"] = true,
+																["Length"] = 10,
+																["StartSize"] = 10,
+																["TrailPath"] = "trails/smoke",
+															},
+														},
+													},
+													["self"] = {
+														["Alpha"] = 0,
+														["ClassName"] = "model",
+														["UniqueID"] = "325794474",
+														["Model"] = "models/pac/default.mdl",
+														["EditorExpand"] = true,
+														["Name"] = "default",
+														["Position"] = Vector(18.89999961853, 0, 34.700000762939),
+													},
+												},
+												[2] = {
+													["children"] = {
+													},
+													["self"] = {
+														["StartColor"] = Vector(255, 0, 191),
+														["ClassName"] = "trail",
+														["UniqueID"] = "444391306",
+														["EndColor"] = Vector(29, 0, 255),
+														["EditorExpand"] = true,
+														["Length"] = 20,
+														["StartSize"] = 5,
+														["TrailPath"] = "trails/smoke",
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["ClassName"] = "model",
+												["UniqueID"] = "2575589726",
+												["Model"] = "models/pac/default.mdl",
+												["EditorExpand"] = true,
+												["Name"] = "default",
+												["Position"] = Vector(18.89999961853, 0, 34.700000762939),
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = -360,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "4118524731",
+												["Axis"] = "z",
+												["InputMultiplier"] = 2.5,
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 360,
+												["Offset"] = 2,
+												["UniqueID"] = "1540679475",
+												["InputMultiplier"] = -0.5,
+												["Axis"] = "y",
+												["ClassName"] = "proxy",
+												["Function"] = "none",
+												["VariableName"] = "Angles",
+											},
+										},
+									},
+									["self"] = {
+										["Alpha"] = 0,
+										["ClassName"] = "model",
+										["UniqueID"] = "2709454879",
+										["Model"] = "models/pac/default.mdl",
+										["EditorExpand"] = true,
+										["Position"] = Vector(0, 33.671001434326, 0),
+										["Name"] = "default 1",
+										["Angles"] = Angle(0, -11109.75, -6576.5),
+									},
+								},
+							},
+							["self"] = {
+								["Angles"] = Angle(0, -90, 0),
+								["UniqueID"] = "4096019941",
+								["Speed"] = 5,
+								["EditorExpand"] = true,
+								["Bone"] = "none",
+								["Position"] = Vector(0, 0, 42.9501953125),
+								["ClassName"] = "jiggle",
+							},
+						},
+						[10] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "370",
+										["Invert"] = true,
+										["UniqueID"] = "1475855201",
+										["Event"] = "speed",
+										["Operator"] = "equal or above",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "sprite",
+										["UniqueID"] = "512984208",
+										["SpritePath"] = "sprites/physg_glow1",
+										["Color"] = Vector(255, 0, 191),
+										["Bone"] = "right calf",
+										["Size"] = 64.45,
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "sprite",
+										["UniqueID"] = "4063699611",
+										["SpritePath"] = "sprites/physg_glow1",
+										["Color"] = Vector(255, 0, 191),
+										["Bone"] = "pelvis",
+										["Size"] = 64.45,
+									},
+								},
+								[4] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "sprite",
+										["UniqueID"] = "889616320",
+										["SpritePath"] = "sprites/physg_glow1",
+										["Color"] = Vector(255, 0, 191),
+										["Bone"] = "spine 2",
+										["Size"] = 64.45,
+									},
+								},
+								[5] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "sprite",
+										["Size"] = 64.45,
+										["SpritePath"] = "sprites/physg_glow1",
+										["Color"] = Vector(255, 0, 191),
+										["UniqueID"] = "2362512144",
+									},
+								},
+								[6] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "sprite",
+										["UniqueID"] = "3494442522",
+										["SpritePath"] = "sprites/physg_glow1",
+										["Color"] = Vector(255, 0, 191),
+										["Bone"] = "left calf",
+										["Size"] = 64.45,
+									},
+								},
+								[7] = {
+									["children"] = {
+									},
+									["self"] = {
+										["BoneMerge"] = true,
+										["UniqueID"] = "3683486301",
+										["Name"] = "male ",
+										["Model"] = "models/player/Group01/Male_04.mdl",
+										["Size"] = 1.3,
+										["ClassName"] = "model",
+										["DoubleFace"] = true,
+										["EditorExpand"] = true,
+										["Color"] = Vector(220, 0, 255),
+										["Bone"] = "none",
+										["Translucent"] = true,
+										["Material"] = "models/props_combine/portalball001_sheet",
+									},
+								},
+								[8] = {
+									["children"] = {
+									},
+									["self"] = {
+										["SequenceName"] = "run_all_panicked",
+										["ClassName"] = "animation",
+										["UniqueID"] = "2987433750",
+										["Rate"] = 10,
+									},
+								},
+								[9] = {
+									["children"] = {
+									},
+									["self"] = {
+										["BaseTexture"] = "http://puu.sh/jF1OV/9c973309d0.png",
+										["BaseTextureAngleCenter"] = Vector(0, 0, 0),
+										["UniqueID"] = "1800852632",
+										["ClassName"] = "material",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "1977100980",
+								["Model"] = "models/Humans/Group01/Male_04.mdl",
+								["TextureFilter"] = 1.9,
+								["BlurLength"] = 5,
+								["Name"] = "male  1",
+								["BlurSpacing"] = 150,
+								["Alpha"] = 0.999,
+								["ClassName"] = "model",
+								["DoubleFace"] = true,
+								["Bone"] = "none",
+								["Color"] = Vector(197, 24, 255),
+								["Fullbright"] = true,
+								["Brightness"] = 10,
+								["Translucent"] = true,
+							},
+						},
+						[11] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(220, 0, 255),
+								["UniqueID"] = "3426144020",
+								["Length"] = 40,
+								["Name"] = "spine",
+								["ClassName"] = "trail",
+								["EndColor"] = Vector(29, 0, 255),
+								["Bone"] = "spine 2",
+								["StartSize"] = 10,
+								["TrailPath"] = "trails/plasma",
+							},
+						},
+						[12] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 100,
+								["DieTime"] = 1,
+								["UniqueID"] = "2613391170",
+								["AirResistance"] = 100,
+								["Position"] = Vector(-0.002197265625, -0.0009765625, 33.6279296875),
+								["Color1"] = Vector(127, 0, 255),
+								["FireDelay"] = 0,
+								["Angles"] = Angle(0, 176.28125, 0),
+								["EndSize"] = 15,
+								["ClassName"] = "particles",
+								["Lighting"] = false,
+								["PositionSpread"] = 20,
+								["Material"] = "sprites/light_ignorez",
+								["Bone"] = "none",
+								["Color2"] = Vector(220, 0, 255),
+								["Gravity"] = Vector(0, 0, 10),
+							},
+						},
+						[13] = {
+							["children"] = {
+							},
+							["self"] = {
+								["BoneMerge"] = true,
+								["UniqueID"] = "149204725",
+								["Name"] = "male  1",
+								["Model"] = "models/player/Group01/Male_04.mdl",
+								["Material"] = "models/props_combine/portalball001_sheet",
+								["Size"] = 1.1,
+								["Brightness"] = 14.5,
+								["Color"] = Vector(210, 34, 255),
+								["Fullbright"] = true,
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[14] = {
+							["children"] = {
+							},
+							["self"] = {
+								["BoneMerge"] = true,
+								["UniqueID"] = "646310138",
+								["Name"] = "skin",
+								["ClassName"] = "model",
+								["Model"] = "models/player/Group01/Male_04.mdl",
+								["EditorExpand"] = true,
+								["Color"] = Vector(220, 0, 255),
+								["Bone"] = "none",
+								["Brightness"] = 11.4,
+								["Material"] = "http://puu.sh/jNqt8/defa2587e5.png",
+							},
+						},
+						[15] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "2294547864",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "370",
+								["Invert"] = true,
+							},
+						},
+						[16] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 100,
+								["DieTime"] = 1,
+								["UniqueID"] = "3218657415",
+								["AirResistance"] = 100,
+								["Position"] = Vector(-0.002197265625, -0.0009765625, 33.6279296875),
+								["Color1"] = Vector(220, 0, 255),
+								["FireDelay"] = 0,
+								["Angles"] = Angle(0, 176.28125, 0),
+								["EndSize"] = 15,
+								["ClassName"] = "particles",
+								["Lighting"] = false,
+								["PositionSpread"] = 20,
+								["Material"] = "sprites/light_ignorez",
+								["Bone"] = "none",
+								["Color2"] = Vector(127, 0, 255),
+								["Gravity"] = Vector(0, 0, 10),
+							},
+						},
+						[17] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(29, 0, 255),
+								["UniqueID"] = "4003096736",
+								["Length"] = 20,
+								["Name"] = "l hand",
+								["ClassName"] = "trail",
+								["EndColor"] = Vector(255, 0, 191),
+								["EditorExpand"] = true,
+								["Bone"] = "left hand",
+								["StartSize"] = 7,
+								["TrailPath"] = "trails/plasma",
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "streams",
+						["ClassName"] = "group",
+						["UniqueID"] = "3430687093",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "3183164275",
+				["Name"] = "neon",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "running",
+		["ClassName"] = "group",
+		["UniqueID"] = "1074110176",
+		["Description"] = "add parts to me!",
+	},
+},

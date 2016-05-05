@@ -1,0 +1,1735 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1694265462",
+						["Event"] = "weapon_class",
+						["Arguments"] = "smg",
+						["GlobalID"] = "1035050901",
+						["Name"] = "weapon class find simple\"smg\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/props_combine/bunker_gun01.mdl",
+				["Angles"] = Angle(32.59375, 14.625, -137.71875),
+				["Position"] = Vector(15.8720703125, -6.717041015625, 4.9931640625),
+				["UniqueID"] = "2912716487",
+				["GlobalID"] = "2814115460",
+				["Bone"] = "right hand",
+				["Name"] = "bunker gun",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.2138671875, 3.8408203125, 2.259765625),
+						["UniqueID"] = "2641397716",
+						["ClassName"] = "model",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["Scale"] = Vector(1, 1, 0.5),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.095703125, -0.33203125, 2.51171875),
+						["UniqueID"] = "3611622858",
+						["ClassName"] = "model",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["Scale"] = Vector(1, 1, 0.5),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(-0.0146484375, -4.2529296875, 5.9443359375),
+						["UniqueID"] = "311536537",
+						["ClassName"] = "model",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed",
+						["Scale"] = Vector(1, 1, 0.5),
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.2158203125, 3.841796875, 5.705078125),
+						["UniqueID"] = "3257073569",
+						["ClassName"] = "model",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["Scale"] = Vector(1, 1, 0.5),
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.0947265625, -0.3291015625, 5.9423828125),
+						["UniqueID"] = "3478797782",
+						["ClassName"] = "model",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["Scale"] = Vector(1, 1, 0.5),
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(-0.0234375, -4.54296875, 2.51171875),
+						["UniqueID"] = "576518457",
+						["ClassName"] = "model",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["Scale"] = Vector(1, 1, 0.5),
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "453403579",
+						["UniqueID"] = "2129919466",
+						["Event"] = "weapon_class",
+						["ClassName"] = "event",
+						["Name"] = "weapon class find simple\"rpg\"",
+						["Arguments"] = "rpg",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(-0.54296875, -0.8740234375, 1.0068359375),
+				["Name"] = "citizenradio on back",
+				["Angles"] = Angle(-58.1875, 155.875, -81.21875),
+				["Size"] = 0.475,
+				["GlobalID"] = "1405656924",
+				["ClassName"] = "model",
+				["Bone"] = "right clavicle",
+				["Model"] = "models/props_lab/citizenradio.mdl",
+				["UniqueID"] = "18218973",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "200351731",
+						["Event"] = "weapon_class",
+						["Arguments"] = "357",
+						["GlobalID"] = "3964223995",
+						["Name"] = "weapon class find simple357",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -99.59375, 94.25),
+						["Position"] = Vector(10.38134765625, -6.4931640625, 0.846435546875),
+						["Model"] = "models/props_combine/breenlight.mdl",
+						["UniqueID"] = "4074976596",
+						["GlobalID"] = "2033056533",
+						["Name"] = "combine advisor pod",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(13.27685546875, -0.9619140625, 1.5078125),
+				["Name"] = "pulleywheels small",
+				["Angles"] = Angle(-7.78125, -14.3125, 27.8125),
+				["Size"] = 0.8,
+				["GlobalID"] = "425913308",
+				["ClassName"] = "model",
+				["Bone"] = "right forearm",
+				["Model"] = "models/props_c17/pulleywheels_small01.mdl",
+				["UniqueID"] = "3534698298",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["StartSize"] = 6.5,
+						["ClassName"] = "trail",
+						["UniqueID"] = "554281475",
+						["GlobalID"] = "1712107029",
+						["Position"] = Vector(10.676513671875, 0.001953125, -0.00048828125),
+						["Length"] = 5,
+						["Name"] = "plasma",
+						["TrailPath"] = "trails/plasma",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2685619899",
+						["Event"] = "weapon_class",
+						["Arguments"] = "phys",
+						["GlobalID"] = "3328979489",
+						["Name"] = "weapon class find simple\"phys\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/gibs/manhack_gib03.mdl",
+				["ClassName"] = "model",
+				["Position"] = Vector(2.48046875, 0.31640625, -2.65771484375),
+				["Size"] = 1.65,
+				["UniqueID"] = "3729825061",
+				["Bone"] = "right hand",
+				["Name"] = "manhack gib 1",
+				["GlobalID"] = "3633928893",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3778343161",
+						["Event"] = "weapon_class",
+						["Arguments"] = "pistol",
+						["GlobalID"] = "4146098149",
+						["Name"] = "weapon class find simple\"pistol\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(34.134765625, -2.548828125, -4.62255859375),
+				["Name"] = "combine mortara",
+				["Angles"] = Angle(-44.5, -91.375, 79.875),
+				["Size"] = 0.275,
+				["GlobalID"] = "289466285",
+				["ClassName"] = "model",
+				["Bone"] = "right forearm",
+				["Model"] = "models/props_combine/combine_mortar01a.mdl",
+				["UniqueID"] = "376725554",
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3256889113",
+						["UniqueID"] = "3515726081",
+						["Expression"] = "nil,time()*500",
+						["ClassName"] = "proxy",
+						["Function"] = "",
+						["Name"] = "angleoffset = , 6576611.816 proxy",
+						["VariableName"] = "AngleOffset",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1887029294",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["GlobalID"] = "81930781",
+						["Name"] = "weapon class find simple\"crowbar\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2958819003",
+				["Name"] = "saw",
+				["AngleOffset"] = Angle(14949, 2824482.5, 0.625),
+				["Angles"] = Angle(74.875, -162.75, -61.8125),
+				["Size"] = 0.575,
+				["ClassName"] = "model",
+				["GlobalID"] = "3625730162",
+				["Bone"] = "right hand",
+				["Model"] = "models/props_junk/sawblade001a.mdl",
+				["Position"] = Vector(5.89306640625, -1.6650390625, -0.6484375),
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1764271409",
+						["Event"] = "weapon_class",
+						["Arguments"] = "shotgun",
+						["GlobalID"] = "2153798035",
+						["Name"] = "weapon class find simple\"shotgun\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(-7.064453125, 1.6943359375, -0.2958984375),
+				["Name"] = "combinethumper",
+				["Angles"] = Angle(20.34375, -92.75, -111.0625),
+				["Size"] = 0.225,
+				["GlobalID"] = "4279310163",
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "models/props_combine/CombineThumper002.mdl",
+				["UniqueID"] = "2401068797",
+			},
+		},
+		[8] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3645350059",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["GlobalID"] = "81930781",
+						["Name"] = "weapon class find simple\"crowbar\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2655693150",
+				["Name"] = "doll",
+				["Scale"] = Vector(1, 0.5, 1),
+				["Angles"] = Angle(14.03125, -19, 20.65625),
+				["Size"] = 0.575,
+				["ClassName"] = "model",
+				["GlobalID"] = "3625730162",
+				["Bone"] = "right hand",
+				["Model"] = "models/gibs/scanner_gib01.mdl",
+				["Position"] = Vector(0.42529296875, 0.21875, 0.798828125),
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(-0.0234375, -4.54296875, 2.51171875),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "298299192",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(-0.0146484375, -4.2529296875, 5.9443359375),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "3971915815",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.095703125, -0.33203125, 2.51171875),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "305004024",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.0947265625, -0.3291015625, 5.9423828125),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "3113610662",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.2138671875, 3.8408203125, 2.259765625),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "2782101226",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.2158203125, 3.841796875, 5.705078125),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "2356278090",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2873651111",
+						["Event"] = "weapon_class",
+						["Arguments"] = "rpg",
+						["GlobalID"] = "453403579",
+						["Name"] = "weapon class find simple\"rpg\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(3.51611328125, -0.255859375, 3.5625),
+				["Name"] = "citizenradio",
+				["Angles"] = Angle(2.15625, 66.71875, -15.375),
+				["Size"] = 0.475,
+				["GlobalID"] = "1405656924",
+				["ClassName"] = "model",
+				["Bone"] = "right clavicle",
+				["Model"] = "models/props_lab/citizenradio.mdl",
+				["UniqueID"] = "3402192578",
+			},
+		},
+		[10] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "474489375",
+						["Event"] = "weapon_class",
+						["Arguments"] = "ar2",
+						["GlobalID"] = "636510300",
+						["Name"] = "weapon class find simple\"ar2\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(14.669921875, 4.3720703125, -1.822265625),
+				["Name"] = "gunship gibs nosegun",
+				["Angles"] = Angle(24.03125, 2.8125, 96.90625),
+				["Size"] = 0.675,
+				["GlobalID"] = "3381034395",
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "models/gibs/gunship_gibs_nosegun.mdl",
+				["UniqueID"] = "4080734867",
+			},
+		},
+		[11] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3234643241",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crossbow",
+						["GlobalID"] = "2665481036",
+						["Name"] = "weapon class find simple\"crossbow\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/combine_turrets/combine_cannon_gun.mdl",
+				["Angles"] = Angle(-0.1875, 13, 53.5625),
+				["Position"] = Vector(6.2578125, 4.009765625, 6.1171875),
+				["UniqueID"] = "350087869",
+				["GlobalID"] = "2421000533",
+				["Bone"] = "spine 4",
+				["Name"] = "combine cannon gun 1",
+				["ClassName"] = "model",
+			},
+		},
+		[12] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "2665481036",
+						["UniqueID"] = "533524647",
+						["Event"] = "weapon_class",
+						["ClassName"] = "event",
+						["Name"] = "weapon class find simple\"crossbow\"",
+						["Arguments"] = "crossbow",
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/combine_turrets/combine_cannon_gun.mdl",
+				["Angles"] = Angle(-11.25, -44.09375, 70.15625),
+				["Position"] = Vector(1.1640625, 7.802734375, 2.53369140625),
+				["UniqueID"] = "3695579495",
+				["GlobalID"] = "2421000533",
+				["Bone"] = "spine 4",
+				["Name"] = "combine cannon gun",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["GlobalID"] = "3279105223",
+		["ClassName"] = "group",
+		["UniqueID"] = "578243658",
+		["Name"] = "weapons",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4235055689",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crossbow",
+						["GlobalID"] = "2665481036",
+						["Name"] = "weapon class find simple\"crossbow\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/combine_turrets/combine_cannon_gun.mdl",
+				["Angles"] = Angle(-36.5, -4.5, 84),
+				["Position"] = Vector(-8.5, 0, 15.5),
+				["UniqueID"] = "1963602596",
+				["GlobalID"] = "2421000533",
+				["Bone"] = "left hand",
+				["Name"] = "combine cannon gun",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4255023524",
+						["Event"] = "weapon_class",
+						["Arguments"] = "pistol",
+						["GlobalID"] = "4146098149",
+						["Name"] = "weapon class find simple\"pistol\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(34.280517578125, 0.59375, -2.861328125),
+				["Name"] = "combine mortara",
+				["Angles"] = Angle(-57.65625, -87.8125, 88),
+				["Size"] = 0.275,
+				["GlobalID"] = "289466285",
+				["ClassName"] = "model",
+				["Bone"] = "right forearm",
+				["Model"] = "models/props_combine/combine_mortar01a.mdl",
+				["UniqueID"] = "20908585",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(-0.0234375, -4.54296875, 2.51171875),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "269907780",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.0947265625, -0.3291015625, 5.9423828125),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "2872497874",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2183202224",
+						["Event"] = "weapon_class",
+						["Arguments"] = "rpg",
+						["GlobalID"] = "453403579",
+						["Name"] = "weapon class find simple\"rpg\"",
+						["Invert"] = true,
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(-0.0146484375, -4.2529296875, 5.9443359375),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "583059649",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.095703125, -0.33203125, 2.51171875),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "3017470244",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.2158203125, 3.841796875, 5.705078125),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "2706658092",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -1.59375, 0),
+						["Position"] = Vector(0.2138671875, 3.8408203125, 2.259765625),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["UniqueID"] = "1601306670",
+						["GlobalID"] = "3067379352",
+						["Name"] = "w missile closed 1",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(3.51611328125, -0.255859375, 3.5625),
+				["Name"] = "citizenradio",
+				["Angles"] = Angle(2.15625, 66.71875, -15.375),
+				["Size"] = 0.475,
+				["GlobalID"] = "1405656924",
+				["ClassName"] = "model",
+				["Bone"] = "right clavicle",
+				["Model"] = "models/props_lab/citizenradio.mdl",
+				["UniqueID"] = "3056088353",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "753981213",
+						["Event"] = "weapon_class",
+						["Arguments"] = "shotgun",
+						["GlobalID"] = "2153798035",
+						["Name"] = "weapon class find simple\"shotgun\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(-3.2999999523163, 1.0169999599457, 8.7650003433228),
+				["Name"] = "combinethumper",
+				["Angles"] = Angle(-6.09375, -179.125, 171.6875),
+				["Size"] = 0.225,
+				["GlobalID"] = "4279310163",
+				["ClassName"] = "model",
+				["Bone"] = " 1",
+				["Model"] = "models/props_combine/CombineThumper002.mdl",
+				["UniqueID"] = "1203011109",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2021285201",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["GlobalID"] = "81930781",
+						["Name"] = "weapon class find simple\"crowbar\"",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3256889113",
+						["UniqueID"] = "3861324989",
+						["Expression"] = "nil,time()*500",
+						["ClassName"] = "proxy",
+						["Function"] = "",
+						["Name"] = "angleoffset = , 6576611.816 proxy",
+						["VariableName"] = "AngleOffset",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "268809196",
+				["Name"] = "saw",
+				["AngleOffset"] = Angle(14949, 8468008, 0.625),
+				["Angles"] = Angle(74.875, -162.75, -40.21875),
+				["Size"] = 0.575,
+				["ClassName"] = "model",
+				["GlobalID"] = "3625730162",
+				["Bone"] = "right hand",
+				["Model"] = "models/props_junk/sawblade001a.mdl",
+				["Position"] = Vector(5.706787109375, -2.410888671875, -10.3427734375),
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1382210777",
+						["Event"] = "weapon_class",
+						["Arguments"] = "ar2",
+						["GlobalID"] = "636510300",
+						["Name"] = "weapon class find simple\"ar2\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(14.422607421875, 6.24365234375, 0.251953125),
+				["Name"] = "gunship gibs nosegun",
+				["Angles"] = Angle(6.625, 9.0625, 10.5625),
+				["Size"] = 0.675,
+				["GlobalID"] = "3381034395",
+				["ClassName"] = "model",
+				["Bone"] = "left finger 4",
+				["Model"] = "models/gibs/gunship_gibs_nosegun.mdl",
+				["UniqueID"] = "1039170562",
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3483544881",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["GlobalID"] = "81930781",
+						["Name"] = "weapon class find simple\"crowbar\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3949793344",
+				["Name"] = "doll",
+				["Scale"] = Vector(1, 0.5, 1),
+				["Angles"] = Angle(14, -18.96875, -9.65625),
+				["Size"] = 0.575,
+				["ClassName"] = "model",
+				["GlobalID"] = "3625730162",
+				["Bone"] = "right hand",
+				["Model"] = "models/gibs/scanner_gib01.mdl",
+				["Position"] = Vector(0.42529296875, 0.21875, -8.201000213623),
+			},
+		},
+		[8] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2349188628",
+						["Event"] = "weapon_class",
+						["Arguments"] = "phys",
+						["GlobalID"] = "3328979489",
+						["Name"] = "weapon class find simple\"phys\"",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3227376364",
+						["Length"] = 5,
+						["Name"] = "plasma",
+						["GlobalID"] = "1712107029",
+						["Position"] = Vector(10.673828125, 0.00146484375, 2.09375),
+						["ClassName"] = "trail",
+						["Angles"] = Angle(0, -5.8125, 0),
+						["StartSize"] = 6.5,
+						["TrailPath"] = "trails/plasma",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(20.482788085938, -5.517578125, -6.59765625),
+				["Name"] = "manhack gib 1",
+				["Angles"] = Angle(-9.9375, 0.5625, 172.84375),
+				["Size"] = 1.65,
+				["GlobalID"] = "3633928893",
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "models/gibs/manhack_gib03.mdl",
+				["UniqueID"] = "2266407150",
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3707192188",
+						["Event"] = "weapon_class",
+						["Arguments"] = "smg",
+						["GlobalID"] = "1035050901",
+						["Name"] = "weapon class find simple\"smg\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/props_combine/bunker_gun01.mdl",
+				["Angles"] = Angle(-5.375, -14.03125, -172.1875),
+				["Position"] = Vector(13.229999542236, -5.8439998626709, 13.697999954224),
+				["UniqueID"] = "535914726",
+				["GlobalID"] = "2814115460",
+				["Bone"] = "right hand",
+				["Name"] = "bunker gun",
+				["ClassName"] = "model",
+			},
+		},
+		[10] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -99.59375, 94.25),
+						["Position"] = Vector(10.38134765625, -6.4931640625, 0.846435546875),
+						["Model"] = "models/props_combine/breenlight.mdl",
+						["UniqueID"] = "3079278209",
+						["GlobalID"] = "2033056533",
+						["Name"] = "combine advisor pod",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2915579292",
+						["Event"] = "weapon_class",
+						["Arguments"] = "357",
+						["GlobalID"] = "3964223995",
+						["Name"] = "weapon class find simple357",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(11.814999580383, 4.808000087738, -1.0069999694824),
+				["Name"] = "pulleywheels small",
+				["Angles"] = Angle(9.0625, 30.3125, 1.1875),
+				["Size"] = 0.8,
+				["GlobalID"] = "425913308",
+				["ClassName"] = "model",
+				["Bone"] = "right forearm",
+				["Model"] = "models/props_c17/pulleywheels_small01.mdl",
+				["UniqueID"] = "2225399286",
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["GlobalID"] = "1241459276",
+				["HideEntity"] = true,
+				["UniqueID"] = "284664147",
+				["Name"] = "viewmodel",
+				["ClassName"] = "entity",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "4226847731",
+		["GlobalID"] = "3279105223",
+		["Name"] = "weapons",
+		["OwnerName"] = "viewmodel",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3446424442",
+						["Event"] = "animation_event",
+						["Arguments"] = "attack",
+						["GlobalID"] = "2994414572",
+						["Name"] = "animation event find simple\"attack\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Overlapping"] = true,
+				["ClassName"] = "sound",
+				["UniqueID"] = "526018325",
+				["GlobalID"] = "3200178197",
+				["Name"] = "grind flesh3",
+				["Sound"] = "npc/manhack/grind_flesh3.wav",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2794052629",
+				["Event"] = "weapon_class",
+				["Arguments"] = "crowbar",
+				["GlobalID"] = "2792889173",
+				["Name"] = "weapon class find simple\"crowbar\"",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["GlobalID"] = "171175995",
+		["ClassName"] = "group",
+		["UniqueID"] = "2268514324",
+		["Name"] = "saw sound",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3723787292",
+						["UniqueID"] = "2427286675",
+						["Event"] = "timer",
+						["ClassName"] = "event",
+						["Name"] = "timer find simple\"20@@0\"",
+						["Arguments"] = "20@@0",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "93822504",
+				["GlobalID"] = "1125220629",
+				["Name"] = "zombie voice idle4",
+				["Sound"] = "npc/fast_zombie/car_scream1.wav",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3450628312",
+						["ClassName"] = "event",
+						["UniqueID"] = "1275102343",
+						["Event"] = "speed",
+						["Arguments"] = "0",
+						["Operator"] = "above",
+						["Name"] = "speed above0",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "3788288523",
+				["Loop"] = true,
+				["GlobalID"] = "1357638961",
+				["Name"] = "breathe loop1",
+				["Sound"] = "npc/fast_zombie/breathe_loop1.wav",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "104015238",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["GlobalID"] = "307628182",
+						["Name"] = "weapon class find simple\"crowbar\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "4087223693",
+				["Loop"] = true,
+				["GlobalID"] = "1490975914",
+				["Name"] = "mh engine loop2",
+				["Sound"] = "npc/manhack/mh_engine_loop2.wav",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3723787292",
+						["UniqueID"] = "1204049294",
+						["Event"] = "timer",
+						["ClassName"] = "event",
+						["Name"] = "timer find simple\"20@@10\"",
+						["Arguments"] = "20@@10",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "1924328663",
+				["GlobalID"] = "1125220629",
+				["Name"] = "zombie voice idle5",
+				["Sound"] = "npc/fast_zombie/fz_alert_close1.wav",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "1388426574",
+				["Loop"] = true,
+				["GlobalID"] = "4078514881",
+				["Name"] = "pz breathe loop1",
+				["Sound"] = "npc/zombie_poison/pz_breathe_loop1.wav",
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3723787292",
+						["UniqueID"] = "3116423591",
+						["Event"] = "timer",
+						["ClassName"] = "event",
+						["Name"] = "timer find simple\"20@@30\"",
+						["Arguments"] = "20@@5",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "2662871807",
+				["GlobalID"] = "1125220629",
+				["Name"] = "zombie voice idle6",
+				["Sound"] = "npc/fast_zombie/fz_frenzy1.wav",
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "1803125844",
+						["ClassName"] = "event",
+						["UniqueID"] = "2289399151",
+						["Event"] = "speed",
+						["Arguments"] = "0",
+						["Operator"] = "above",
+						["Name"] = "speed above0",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "2673053098",
+				["GlobalID"] = "1155704473",
+				["Name"] = "pz breathe loop2",
+				["Sound"] = "npc/zombie_poison/pz_breathe_loop2.wav",
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Walk"] = "zombie_run_fast",
+				["UniqueID"] = "4136133896",
+				["Jump"] = "zombie_run_fast",
+				["Run"] = "zombie_run_fast",
+				["ClassName"] = "holdtype",
+				["CrouchWalk"] = "zombie_run_fast",
+				["Noclip"] = "zombie_run_fast",
+				["StandIdle"] = "zombie_run_fast",
+				["GlobalID"] = "1532409673",
+			},
+		},
+	},
+	["self"] = {
+		["GlobalID"] = "2107831434",
+		["ClassName"] = "group",
+		["UniqueID"] = "2456860851",
+		["Name"] = "sounds+animation",
+	},
+},
+[5] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(6.2275390625, -1.1416015625, -0.11865234375),
+				["Name"] = "scanner gib 3",
+				["Angles"] = Angle(-0.03125, 171.71875, -94.0625),
+				["Size"] = 0.65,
+				["GlobalID"] = "1985235171",
+				["ClassName"] = "model",
+				["Bone"] = "right calf",
+				["Model"] = "models/gibs/scanner_gib01.mdl",
+				["UniqueID"] = "912182933",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(6.10546875, 3.03515625, 0.4853515625),
+				["Name"] = "headcrabcannistera skybox",
+				["Angles"] = Angle(-2.9375, 22.3125, -25.1875),
+				["Size"] = 2.525,
+				["GlobalID"] = "1516888516",
+				["ClassName"] = "model",
+				["Bone"] = "left calf",
+				["Model"] = "models/props_combine/headcrabcannister01a_skybox.mdl",
+				["UniqueID"] = "1316083678",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Model"] = "models/props_combine/stalkerpod_lid.mdl",
+				["Angles"] = Angle(17.09375, 135.34375, 89.75),
+				["Position"] = Vector(1.6435546875, 4.87890625, 0.42724609375),
+				["UniqueID"] = "2016870774",
+				["GlobalID"] = "3103622985",
+				["Bone"] = "spine 4",
+				["Name"] = "stalkerpod lid",
+				["ClassName"] = "model",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(6.2275390625, -1.1416015625, -0.11865234375),
+				["Name"] = "scanner gib 5",
+				["Angles"] = Angle(-0.03125, 171.71875, -94.0625),
+				["Size"] = 0.65,
+				["GlobalID"] = "1985235171",
+				["ClassName"] = "model",
+				["Bone"] = "left calf",
+				["Model"] = "models/gibs/scanner_gib01.mdl",
+				["UniqueID"] = "2239107053",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["GlobalID"] = "1492407124",
+				["UniqueID"] = "4073607482",
+				["EditorExpand"] = true,
+				["DrawWeapon"] = false,
+				["Name"] = "^1K^3o^2m^4b^6a^1t^3W^2a^4f^6f^1l^3e",
+				["ClassName"] = "entity",
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(10.30419921875, -1.1171875, -0.23486328125),
+				["Name"] = "shield scanner gib",
+				["Angles"] = Angle(-34.84375, -49.53125, 64),
+				["Size"] = 0.5,
+				["GlobalID"] = "2130568536",
+				["ClassName"] = "model",
+				["Bone"] = "left forearm",
+				["Model"] = "models/gibs/shield_scanner_gib4.mdl",
+				["UniqueID"] = "3444684898",
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Model"] = "models/props_junk/watermelon01.mdl",
+				["Angles"] = Angle(0, 0, 80.625),
+				["Position"] = Vector(1.71240234375, 0.55078125, -0.5615234375),
+				["EditorExpand"] = true,
+				["UniqueID"] = "1084022502",
+				["GlobalID"] = "4026930242",
+				["Name"] = "watermelon",
+				["ClassName"] = "model",
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(4.884765625, 3.65966796875, 2.6904296875),
+				["Name"] = "manhack gib 2",
+				["Angles"] = Angle(-27.8125, -178.09375, 113.8125),
+				["Size"] = 0.65,
+				["GlobalID"] = "1272196378",
+				["ClassName"] = "model",
+				["Bone"] = "right upperarm",
+				["Model"] = "models/gibs/manhack_gib01.mdl",
+				["UniqueID"] = "1623666226",
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 32,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "237725031",
+								["InputMultiplier"] = -3.2,
+								["Function"] = "cos",
+								["GlobalID"] = "83715906",
+								["Name"] = "angleoffset = 11.927 proxy",
+								["VariableName"] = "AngleOffset",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-1.9140625, -0.583984375, -0.0888671875),
+						["Name"] = "hoverball",
+						["Scale"] = Vector(0.30000001192093, 3, 0.89999997615814),
+						["UniqueID"] = "3037090046",
+						["AngleOffset"] = Angle(3.0520226955414, 21.609739303589, 21.609739303589),
+						["Size"] = 0.2,
+						["GlobalID"] = "543357144",
+						["Color"] = Vector(255, 0, 0),
+						["Angles"] = Angle(-15.9375, -66.75, -12.59375),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(3.3369140625, -0.3466796875, 0.01171875),
+						["Name"] = "furniture coucha",
+						["Angles"] = Angle(0.6875, 104.5, -88.625),
+						["Size"] = 0.025,
+						["Material"] = "models/ihvtest/eyeball_l",
+						["ClassName"] = "model",
+						["GlobalID"] = "2153964515",
+						["Model"] = "models/props_interiors/Furniture_Couch02a.mdl",
+						["UniqueID"] = "3328744525",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(4.5751953125, -5.185546875, 0.55029296875),
+				["Name"] = "hoverball 3",
+				["Scale"] = Vector(0.69999998807907, 0.20000000298023, 0.30000001192093),
+				["GlobalID"] = "2638407217",
+				["UniqueID"] = "1127435251",
+				["Color"] = Vector(0, 0, 0),
+				["Angles"] = Angle(13.8125, 35.8125, 0),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+			},
+		},
+		[10] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(3.0654296875, -0.984375, 0.580078125),
+				["Name"] = "scanner gib 1",
+				["Angles"] = Angle(0, -6, 97.375),
+				["Size"] = 0.55,
+				["GlobalID"] = "1490964776",
+				["ClassName"] = "model",
+				["Bone"] = "right upperarm",
+				["Model"] = "models/gibs/scanner_gib01.mdl",
+				["UniqueID"] = "156757897",
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Model"] = "models/gibs/scanner_gib02.mdl",
+				["Angles"] = Angle(30.59375, 161.59375, -160.15625),
+				["Position"] = Vector(-0.46142578125, 2.931640625, -0.182373046875),
+				["UniqueID"] = "3894299814",
+				["GlobalID"] = "2520282821",
+				["Bone"] = "right upperarm",
+				["Name"] = "scanner gib 2",
+				["ClassName"] = "model",
+			},
+		},
+		[12] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.25,
+						["ClassName"] = "model",
+						["Position"] = Vector(2.16064453125, 0.3388671875, -0.0068359375),
+						["UniqueID"] = "1399328188",
+						["Color"] = Vector(0, 0, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Name"] = "hoverball",
+						["GlobalID"] = "2732200153",
+					},
+				},
+			},
+			["self"] = {
+				["Size"] = 0.45,
+				["ClassName"] = "model",
+				["Position"] = Vector(4.8486328125, -4.546875, -3.81591796875),
+				["UniqueID"] = "3368519551",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["GlobalID"] = "994462049",
+				["EyeAngles"] = true,
+				["Name"] = "hoverball 1",
+			},
+		},
+		[13] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(6.10546875, 3.03515625, 0.4853515625),
+				["Name"] = "headcrabcannistera skybox 2",
+				["Angles"] = Angle(-2.9375, 22.3125, -25.1875),
+				["Size"] = 2.525,
+				["GlobalID"] = "1516888516",
+				["ClassName"] = "model",
+				["Bone"] = "right calf",
+				["Model"] = "models/props_combine/headcrabcannister01a_skybox.mdl",
+				["UniqueID"] = "2313774766",
+			},
+		},
+		[14] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Model"] = "models/props_combine/combine_light002a.mdl",
+						["Angles"] = Angle(15.6875, 179.96875, 179.96875),
+						["Position"] = Vector(-2.56640625, 0.00390625, 9.3330078125),
+						["Size"] = 0.45,
+						["UniqueID"] = "333562421",
+						["GlobalID"] = "3695505917",
+						["Name"] = "combine lighta",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(0.0869140625, -2.83984375, 0.2626953125),
+				["Name"] = "tprotato",
+				["Angles"] = Angle(-0.03125, -78.71875, 96.5),
+				["Size"] = 0.175,
+				["GlobalID"] = "1664584521",
+				["ClassName"] = "model",
+				["Bone"] = "spine 1",
+				["Model"] = "models/props_combine/tprotato2.mdl",
+				["UniqueID"] = "703999551",
+			},
+		},
+		[15] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(2.150390625, 1.2412109375, 0.1796875),
+				["Name"] = "scanner gib 2",
+				["Angles"] = Angle(-35.34375, 162.53125, 84.9375),
+				["Size"] = 0.75,
+				["GlobalID"] = "425493731",
+				["ClassName"] = "model",
+				["Bone"] = "left upperarm",
+				["Model"] = "models/gibs/scanner_gib02.mdl",
+				["UniqueID"] = "3805151576",
+			},
+		},
+		[16] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(6.869140625, -0.724609375, -1.21484375),
+				["Name"] = "airboat broken engine",
+				["Angles"] = Angle(4.75, -178.9375, -162.84375),
+				["Size"] = 0.525,
+				["GlobalID"] = "3080880244",
+				["ClassName"] = "model",
+				["Bone"] = "right forearm",
+				["Model"] = "models/gibs/airboat_broken_engine.mdl",
+				["UniqueID"] = "1298481193",
+			},
+		},
+		[17] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Position"] = Vector(2.162109375, 0.00927734375, -0.0068359375),
+						["Size"] = 0.1,
+						["UniqueID"] = "3942080184",
+						["Name"] = "hoverball",
+						["GlobalID"] = "2732200153",
+					},
+				},
+			},
+			["self"] = {
+				["Size"] = 0.45,
+				["ClassName"] = "model",
+				["Position"] = Vector(5.79638671875, -1.849609375, 3.30224609375),
+				["UniqueID"] = "851749297",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["GlobalID"] = "994462049",
+				["EyeAngles"] = true,
+				["Name"] = "hoverball",
+			},
+		},
+		[18] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(6.447265625, -1.8701171875, -0.390625),
+				["Name"] = "scanner gib 4",
+				["Angles"] = Angle(5.9375, 14.90625, 90.53125),
+				["Size"] = 0.55,
+				["GlobalID"] = "1802505193",
+				["ClassName"] = "model",
+				["Bone"] = "left upperarm",
+				["Model"] = "models/gibs/scanner_gib01.mdl",
+				["UniqueID"] = "301771813",
+			},
+		},
+		[19] = {
+			["children"] = {
+			},
+			["self"] = {
+				["GlobalID"] = "2246224407",
+				["Position"] = Vector(2.146484375, 0.8359375, -1.62890625),
+				["UniqueID"] = "936007379",
+				["Size"] = 0.1,
+				["ClassName"] = "bone",
+				["Name"] = "head",
+				["Angles"] = Angle(0, 22.875, 0),
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3111198751",
+		["GlobalID"] = "2587138033",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},
+[6] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3723787292",
+						["UniqueID"] = "4289850793",
+						["Event"] = "timer",
+						["ClassName"] = "event",
+						["Name"] = "timer find simple\"20@@30\"",
+						["Arguments"] = "20@@5",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "1937702234",
+				["GlobalID"] = "1125220629",
+				["Name"] = "zombie voice idle6",
+				["Sound"] = "npc/fast_zombie/fz_frenzy1.wav",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "1803125844",
+						["ClassName"] = "event",
+						["UniqueID"] = "668844345",
+						["Event"] = "speed",
+						["Arguments"] = "0",
+						["Operator"] = "above",
+						["Name"] = "speed above0",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "2443204611",
+				["GlobalID"] = "1155704473",
+				["Name"] = "pz breathe loop2",
+				["Sound"] = "npc/zombie_poison/pz_breathe_loop2.wav",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2572037549",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["GlobalID"] = "307628182",
+						["Name"] = "weapon class find simple\"crowbar\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "3362868609",
+				["Loop"] = true,
+				["GlobalID"] = "1490975914",
+				["Name"] = "mh engine loop2",
+				["Sound"] = "npc/manhack/mh_engine_loop2.wav",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3723787292",
+						["UniqueID"] = "891243771",
+						["Event"] = "timer",
+						["ClassName"] = "event",
+						["Name"] = "timer find simple\"20@@0\"",
+						["Arguments"] = "20@@0",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "1221100601",
+				["GlobalID"] = "1125220629",
+				["Name"] = "zombie voice idle4",
+				["Sound"] = "npc/fast_zombie/car_scream1.wav",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3723787292",
+						["UniqueID"] = "1520100116",
+						["Event"] = "timer",
+						["ClassName"] = "event",
+						["Name"] = "timer find simple\"20@@10\"",
+						["Arguments"] = "20@@10",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "542311854",
+				["GlobalID"] = "1125220629",
+				["Name"] = "zombie voice idle5",
+				["Sound"] = "npc/fast_zombie/fz_alert_close1.wav",
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3450628312",
+						["ClassName"] = "event",
+						["UniqueID"] = "885642041",
+						["Event"] = "speed",
+						["Arguments"] = "0",
+						["Operator"] = "above",
+						["Name"] = "speed above0",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "2528561508",
+				["Loop"] = true,
+				["GlobalID"] = "1357638961",
+				["Name"] = "breathe loop1",
+				["Sound"] = "npc/fast_zombie/breathe_loop1.wav",
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "1271559154",
+				["Loop"] = true,
+				["GlobalID"] = "4078514881",
+				["Name"] = "pz breathe loop1",
+				["Sound"] = "npc/zombie_poison/pz_breathe_loop1.wav",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "586410429",
+		["GlobalID"] = "2107831434",
+		["Name"] = "sounds+animation2",
+		["OwnerName"] = "viewmodel",
+	},
+},

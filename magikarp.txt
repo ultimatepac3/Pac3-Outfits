@@ -1,0 +1,646 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Invert"] = true,
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.325,
+								["Model"] = "models/pac/default.mdl",
+								["UniqueID"] = "1923845750",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["UniqueID"] = "728110179",
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.05,
+								["Model"] = "models/pac/default.mdl",
+								["Position"] = Vector(-0.005859375, -0.00146484375, 2.161376953125),
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 0, 154.21875),
+						["Position"] = Vector(1.658203125, -5.1849999427795, -4.0739998817444),
+						["ClassName"] = "model",
+						["Size"] = 0.3,
+						["Model"] = "models/pac/default.mdl",
+						["UniqueID"] = "2378851433",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "proxy",
+								["UniqueID"] = "2734128768",
+								["InputMultiplier"] = 2,
+								["Input"] = "voice_volume",
+								["Min"] = -0.2,
+								["VariableName"] = "Scale",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "1093142979",
+						["Scale"] = Vector(0.40000000596046, 1, 1),
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Position"] = Vector(0.0947265625, -10.338623046875, -0.001556396484375),
+						["Color"] = Vector(0, 0, 0),
+						["Angles"] = Angle(0, 0, 90),
+						["Model"] = "models/hunter/tubes/circle2x2.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2217112063",
+						["CellShade"] = 0.1,
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Position"] = Vector(7.6298828125, -0.00244140625, -0.000732421875),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(90, 0, 0),
+						["Model"] = "models/hunter/misc/cone2x2.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1415449795",
+						["CellShade"] = 0.07,
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Position"] = Vector(5.345703125, -0.001922607421875, -0.00048828125),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(89.96875, -30.34375, 0),
+						["Model"] = "models/hunter/misc/cone2x2.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.4453125, 5.29443359375, 0),
+						["ClassName"] = "model",
+						["UniqueID"] = "3170557387",
+						["Size"] = 1.2,
+						["Color"] = Vector(0, 0, 0),
+						["Angles"] = Angle(0, -8.0625, 89.96875),
+						["Model"] = "models/holograms/hq_torus_thin.mdl",
+						["Scale"] = Vector(1, 0.75, 1),
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "4275051869",
+						["CellShade"] = 0.1,
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Position"] = Vector(-1.9482421875, -0.13592529296875, 0.0032958984375),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(-90, -23.75, 0),
+						["Model"] = "models/hunter/misc/cone2x2.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2697092434",
+						["CellShade"] = 0.11,
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Position"] = Vector(5.345703125, -0.0020000000949949, -0.00048828125),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(89.96875, 30.34375, 0),
+						["Model"] = "models/hunter/misc/cone2x2.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3311223396",
+						["CellShade"] = 0.1,
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Position"] = Vector(-3.107421875, 0.58990478515625, 0.00238037109375),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(-90, -9.03125, 0),
+						["Model"] = "models/hunter/misc/cone2x2.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[9] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(90, -89.96875, 0),
+								["ClassName"] = "clip",
+								["UniqueID"] = "2186884124",
+								["Position"] = Vector(0.0146484375, 0.0205078125, -4.2147216796875),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "1097712563",
+						["CellShade"] = 0.04,
+						["Scale"] = Vector(1, 1, 0.69999998807907),
+						["ClassName"] = "model",
+						["Size"] = 0.775,
+						["Position"] = Vector(-0.509765625, 1.276123046875, -0.19288635253906),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(-27.375, -1.6875, -135.75),
+						["Model"] = "models/props_junk/meathook001a.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[10] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(0, 90, 0),
+								["Material"] = "models/debug/debugwhite",
+								["UniqueID"] = "1032794336",
+								["Size"] = 0.15,
+								["Position"] = Vector(-5.36083984375, -3.2529296875, 0.00017547607421875),
+								["ClassName"] = "model",
+								["Model"] = "models/hunter/tubes/circle2x2d.mdl",
+								["AngleOffset"] = Angle(0, 45, 0),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(0, 90, 0),
+								["Material"] = "models/debug/debugwhite",
+								["UniqueID"] = "3558419747",
+								["Size"] = 0.15,
+								["Position"] = Vector(-5.359619140625, 3.3583984375, 0.000152587890625),
+								["ClassName"] = "model",
+								["Model"] = "models/hunter/tubes/circle2x2d.mdl",
+								["AngleOffset"] = Angle(0, 45, 0),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "1216082762",
+								["CellShade"] = 0.05,
+								["Scale"] = Vector(1.1000000238419, 1, 0.5),
+								["ClassName"] = "model",
+								["Size"] = 0.177,
+								["Color"] = Vector(255, 63, 0),
+								["Position"] = Vector(0.48202514648438, 0.0029296875, 0.0003662109375),
+								["Model"] = "models/hunter/tubes/tube2x2x025c.mdl",
+								["Material"] = "models/debug/debugwhite",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "models/debug/debugwhite",
+								["ClassName"] = "model",
+								["UniqueID"] = "1763071987",
+								["PositionOffset"] = Vector(1.3999999761581, 2.2999999523163, 0),
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.15,
+								["Model"] = "models/hunter/tubes/tube2x2x025d.mdl",
+								["Scale"] = Vector(1.3999999761581, 1, 0.5),
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "1320425207",
+								["Scale"] = Vector(1.3999999761581, 1, 0.5),
+								["ClassName"] = "model",
+								["Size"] = 0.15,
+								["PositionOffset"] = Vector(1.3999999761581, 2.2999999523163, 0),
+								["Color"] = Vector(0, 0, 0),
+								["Material"] = "models/debug/debugwhite",
+								["Model"] = "models/hunter/tubes/tube2x2x025d.mdl",
+								["Angles"] = Angle(0, 0, 180),
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "models/debug/debugwhite",
+						["UniqueID"] = "2802376927",
+						["ClassName"] = "model",
+						["Size"] = 0.175,
+						["Position"] = Vector(0.001953125, 18.131530761719, -0.0029296875),
+						["Model"] = "models/hunter/tubes/circle2x2c.mdl",
+						["Angles"] = Angle(0, 90, 0),
+					},
+				},
+				[11] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(90, -89.96875, 0),
+								["ClassName"] = "clip",
+								["UniqueID"] = "1539682288",
+								["Position"] = Vector(0.0146484375, 0.0205078125, -4.2147216796875),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "4290625886",
+						["CellShade"] = 0.03,
+						["Scale"] = Vector(1, 1, 0.69999998807907),
+						["ClassName"] = "model",
+						["Size"] = 0.775,
+						["Position"] = Vector(1.5537109375, -0.10107421875, 0.41213989257813),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(-35.9375, 163.75, 47.0625),
+						["Model"] = "models/props_junk/meathook001a.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[12] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -90, 0),
+										["ClassName"] = "clip",
+										["UniqueID"] = "695427979",
+										["Position"] = Vector(0.0087890625, 1.789794921875, 0.001220703125),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "3464304615",
+								["CellShade"] = 0.07,
+								["Position"] = Vector(6.9794921875, 2.902099609375, -1.0478515625),
+								["ClassName"] = "model",
+								["Size"] = 0.05,
+								["Material"] = "models/debug/debugwhite",
+								["Color"] = Vector(255, 63, 0),
+								["Angles"] = Angle(0.15625, -55.875, 94.28125),
+								["Model"] = "models/hunter/geometric/hex1x1.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -90, 0),
+										["ClassName"] = "clip",
+										["UniqueID"] = "2549169604",
+										["Position"] = Vector(0.0087890625, 1.789794921875, 0.001220703125),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "88130858",
+								["CellShade"] = 0.07,
+								["Position"] = Vector(3.8427734375, 5.466552734375, -1.060546875),
+								["ClassName"] = "model",
+								["Size"] = 0.05,
+								["Material"] = "models/debug/debugwhite",
+								["Color"] = Vector(255, 63, 0),
+								["Angles"] = Angle(-0.5625, -23.75, 97),
+								["Model"] = "models/hunter/geometric/hex1x1.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -90, 0),
+										["ClassName"] = "clip",
+										["UniqueID"] = "3013638367",
+										["Position"] = Vector(0.0087890625, 1.789794921875, 0.001220703125),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "3208068075",
+								["CellShade"] = 0.07,
+								["Position"] = Vector(-0.0283203125, 6.26025390625, -0.973388671875),
+								["ClassName"] = "model",
+								["Size"] = 0.05,
+								["Material"] = "models/debug/debugwhite",
+								["Color"] = Vector(255, 63, 0),
+								["Angles"] = Angle(0, 0, 97.625),
+								["Model"] = "models/hunter/geometric/hex1x1.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[4] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -90, 0),
+										["ClassName"] = "clip",
+										["UniqueID"] = "29149613",
+										["Position"] = Vector(0.0087890625, 1.789794921875, 0.001220703125),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "761042738",
+								["CellShade"] = 0.07,
+								["Position"] = Vector(-4.1611328125, -5.4699096679688, -0.98291015625),
+								["ClassName"] = "model",
+								["Size"] = 0.05,
+								["Material"] = "models/debug/debugwhite",
+								["Color"] = Vector(255, 63, 0),
+								["Angles"] = Angle(0, -17.5625, 89.96875),
+								["Model"] = "models/hunter/geometric/hex1x1.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[5] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -90, 0),
+										["ClassName"] = "clip",
+										["UniqueID"] = "406851653",
+										["Position"] = Vector(0.0087890625, 1.789794921875, 0.001220703125),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "1933709001",
+								["CellShade"] = 0.07,
+								["Position"] = Vector(-3.9462890625, 5.6830215454102, -1.052734375),
+								["ClassName"] = "model",
+								["Size"] = 0.05,
+								["Material"] = "models/debug/debugwhite",
+								["Color"] = Vector(255, 63, 0),
+								["Angles"] = Angle(-2.625, 19.96875, 97.1875),
+								["Model"] = "models/hunter/geometric/hex1x1.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[6] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -90, 0),
+										["ClassName"] = "clip",
+										["UniqueID"] = "3239890470",
+										["Position"] = Vector(0.0087890625, 1.789794921875, 0.001220703125),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "2197508706",
+								["CellShade"] = 0.07,
+								["Position"] = Vector(6.9638671875, -2.6853637695313, -0.96875),
+								["ClassName"] = "model",
+								["Size"] = 0.05,
+								["Material"] = "models/debug/debugwhite",
+								["Color"] = Vector(255, 63, 0),
+								["Angles"] = Angle(0, 54.78125, 90),
+								["Model"] = "models/hunter/geometric/hex1x1.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[7] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -90, 0),
+										["ClassName"] = "clip",
+										["UniqueID"] = "2913226188",
+										["Position"] = Vector(0.0087890625, 1.789794921875, 0.001220703125),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "590586426",
+								["CellShade"] = 0.07,
+								["Position"] = Vector(-0.028000000864267, -6.2600002288818, -0.97299998998642),
+								["ClassName"] = "model",
+								["Size"] = 0.05,
+								["Material"] = "models/debug/debugwhite",
+								["Color"] = Vector(255, 63, 0),
+								["Angles"] = Angle(0, 0, 90),
+								["Model"] = "models/hunter/geometric/hex1x1.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[8] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -90, 0),
+										["ClassName"] = "clip",
+										["UniqueID"] = "4044569577",
+										["Position"] = Vector(0.0087890625, 1.789794921875, 0.001220703125),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "3428419384",
+								["CellShade"] = 0.07,
+								["Position"] = Vector(3.8388671875, -5.2465209960938, -0.96240234375),
+								["ClassName"] = "model",
+								["Size"] = 0.05,
+								["Material"] = "models/debug/debugwhite",
+								["Color"] = Vector(255, 63, 0),
+								["Angles"] = Angle(0, 28.125, 90),
+								["Model"] = "models/hunter/geometric/hex1x1.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(0.126953125, -2.3235473632813, 0.00341796875),
+						["ClassName"] = "model",
+						["UniqueID"] = "2052804229",
+						["Size"] = 1.375,
+						["Color"] = Vector(255, 63, 0),
+						["Angles"] = Angle(0, -10.28125, 90),
+						["Model"] = "models/holograms/hq_torus_thin.mdl",
+						["Scale"] = Vector(1, 0.80000001192093, 1),
+					},
+				},
+				[13] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Invert"] = true,
+						["UniqueID"] = "2557147986",
+						["Color"] = Vector(0, 0, 0),
+						["Size"] = 1.075,
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1, 1.25, 0.80000001192093),
+					},
+				},
+				[14] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["UniqueID"] = "2600564501",
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.05,
+								["Model"] = "models/pac/default.mdl",
+								["Position"] = Vector(-0.005859375, -0.00146484375, 2.161376953125),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Invert"] = true,
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.325,
+								["Model"] = "models/pac/default.mdl",
+								["UniqueID"] = "546980218",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 0, 22.8125),
+						["Position"] = Vector(1.658203125, -5.184814453125, 4.0740966796875),
+						["ClassName"] = "model",
+						["Size"] = 0.3,
+						["Model"] = "models/pac/default.mdl",
+						["UniqueID"] = "1947042418",
+					},
+				},
+				[15] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "4233083041",
+						["CellShade"] = 0.1,
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Position"] = Vector(-3.3193359375, -0.001953125, 0.00042724609375),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(-90, 0, 0),
+						["Model"] = "models/hunter/misc/cone2x2.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[16] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3903430439",
+						["CellShade"] = 0.1,
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Position"] = Vector(-0.8125, 0.57696533203125, 0.0015869140625),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(-90, 12.46875, 0),
+						["Model"] = "models/hunter/misc/cone2x2.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[17] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "proxy",
+								["UniqueID"] = "4084414109",
+								["InputMultiplier"] = 2,
+								["Input"] = "voice_volume",
+								["Min"] = -0.2,
+								["VariableName"] = "Scale",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-0.0283203125, -9.980224609375, -0.00035858154296875),
+						["ClassName"] = "model",
+						["UniqueID"] = "733812027",
+						["Size"] = 0.6,
+						["Color"] = Vector(255, 127, 223),
+						["Angles"] = Angle(0, 0, 90),
+						["Model"] = "models/holograms/hq_torus_thick.mdl",
+						["Scale"] = Vector(0.40000000596046, 1, 1),
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["UniqueID"] = "1168730967",
+				["Color"] = Vector(255, 63, 0),
+				["Size"] = 1.3,
+				["Model"] = "models/pac/default.mdl",
+				["Scale"] = Vector(0.80000001192093, 1, 0.60000002384186),
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "3380591771",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},

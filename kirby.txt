@@ -1,0 +1,1385 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "weapon_class",
+								["Arguments"] = "fists",
+								["UniqueID"] = "2827839474",
+								["ClassName"] = "event",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Event"] = "is_flashlight_on",
+												["ClassName"] = "event",
+												["Invert"] = true,
+												["UniqueID"] = "2087931499",
+											},
+										},
+									},
+									["self"] = {
+										["PlayCount"] = 10,
+										["ClassName"] = "ogg",
+										["UniqueID"] = "3787548415",
+										["URL"] = "https://dl.dropboxusercontent.com/s/m51cwy6zt1g7h8n/Kirby%27s%20Epic%20Yarn%20Music-%20Green%20Greens.ogg?dl=0",
+										["Name"] = "kirby%27s%20epic%20yarn%20music-%20green%20greens",
+										["Volume"] = 2,
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "group",
+								["UniqueID"] = "1903771166",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "2805872509",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "593929544",
+						["Event"] = "is_in_noclip",
+					},
+				},
+			},
+			["self"] = {
+				["Name"] = "epic yarn",
+				["ClassName"] = "group",
+				["UniqueID"] = "1128345082",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3998526530",
+						["Event"] = "is_on_ground",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "1815895608",
+				["URL"] = "https://dl.dropboxusercontent.com/s/ht1j6kuw6ya0uzb/kirbyjump.ogg?dl=0",
+				["Name"] = "kirbyjump",
+				["Volume"] = 4,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "695506336",
+		["Name"] = "ogg",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "899816123",
+				["CellShade"] = 0.1,
+				["Name"] = "foot 2",
+				["Scale"] = Vector(2.2000000476837, 1, 1),
+				["ClassName"] = "model",
+				["Size"] = 1.225,
+				["Angles"] = Angle(7.75, -34.71875, 0),
+				["Color"] = Vector(255, 0, 97),
+				["Bone"] = "left foot",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Position"] = Vector(1.1611328125, -2.71875, 6.39013671875),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["HideEntity"] = true,
+				["Size"] = 0.6,
+				["UniqueID"] = "1762176691",
+				["DrawWeapon"] = false,
+				["ClassName"] = "entity",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Position"] = Vector(6.42724609375, 1.11474609375, 11.8466796875),
+								["Size"] = 2.4,
+								["Color"] = Vector(225, 255, 0),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["UniqueID"] = "2139087956",
+								["Scale"] = Vector(1, 1, 0.5),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "2898585388",
+								["Event"] = "weapon_class",
+								["Arguments"] = "crowbar",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(-24.21875, -81.3125, -90.90625),
+						["ClassName"] = "model",
+						["Position"] = Vector(3.03125, 6.9324951171875, -2.4368591308594),
+						["Size"] = 2.55,
+						["Color"] = Vector(33, 255, 0),
+						["UniqueID"] = "2541547987",
+						["Model"] = "models/player/items/all_class/xms_santa_hat_heavy.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(-2.9794921875, -1.2845458984375, -0.00390625),
+								["Scale"] = Vector(2.2000000476837, 1.2000000476837, 1.6000000238419),
+								["Alpha"] = 0.525,
+								["ClassName"] = "model",
+								["Size"] = 0.225,
+								["Color"] = Vector(29, 0, 255),
+								["Material"] = "models/effects/pyro/pilotlight_motion",
+								["UniqueID"] = "3154118768",
+								["Angles"] = Angle(0, -10.84375, 0),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Position"] = Vector(3.2880859375, -1.4652099609375, -0.0166015625),
+								["Size"] = 0.25,
+								["Angles"] = Angle(0, 12.71875, 0),
+								["UniqueID"] = "1555994620",
+								["ClassName"] = "model",
+								["Scale"] = Vector(1.6000000238419, 1, 1),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-0.51171875, 18.37890625, 1.115966796875),
+						["Scale"] = Vector(2.2000000476837, 1, 1),
+						["EditorExpand"] = true,
+						["Size"] = 0.475,
+						["Angles"] = Angle(0, -0.5, -176.53125),
+						["Color"] = Vector(0, 0, 0),
+						["UniqueID"] = "138018702",
+						["Material"] = "models/ihvtest/eyeball_l",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "is_voice_chatting",
+								["ClassName"] = "event",
+								["Invert"] = true,
+								["UniqueID"] = "227518805",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["ClassName"] = "proxy",
+												["UniqueID"] = "3897702547",
+												["InputMultiplier"] = 10,
+												["Axis"] = "y",
+												["Min"] = 0.1,
+												["Input"] = "voice_volume",
+												["VariableName"] = "Scale",
+											},
+										},
+									},
+									["self"] = {
+										["Position"] = Vector(-8.251953125, 16.504272460938, -2.7279663085938),
+										["Scale"] = Vector(0.33599999547005, 0.55000001192093, 0.84799998998642),
+										["Material"] = "models/debug/debugwhite",
+										["EditorExpand"] = true,
+										["Size"] = 0.35,
+										["Angles"] = Angle(0.25, -60.03125, 0),
+										["Color"] = Vector(0, 0, 0),
+										["UniqueID"] = "2286132612",
+										["Model"] = "models/pac/default.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "group",
+								["UniqueID"] = "3109250881",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "1441044651",
+						["Name"] = "mouth talk",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-7.1142578125, 13.38134765625, -12.0859375),
+						["Name"] = "cheek 1",
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+						["Angles"] = Angle(0, 6.8125, -31.625),
+						["Size"] = 0.275,
+						["EditorExpand"] = true,
+						["Color"] = Vector(255, 50, 50),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "3925385984",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Event"] = "timer",
+												["Arguments"] = "10@@5",
+												["UniqueID"] = "1592611687",
+												["ClassName"] = "event",
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Size"] = 0.225,
+												["ClassName"] = "model",
+												["Position"] = Vector(-0.9130859375, 0.443359375, 1.57421875),
+												["Material"] = "models/ihvtest/eyeball_l",
+												["Color"] = Vector(0, 0, 0),
+												["UniqueID"] = "148632611",
+												["Angles"] = Angle(-54.46875, 3.21875, -2.625),
+												["Scale"] = Vector(2, 1, 1.3999999761581),
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Size"] = 0.275,
+												["ClassName"] = "model",
+												["Position"] = Vector(0.4794921875, 0.1328125, 1.373046875),
+												["Material"] = "models/ihvtest/eyeball_l",
+												["Color"] = Vector(0, 0, 0),
+												["UniqueID"] = "2967863145",
+												["Angles"] = Angle(-26.53125, 0, 0),
+												["Scale"] = Vector(1, 1, 1.6000000238419),
+											},
+										},
+									},
+									["self"] = {
+										["Position"] = Vector(-9.279296875, 16.306640625, -3.138671875),
+										["Name"] = "mouth 2",
+										["Scale"] = Vector(2.0999999046326, 1.1000000238419, 1.2999999523163),
+										["Angles"] = Angle(26.15625, 21.9375, 10.0625),
+										["Size"] = 0.225,
+										["EditorExpand"] = true,
+										["Color"] = Vector(0, 0, 0),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["UniqueID"] = "3078105006",
+										["ClassName"] = "model",
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Event"] = "timer",
+												["Arguments"] = "10",
+												["UniqueID"] = "1741715853",
+												["ClassName"] = "event",
+											},
+										},
+									},
+									["self"] = {
+										["Size"] = 0.175,
+										["ClassName"] = "model",
+										["Position"] = Vector(-9.1484375, 16.3056640625, -2.42578125),
+										["EditorExpand"] = true,
+										["Color"] = Vector(0, 0, 0),
+										["UniqueID"] = "1771046259",
+										["Name"] = "mouth 1",
+										["Material"] = "models/ihvtest/eyeball_l",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "group",
+								["UniqueID"] = "2028074523",
+								["Name"] = "mouth",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "3985423708",
+								["Event"] = "is_voice_chatting",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "3803068636",
+						["Name"] = "mouth",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-7.330078125, 15.27197265625, 7.2099609375),
+						["Name"] = "cheek 2",
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+						["Angles"] = Angle(0, 6.8125, 31.4375),
+						["Size"] = 0.275,
+						["Color"] = Vector(255, 50, 50),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "120540488",
+						["ClassName"] = "model",
+					},
+				},
+				[7] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Position"] = Vector(3.2880859375, -1.4652099609375, -0.0166015625),
+								["Size"] = 0.25,
+								["Angles"] = Angle(0, 12.71875, 0),
+								["UniqueID"] = "1509372694",
+								["ClassName"] = "model",
+								["Scale"] = Vector(1.6000000238419, 1, 1),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(-2.9794921875, -1.2845458984375, -0.00390625),
+								["Scale"] = Vector(2.2000000476837, 1.2000000476837, 1.6000000238419),
+								["Alpha"] = 0.525,
+								["ClassName"] = "model",
+								["Size"] = 0.225,
+								["Color"] = Vector(29, 0, 255),
+								["Material"] = "models/effects/pyro/pilotlight_motion",
+								["UniqueID"] = "3880622441",
+								["Angles"] = Angle(0, -10.84375, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-0.5146484375, 17.084999084473, -7.2789998054504),
+						["Name"] = "eye 1",
+						["Scale"] = Vector(2.2000000476837, 1, 1),
+						["Angles"] = Angle(0, -0.5, 164.25),
+						["Size"] = 0.475,
+						["EditorExpand"] = true,
+						["Color"] = Vector(0, 0, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "1335973923",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(0.9970703125, 6.103515625e-005, 1.1524658203125),
+				["CellShade"] = 0.04,
+				["Name"] = "head",
+				["UniqueID"] = "1965760123",
+				["EditorExpand"] = true,
+				["Angles"] = Angle(-119.46875, 0, -90),
+				["Size"] = 3.25,
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Color"] = Vector(255, 101, 101),
+				["Bone"] = "spine",
+				["EyeAngles"] = true,
+				["ClassName"] = "model",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2099014067",
+				["CellShade"] = 0.1,
+				["Name"] = "foot 1",
+				["Scale"] = Vector(2.2000000476837, 1, 1),
+				["ClassName"] = "model",
+				["Size"] = 1.225,
+				["Angles"] = Angle(7.75, -34.71875, 0),
+				["Color"] = Vector(255, 0, 97),
+				["Bone"] = "right foot",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Position"] = Vector(2.0078125, -4.18359375, -6.55712890625),
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "3493571281",
+		["Description"] = "add parts to me!",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2069799318",
+				["CellShade"] = 0.1,
+				["Name"] = "hand 2",
+				["Scale"] = Vector(1.7000000476837, 1, 1),
+				["ClassName"] = "model",
+				["Size"] = 1.2,
+				["Angles"] = Angle(35.78125, -45.25, -21.5625),
+				["Color"] = Vector(255, 101, 101),
+				["Bone"] = "left upperarm",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Position"] = Vector(3.3876953125, 4.1318359375, 7.0618896484375),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1169911245",
+				["Event"] = "sequence_name",
+				["Arguments"] = "run",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "378300389",
+				["CellShade"] = 0.1,
+				["Name"] = "hand 1",
+				["Scale"] = Vector(1.7000000476837, 1, 1),
+				["EditorExpand"] = true,
+				["ClassName"] = "model",
+				["Size"] = 1.2,
+				["Angles"] = Angle(-32.0625, -43.5625, 35.84375),
+				["Color"] = Vector(255, 101, 101),
+				["Bone"] = "right upperarm",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Position"] = Vector(1.505859375, 5.263671875, -5.453369140625),
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1420126222",
+		["Name"] = "hands 2",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "3493985085",
+										["Event"] = "animation_event",
+										["Arguments"] = "attack@@0.5",
+										["Invert"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "ogg",
+								["UniqueID"] = "4116012956",
+								["URL"] = "https://dl.dropboxusercontent.com/s/3yboh8d35m2stv3/attack.ogg?dl=0",
+								["EditorExpand"] = true,
+								["Name"] = "attack",
+								["Volume"] = 4,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "3738715971",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "517634212",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "759238882",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(1.49267578125, 0.063000001013279, 8.271484375),
+						["Scale"] = Vector(1, 1, 3.9000000953674),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["EditorExpand"] = true,
+						["Size"] = 0.15,
+						["Angles"] = Angle(-65.4375, 166.0625, -76.40625),
+						["Color"] = Vector(0, 255, 255),
+						["UniqueID"] = "1120371580",
+						["Model"] = "models/mechanics/robotics/claw2.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3488966995",
+						["CellShade"] = 0.1,
+						["Name"] = "hand 1",
+						["Scale"] = Vector(1.7000000476837, 1, 1),
+						["EditorExpand"] = true,
+						["ClassName"] = "model",
+						["Size"] = 1.2,
+						["Angles"] = Angle(-78.15625, -92.125, 71.34375),
+						["Color"] = Vector(255, 101, 101),
+						["Bone"] = "right upperarm",
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Position"] = Vector(0.37890625, 2.72607421875, -8.0224609375),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-1.92822265625, 0.054000001400709, 8.6450004577637),
+						["Scale"] = Vector(1, 1, 3.9000000953674),
+						["ClassName"] = "model",
+						["Size"] = 0.15,
+						["UniqueID"] = "3216504053",
+						["Color"] = Vector(0, 255, 255),
+						["Angles"] = Angle(-64.84375, 4.75, -95.25),
+						["Model"] = "models/mechanics/robotics/claw2.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "models/effects/invulnfx_red",
+								["Position"] = Vector(-0.001708984375, 0.002685546875, -15.6748046875),
+								["Size"] = 0.375,
+								["Angles"] = Angle(0, 46.0625, 0),
+								["UniqueID"] = "1838488682",
+								["ClassName"] = "model",
+								["Scale"] = Vector(1, 1.6000000238419, 1),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(0.003662109375, 0.00390625, 16.065999984741),
+								["CellShade"] = 0.27,
+								["ClassName"] = "model",
+								["Size"] = 0.09,
+								["Model"] = "models/hunter/misc/squarecap1x1x1.mdl",
+								["Color"] = Vector(222, 222, 222),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Brightness"] = 2.4,
+								["UniqueID"] = "4186478572",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-0.00146484375, 0.00341796875, 20.99609375),
+						["CellShade"] = 0.1,
+						["UniqueID"] = "4199651049",
+						["Scale"] = Vector(1, 1, 6.6999998092651),
+						["EditorExpand"] = true,
+						["Angles"] = Angle(0, -48.375, 0),
+						["Size"] = 0.35,
+						["PositionOffset"] = Vector(0, 0, 0.20000000298023),
+						["Color"] = Vector(222, 222, 222),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Model"] = "models/hunter/blocks/cube025x025x025.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2336960744",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(6.962890625, 11.86279296875, 6.08984375),
+				["CellShade"] = 0.1,
+				["UniqueID"] = "2405835221",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["EditorExpand"] = true,
+				["Size"] = 0.15,
+				["Angles"] = Angle(77.03125, -123.21875, -143.78125),
+				["Color"] = Vector(0, 255, 255),
+				["Bone"] = "right hand",
+				["Model"] = "models/props_c17/oildrum001.mdl",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2144821720",
+		["Name"] = "weapons",
+	},
+},
+[5] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(24.267578125, 6.0986328125, -0.689453125),
+				["Scale"] = Vector(1.2000000476837, 1, 1),
+				["ClassName"] = "model",
+				["Size"] = 1.95,
+				["PositionOffset"] = Vector(0, 0, -164.60000610352),
+				["UniqueID"] = "2021661682",
+				["Bone"] = "spine",
+				["Model"] = "models/player/items/engineer/engy_earphones.mdl",
+				["Angles"] = Angle(-7.4375, -83.625, -90.8125),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1908314263",
+				["Event"] = "weapon_class",
+				["Arguments"] = "camera",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["WeaponHoldType"] = "normal",
+				["ClassName"] = "animation",
+				["UniqueID"] = "1956611925",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "2170727667",
+				["URL"] = "https://dl.dropboxusercontent.com/u/183209082/oggs%20models%20%2B%20textures/Kirby/WUBS/%E3%80%90Trap%E3%80%91Kirby%20Dreamland%20Theme%20%28Singularity%20%26amp%3B%20Mutrix%20Remix%29%20%5BFree%20Download%5D.ogg",
+				["Name"] = "%e3%80%90trap%e3%80%91kirby%20dreamland%20theme%20%28singularity%20%26amp%3b%20mutrix%20remix%29%20%5bfree%20download%5d",
+				["Volume"] = 4,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2497589764",
+		["Name"] = "camera",
+	},
+},
+[6] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["WeaponHoldType"] = "pistol",
+				["ClassName"] = "animation",
+				["UniqueID"] = "3184615964",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "832071476",
+						["Event"] = "sequence_name",
+						["Arguments"] = "run",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 10,
+								["UniqueID"] = "3478288277",
+								["DieTime"] = 1.4,
+								["PositionSpread"] = 4.8,
+								["FireDelay"] = 0,
+								["Angles"] = Angle(-83.8125, -179.96875, -179.96875),
+								["EndSize"] = 5,
+								["ClassName"] = "particles",
+								["Color1"] = Vector(225, 255, 0),
+								["Spread"] = 0.4,
+								["Position"] = Vector(0.44873046875, -0.001953125, -4.142578125),
+								["Material"] = "sprites/animglow02",
+								["Color2"] = Vector(225, 255, 0),
+								["Gravity"] = Vector(0, 0, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(0.001953125, 0.0068359375, 32.54443359375),
+						["CellShade"] = 0.08,
+						["UniqueID"] = "4163337820",
+						["ClassName"] = "model",
+						["Size"] = 0.55,
+						["Material"] = "models/weapons/c_items/c_saxxy",
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(0, 75.8125, 0),
+						["Model"] = "models/balloons/balloon_star.mdl",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1859084643",
+				["CellShade"] = 0.19,
+				["Name"] = "trainstation post 2",
+				["Scale"] = Vector(1, 1, 0.69999998807907),
+				["Fullbright"] = true,
+				["ClassName"] = "model",
+				["Size"] = 0.775,
+				["Angles"] = Angle(39.0625, 0.03125, -179.90625),
+				["Color"] = Vector(212, 0, 255),
+				["Bone"] = "right hand",
+				["Model"] = "models/props_trainstation/trainstation_post001.mdl",
+				["Position"] = Vector(-1.01416015625, 17.20068359375, 8.369140625),
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3537600671",
+				["Event"] = "weapon_class",
+				["Arguments"] = "phys",
+				["Invert"] = true,
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 10,
+								["UniqueID"] = "2369215503",
+								["DieTime"] = 1.4,
+								["PositionSpread"] = 4.8,
+								["FireDelay"] = 0,
+								["Angles"] = Angle(-83.8125, -179.96875, -179.96875),
+								["EndSize"] = 5,
+								["ClassName"] = "particles",
+								["Color1"] = Vector(225, 255, 0),
+								["Spread"] = 0.4,
+								["Position"] = Vector(0.44873046875, -0.001953125, -4.142578125),
+								["Material"] = "sprites/animglow02",
+								["Color2"] = Vector(225, 255, 0),
+								["Gravity"] = Vector(0, 0, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(0.001953125, 0.0068359375, 32.54443359375),
+						["CellShade"] = 0.08,
+						["UniqueID"] = "2982497730",
+						["ClassName"] = "model",
+						["Size"] = 0.55,
+						["Material"] = "models/weapons/c_items/c_saxxy",
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(0, 75.8125, 0),
+						["Model"] = "models/balloons/balloon_star.mdl",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "sequence_name",
+						["Arguments"] = "run",
+						["UniqueID"] = "2998490735",
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3723244942",
+				["CellShade"] = 0.19,
+				["Name"] = "trainstation post 1",
+				["Scale"] = Vector(1, 1, 0.69999998807907),
+				["Fullbright"] = true,
+				["ClassName"] = "model",
+				["Size"] = 0.775,
+				["Angles"] = Angle(-32.96875, -0.03125, -179.90625),
+				["Color"] = Vector(212, 0, 255),
+				["Bone"] = "right hand",
+				["Model"] = "models/props_trainstation/trainstation_post001.mdl",
+				["Position"] = Vector(1.7822265625, 8.541015625, 17.046875),
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2419001470",
+		["Name"] = "animations",
+	},
+},
+[7] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "1980633521",
+				["CellShade"] = 0.1,
+				["Name"] = "hand 2",
+				["Scale"] = Vector(1.7000000476837, 1, 1),
+				["ClassName"] = "model",
+				["Angles"] = Angle(-4.8125, 7.03125, -22.15625),
+				["Color"] = Vector(255, 101, 101),
+				["Bone"] = "left hand",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Position"] = Vector(-0.302734375, 11.595947265625, -2.4752807617188),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "1857187812",
+				["CellShade"] = 0.1,
+				["Name"] = "hand 1",
+				["Scale"] = Vector(1.7000000476837, 1, 1),
+				["ClassName"] = "model",
+				["EditorExpand"] = true,
+				["Angles"] = Angle(-6.375, 3.1875, -0.03125),
+				["Color"] = Vector(255, 101, 101),
+				["Bone"] = "right hand",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Position"] = Vector(-0.1171875, 10.869140625, 5.7049560546875),
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Event"] = "sequence_name",
+				["Arguments"] = "run",
+				["UniqueID"] = "3965132418",
+				["ClassName"] = "event",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3694777137",
+		["Name"] = "hands",
+	},
+},
+[8] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_in_noclip",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "2163591792",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "ogg",
+										["UniqueID"] = "2020299634",
+										["URL"] = "https://dl.dropboxusercontent.com/s/qp2zp1f6v44oaeg/Kirby_Air_Ride_Music_City.ogg?dl=0",
+										["Name"] = "kirby air ride music city",
+										["Volume"] = 3.5,
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "group",
+								["UniqueID"] = "3183841510",
+								["EditorExpand"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "is_flashlight_on",
+								["ClassName"] = "event",
+								["Invert"] = true,
+								["UniqueID"] = "4003534356",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "976603929",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "4112733261",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_in_noclip",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "418541171",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(225, 255, 0),
+								["ClassName"] = "trail",
+								["UniqueID"] = "4205669568",
+								["Length"] = 10,
+								["StartSize"] = 20,
+								["Position"] = Vector(-0.0009765625, 33.2939453125, 27.3564453125),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["URL"] = "https://dl.dropboxusercontent.com/s/x5wbogscv8il8fw/unknown-kirby-glider-takeoff.ogg?dl=0",
+								["ClassName"] = "ogg",
+								["Name"] = "unknown-kirby-glider-takeoff",
+								["UniqueID"] = "4115969556",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Size"] = 0.675,
+								["Material"] = "models/effects/invulnfx_blue",
+								["Position"] = Vector(-0.0205078125, -16.1083984375, -10.002197265625),
+								["EditorExpand"] = true,
+								["Angles"] = Angle(0, 0, 26.5625),
+								["UniqueID"] = "3580747637",
+								["ClassName"] = "model",
+								["Scale"] = Vector(1, 2, 1),
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(29, 0, 255),
+								["ClassName"] = "trail",
+								["UniqueID"] = "2539069063",
+								["EndColor"] = Vector(0, 255, 255),
+								["Position"] = Vector(0.0009765625, 14.244140625, -13.2236328125),
+								["Length"] = 4,
+								["StartSize"] = 10,
+								["TrailPath"] = "trails/smoke",
+							},
+						},
+						[5] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "speed",
+										["UniqueID"] = "3478905969",
+										["Operator"] = "equal or above",
+										["ClassName"] = "event",
+										["Arguments"] = "100",
+									},
+								},
+							},
+							["self"] = {
+								["PlayCount"] = 1e+033,
+								["ClassName"] = "ogg",
+								["UniqueID"] = "48450779",
+								["URL"] = "https://dl.dropboxusercontent.com/s/8mnhzkmr4ukcfyj/unknown-kirby-airglider.ogg?dl=0",
+								["Name"] = "unknown-kirby-airglider",
+								["EditorExpand"] = true,
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(225, 255, 0),
+								["ClassName"] = "trail",
+								["UniqueID"] = "1692269558",
+								["Length"] = 10,
+								["StartSize"] = 20,
+								["Position"] = Vector(-0.001953125, -38.1875, 27.3515625),
+							},
+						},
+						[7] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StartColor"] = Vector(29, 0, 255),
+								["ClassName"] = "trail",
+								["UniqueID"] = "1619797794",
+								["EndColor"] = Vector(0, 255, 255),
+								["Position"] = Vector(0, -15.9521484375, -13.220703125),
+								["Length"] = 4,
+								["StartSize"] = 10,
+								["TrailPath"] = "trails/smoke",
+							},
+						},
+						[8] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "1534517356",
+										["Event"] = "speed",
+										["Operator"] = "equal or above",
+										["Arguments"] = "100",
+										["Invert"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["PlayCount"] = 1e+023,
+								["ClassName"] = "ogg",
+								["UniqueID"] = "289722796",
+								["URL"] = "https://dl.dropboxusercontent.com/s/0u5h6hmmt86fjxr/unknown-kirby-glider-forward.ogg?dl=0",
+								["EditorExpand"] = true,
+								["Name"] = "unknown-kirby-glider-forward",
+								["Volume"] = 3,
+							},
+						},
+						[9] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "models/effects/invulnfx_blue",
+								["Position"] = Vector(-0.0166015625, 16.1767578125, -9.70458984375),
+								["Size"] = 0.675,
+								["Angles"] = Angle(0, 0, -24.0625),
+								["UniqueID"] = "405598925",
+								["ClassName"] = "model",
+								["Scale"] = Vector(1, 2, 1),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-28.4794921875, -15.719970703125, -1.47265625),
+						["CellShade"] = 0.1,
+						["UniqueID"] = "3884180341",
+						["Angles"] = Angle(-3.28125, -0.28125, -93.15625),
+						["EditorExpand"] = true,
+						["Size"] = 2.25,
+						["Bone"] = "spine",
+						["Color"] = Vector(225, 255, 0),
+						["Fullbright"] = true,
+						["Model"] = "models/balloons/balloon_star.mdl",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["WeaponHoldType"] = "melee",
+				["ClassName"] = "animation",
+				["UniqueID"] = "4027756041",
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3568230273",
+		["Name"] = "star glider",
+	},
+},
+[9] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 10,
+								["UniqueID"] = "3983321997",
+								["DieTime"] = 1.4,
+								["PositionSpread"] = 4.8,
+								["FireDelay"] = 0,
+								["Angles"] = Angle(-83.8125, -179.96875, -179.96875),
+								["EndSize"] = 5,
+								["ClassName"] = "particles",
+								["Color1"] = Vector(225, 255, 0),
+								["Spread"] = 0.4,
+								["Position"] = Vector(0.44873046875, -0.001953125, -4.142578125),
+								["Material"] = "sprites/animglow02",
+								["Color2"] = Vector(225, 255, 0),
+								["Gravity"] = Vector(0, 0, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(0.001953125, 0.0068359375, 32.54443359375),
+						["CellShade"] = 0.08,
+						["UniqueID"] = "216323488",
+						["ClassName"] = "model",
+						["Size"] = 0.55,
+						["Material"] = "models/weapons/c_items/c_saxxy",
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(0, 75.8125, 0),
+						["Model"] = "models/balloons/balloon_star.mdl",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "sequence_name",
+						["Arguments"] = "run",
+						["UniqueID"] = "1537048455",
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2226087975",
+				["CellShade"] = 0.19,
+				["Name"] = "trainstation post 1",
+				["Scale"] = Vector(1, 1, 0.69999998807907),
+				["Fullbright"] = true,
+				["ClassName"] = "model",
+				["Size"] = 0.775,
+				["Angles"] = Angle(-32.96875, -0.03125, -179.90625),
+				["Color"] = Vector(212, 0, 255),
+				["Bone"] = "right hand",
+				["Model"] = "models/props_trainstation/trainstation_post001.mdl",
+				["Position"] = Vector(1.7822265625, 8.541015625, 17.046875),
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "920373583",
+						["Event"] = "sequence_name",
+						["Arguments"] = "run",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 10,
+								["UniqueID"] = "1524663615",
+								["DieTime"] = 1.4,
+								["PositionSpread"] = 4.8,
+								["FireDelay"] = 0,
+								["Angles"] = Angle(-83.8125, -179.96875, -179.96875),
+								["EndSize"] = 5,
+								["ClassName"] = "particles",
+								["Color1"] = Vector(225, 255, 0),
+								["Spread"] = 0.4,
+								["Position"] = Vector(0.44873046875, -0.001953125, -4.142578125),
+								["Material"] = "sprites/animglow02",
+								["Color2"] = Vector(225, 255, 0),
+								["Gravity"] = Vector(0, 0, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(0.001953125, 0.0068359375, 32.54443359375),
+						["CellShade"] = 0.08,
+						["UniqueID"] = "2712517696",
+						["ClassName"] = "model",
+						["Size"] = 0.55,
+						["Material"] = "models/weapons/c_items/c_saxxy",
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(0, 75.8125, 0),
+						["Model"] = "models/balloons/balloon_star.mdl",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "4194766161",
+				["CellShade"] = 0.19,
+				["Name"] = "trainstation post 2",
+				["Scale"] = Vector(1, 1, 0.69999998807907),
+				["Fullbright"] = true,
+				["ClassName"] = "model",
+				["Size"] = 0.775,
+				["Angles"] = Angle(39.0625, 0.03125, -179.90625),
+				["Color"] = Vector(212, 0, 255),
+				["Bone"] = "right hand",
+				["Model"] = "models/props_trainstation/trainstation_post001.mdl",
+				["Position"] = Vector(-1.01416015625, 17.20068359375, 8.369140625),
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3653918163",
+				["Event"] = "weapon_class",
+				["Arguments"] = "tool",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2956391452",
+		["Name"] = "toolgun",
+	},
+},

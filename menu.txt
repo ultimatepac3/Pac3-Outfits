@@ -1,0 +1,49 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "832023705",
+						["Model"] = "http://puu.sh/jvAmr/03286e39ab.obj",
+						["Position"] = Vector(-0.001953125, 18.80517578125, -0.0009307861328125),
+						["Alpha"] = 0.5,
+						["Angles"] = Angle(90, -90, 0),
+						["Size"] = 20,
+						["ClassName"] = "model",
+						["Fullbright"] = true,
+						["Bone"] = "none",
+						["Translucent"] = true,
+						["Material"] = "http://puu.sh/jJK0f/a7f3d2a309.jpg",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4175328452",
+						["Event"] = "command",
+						["Arguments"] = "menu",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["ClassName"] = "jiggle",
+				["UniqueID"] = "3497376609",
+				["Bone"] = "spine 2",
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "3106260673",
+		["ClassName"] = "group",
+		["Name"] = "menu",
+		["Description"] = "add parts to me!",
+	},
+},

@@ -1,0 +1,1072 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["UniqueID"] = "735885957",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "525426311",
+				["ClassName"] = "text",
+				["Position"] = Vector(15.7138671875, 0.00390625, 0.001953125),
+				["Size"] = 0.675,
+				["Color"] = Vector(29, 0, 255),
+				["OutlineColor"] = Vector(0, 0, 0),
+				["Angles"] = Angle(78.46875, 103.3125, 179.96875),
+				["Text"] = "IMA DOCTOR YES",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "919061671",
+						["Bone"] = "left foot",
+						["Name"] = "l foot",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "3576213206",
+						["Bone"] = "left calf",
+						["Name"] = "l calf",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "2814605446",
+						["Bone"] = "left toe",
+						["Name"] = "l toe",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "1441206470",
+						["Bone"] = "right toe",
+						["Name"] = "right toe",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "4090131594",
+						["Bone"] = "right thigh",
+						["Name"] = "r thigh",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "2555449567",
+						["Bone"] = "right foot",
+						["Name"] = "right foot",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "2217226235",
+						["Bone"] = "pelvis",
+						["Name"] = "pelvis",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "3854697504",
+						["Bone"] = "right calf",
+						["Name"] = "right calf",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "2646019339",
+						["Bone"] = "left thigh",
+						["Name"] = "l thigh",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "2609583764",
+				["Name"] = "dummy skeleton",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+														[1] = {
+															["children"] = {
+																[1] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																				[1] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["Angles"] = Angle(-15.46875, -85.4375, 118.375),
+																								["Position"] = Vector(23.958984375, -0.0693359375, 3.5),
+																								["PositionOffset"] = Vector(0, 15.60000038147, -36.299999237061),
+																								["UniqueID"] = "605039886",
+																								["Size"] = 0.525,
+																								["Model"] = "models/bots/gibs/hh_gib_glove_r.mdl",
+																								["ClassName"] = "model",
+																							},
+																						},
+																						[2] = {
+																							["children"] = {
+																							},
+																							["self"] = {
+																								["Alpha"] = 0,
+																								["ClassName"] = "model",
+																								["Position"] = Vector(12.0283203125, 0.0185546875, -0.26171875),
+																								["Model"] = "models/pac/default.mdl",
+																								["Size"] = 0.55,
+																								["UniqueID"] = "3987037548",
+																								["Name"] = "hand here",
+																								["Angles"] = Angle(-19.40625, 0, 0),
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["ClassName"] = "jiggle",
+																						["UniqueID"] = "2464361183",
+																						["Speed"] = 5,
+																						["EditorExpand"] = true,
+																						["LocalVelocity"] = false,
+																					},
+																				},
+																			},
+																			["self"] = {
+																				["Alpha"] = 0,
+																				["ClassName"] = "model",
+																				["Position"] = Vector(-0.5703125, 0.619140625, -7.1865234375),
+																				["Model"] = "models/pac/default.mdl",
+																				["EditorExpand"] = true,
+																				["UniqueID"] = "3739117356",
+																				["Name"] = "attach 2",
+																				["Angles"] = Angle(20.96875, 173.34375, -5.15625),
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["ClassName"] = "jiggle",
+																		["UniqueID"] = "1102501502",
+																		["Speed"] = 5,
+																		["EditorExpand"] = true,
+																		["Bone"] = "spine 4",
+																		["Position"] = Vector(6.0009765625, -0.0048828125, -0.92578125),
+																		["LocalVelocity"] = false,
+																	},
+																},
+																[2] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																				[1] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																								[1] = {
+																									["children"] = {
+																										[1] = {
+																											["children"] = {
+																												[1] = {
+																													["children"] = {
+																													},
+																													["self"] = {
+																														["Angles"] = Angle(65.46875, 49.90625, 13.375),
+																														["ClassName"] = "clip",
+																														["UniqueID"] = "657217871",
+																														["Position"] = Vector(-1.5029296875, 13.5458984375, 47.037109375),
+																													},
+																												},
+																											},
+																											["self"] = {
+																												["UniqueID"] = "3659216224",
+																												["Angles"] = Angle(5.90625, -68.40625, 64.34375),
+																												["Position"] = Vector(22.5, 0, -4.9000000953674),
+																												["PositionOffset"] = Vector(-1.3999999761581, -16.299999237061, -41),
+																												["Size"] = 0.575,
+																												["EditorExpand"] = true,
+																												["Model"] = "models/bots/gibs/hh_gib_glove_l.mdl",
+																												["ClassName"] = "model",
+																											},
+																										},
+																										[2] = {
+																											["children"] = {
+																											},
+																											["self"] = {
+																												["Alpha"] = 0,
+																												["ClassName"] = "model",
+																												["Position"] = Vector(10.9794921875, 0.025390625, 0.1279296875),
+																												["UniqueID"] = "3984073599",
+																												["EditorExpand"] = true,
+																												["Model"] = "models/pac/default.mdl",
+																												["Angles"] = Angle(19.375, 0, 0),
+																											},
+																										},
+																									},
+																									["self"] = {
+																										["ClassName"] = "jiggle",
+																										["UniqueID"] = "2705636789",
+																										["Speed"] = 5,
+																										["EditorExpand"] = true,
+																										["LocalVelocity"] = false,
+																									},
+																								},
+																							},
+																							["self"] = {
+																								["Alpha"] = 0,
+																								["ClassName"] = "model",
+																								["Position"] = Vector(5.748046875, -0.0009765625, -0.0078125),
+																								["UniqueID"] = "2175158577",
+																								["EditorExpand"] = true,
+																								["Model"] = "models/pac/default.mdl",
+																								["Angles"] = Angle(4.0625, -65.34375, -88.125),
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["ClassName"] = "jiggle",
+																						["UniqueID"] = "3097474313",
+																						["Speed"] = 5,
+																						["EditorExpand"] = true,
+																						["LocalVelocity"] = false,
+																					},
+																				},
+																			},
+																			["self"] = {
+																				["Alpha"] = 0,
+																				["ClassName"] = "model",
+																				["Position"] = Vector(4.470703125, -0.73828125, 2.896484375),
+																				["UniqueID"] = "3362035935",
+																				["EditorExpand"] = true,
+																				["Model"] = "models/pac/default.mdl",
+																				["Angles"] = Angle(-82.125, -171.96875, 65.5),
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["ClassName"] = "jiggle",
+																		["UniqueID"] = "256297426",
+																		["Speed"] = 5,
+																		["EditorExpand"] = true,
+																		["Bone"] = "spine 4",
+																		["Position"] = Vector(1.896484375, 0.001953125, -0.00439453125),
+																		["LocalVelocity"] = false,
+																	},
+																},
+																[3] = {
+																	["children"] = {
+																		[1] = {
+																			["children"] = {
+																				[1] = {
+																					["children"] = {
+																						[1] = {
+																							["children"] = {
+																								[1] = {
+																									["children"] = {
+																										[1] = {
+																											["children"] = {
+																											},
+																											["self"] = {
+																												["Alpha"] = 0,
+																												["ClassName"] = "model",
+																												["Position"] = Vector(3.556640625, 1.181640625, -0.57421875),
+																												["UniqueID"] = "1799367409",
+																												["Model"] = "models/pac/default.mdl",
+																												["Angles"] = Angle(0, -6.78125, 0),
+																											},
+																										},
+																									},
+																									["self"] = {
+																										["ClassName"] = "jiggle",
+																										["UniqueID"] = "1562115401",
+																										["Speed"] = 5,
+																										["Bone"] = "neck",
+																										["EditorExpand"] = true,
+																										["LocalVelocity"] = false,
+																									},
+																								},
+																							},
+																							["self"] = {
+																								["Alpha"] = 0,
+																								["ClassName"] = "model",
+																								["Position"] = Vector(3.5380859375, 3.5009765625, -0.064453125),
+																								["UniqueID"] = "162860357",
+																								["EditorExpand"] = true,
+																								["Model"] = "models/pac/default.mdl",
+																								["Angles"] = Angle(0, 0, 179.1875),
+																							},
+																						},
+																					},
+																					["self"] = {
+																						["ClassName"] = "jiggle",
+																						["UniqueID"] = "1771703453",
+																						["Speed"] = 5,
+																						["EditorExpand"] = true,
+																						["LocalVelocity"] = false,
+																					},
+																				},
+																			},
+																			["self"] = {
+																				["Alpha"] = 0,
+																				["ClassName"] = "model",
+																				["Position"] = Vector(5.3388671875, 0.0029296875, 0.001953125),
+																				["EditorExpand"] = true,
+																				["Model"] = "models/pac/default.mdl",
+																				["UniqueID"] = "2240950920",
+																			},
+																		},
+																	},
+																	["self"] = {
+																		["ClassName"] = "jiggle",
+																		["UniqueID"] = "504726525",
+																		["Speed"] = 5,
+																		["EditorExpand"] = true,
+																		["LocalVelocity"] = false,
+																	},
+																},
+															},
+															["self"] = {
+																["Alpha"] = 0,
+																["ClassName"] = "model",
+																["Position"] = Vector(3.7919921875, -0.025390625, -0.0283203125),
+																["Model"] = "models/pac/default.mdl",
+																["EditorExpand"] = true,
+																["Name"] = "attach",
+																["UniqueID"] = "2543025267",
+															},
+														},
+													},
+													["self"] = {
+														["ClassName"] = "jiggle",
+														["UniqueID"] = "2193024136",
+														["Speed"] = 5,
+														["EditorExpand"] = true,
+														["LocalVelocity"] = false,
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["ClassName"] = "model",
+												["Position"] = Vector(4.1459999084473, -1.305999994278, 0),
+												["EditorExpand"] = true,
+												["Model"] = "models/pac/default.mdl",
+												["UniqueID"] = "378784506",
+											},
+										},
+									},
+									["self"] = {
+										["ClassName"] = "jiggle",
+										["UniqueID"] = "2199174665",
+										["Speed"] = 5,
+										["EditorExpand"] = true,
+										["LocalVelocity"] = false,
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["Position"] = Vector(0, 6, -3.5),
+								["UniqueID"] = "3910032894",
+								["EditorExpand"] = true,
+								["Model"] = "models/pac/default.mdl",
+								["Angles"] = Angle(0, 90, 90),
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "jiggle",
+						["UniqueID"] = "625699216",
+						["Speed"] = 5,
+						["Bone"] = "pelvis",
+						["LocalVelocity"] = false,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "3117440510",
+				["Name"] = "flow",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["Position"] = Vector(0, 0, -1.2000000476837),
+						["FollowPartUID"] = "2543025267",
+						["Bone"] = "spine 2",
+						["UniqueID"] = "652792448",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1656590161",
+						["FollowPartName"] = "right toe",
+						["Bone"] = "right toe",
+						["Name"] = " ",
+						["FollowPartUID"] = "1441206470",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "3659216224",
+						["ClassName"] = "bone",
+						["UniqueID"] = "571779139",
+						["Bone"] = "left hand",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["FollowPartUID"] = "3659216224",
+								["ClassName"] = "bone",
+								["UniqueID"] = "1382102002",
+								["Bone"] = "left finger 12",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["FollowPartUID"] = "3659216224",
+								["ClassName"] = "bone",
+								["UniqueID"] = "4053910360",
+								["Bone"] = "left finger 1",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["FollowPartUID"] = "3659216224",
+								["ClassName"] = "bone",
+								["UniqueID"] = "1163678408",
+								["Bone"] = "left finger 02",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["Position"] = Vector(-0.1318359375, -0.5615234375, 0.013671875),
+								["FollowPartUID"] = "3659216224",
+								["Bone"] = "left finger 21",
+								["UniqueID"] = "1374842265",
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["FollowPartUID"] = "3659216224",
+								["ClassName"] = "bone",
+								["UniqueID"] = "1807094026",
+								["Bone"] = "left finger 22",
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["FollowPartUID"] = "3659216224",
+								["ClassName"] = "bone",
+								["UniqueID"] = "3189812294",
+								["Bone"] = "left finger 0",
+							},
+						},
+						[7] = {
+							["children"] = {
+							},
+							["self"] = {
+								["FollowPartUID"] = "3659216224",
+								["ClassName"] = "bone",
+								["UniqueID"] = "3845525380",
+								["Bone"] = "left finger 2",
+							},
+						},
+						[8] = {
+							["children"] = {
+							},
+							["self"] = {
+								["FollowPartUID"] = "3659216224",
+								["ClassName"] = "bone",
+								["UniqueID"] = "2525656981",
+								["Bone"] = "left finger 01",
+							},
+						},
+						[9] = {
+							["children"] = {
+							},
+							["self"] = {
+								["FollowPartUID"] = "3659216224",
+								["ClassName"] = "bone",
+								["UniqueID"] = "1518585515",
+								["Bone"] = "left finger 11",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "4012340122",
+						["Name"] = "left hand",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2376980664",
+						["EditorExpand"] = true,
+						["FollowPartName"] = "r thigh",
+						["Bone"] = "right thigh",
+						["Name"] = " ",
+						["FollowPartUID"] = "4090131594",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "182201530",
+						["FollowPartName"] = "l thigh",
+						["Bone"] = "left thigh",
+						["Name"] = " ",
+						["FollowPartUID"] = "2646019339",
+					},
+				},
+				[7] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(28.65625, 0, 0),
+								["ClassName"] = "clip",
+								["UniqueID"] = "1258741236",
+								["Position"] = Vector(6.09912109375, 0, 0),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3804891750",
+						["Model"] = "models/props_c17/statue_horse.mdl",
+						["Bone"] = "pelvis",
+						["ClassName"] = "model",
+						["Size"] = 0.25,
+						["Angles"] = Angle(54.6875, 83.25, -8.65625),
+						["Color"] = Vector(127, 111, 63),
+						["Fullbright"] = true,
+						["Brightness"] = 3,
+						["Position"] = Vector(2.8603515625, -28.4208984375, -1.4580078125),
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "3739117356",
+						["ClassName"] = "bone",
+						["UniqueID"] = "2232433212",
+						["Bone"] = "right upperarm",
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "385266467",
+						["FollowPartName"] = "l foot",
+						["Bone"] = "left foot",
+						["Name"] = " ",
+						["FollowPartUID"] = "919061671",
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "3910032894",
+						["ClassName"] = "bone",
+						["UniqueID"] = "2057310635",
+						["Bone"] = "spine",
+					},
+				},
+				[11] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0.96875, 10.71875, 84.71875),
+						["Position"] = Vector(17.15625, -1.97265625, 1.6201171875),
+						["UniqueID"] = "3363835080",
+						["Bone"] = "right forearm",
+						["Model"] = "models/props_junk/garbage_glassbottle001a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[12] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "3486454714",
+						["FollowPartName"] = "hand here",
+						["Bone"] = "right forearm",
+						["FollowPartUID"] = "3987037548",
+					},
+				},
+				[13] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "2240950920",
+						["ClassName"] = "bone",
+						["UniqueID"] = "1425861490",
+						["Bone"] = "spine 4",
+					},
+				},
+				[14] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["UniqueID"] = "703552023",
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right finger 21",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["UniqueID"] = "3673545804",
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right finger 2",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["UniqueID"] = "3738615758",
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right finger 22",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["UniqueID"] = "987194025",
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right finger 01",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["Position"] = Vector(0.216796875, -0.001953125, 0.0029296875),
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right hand",
+								["UniqueID"] = "2794899973",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["UniqueID"] = "3184808606",
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right finger 02",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+						[7] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["UniqueID"] = "3762848663",
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right finger 11",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+						[8] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["UniqueID"] = "3585486272",
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right finger 1",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+						[9] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["UniqueID"] = "2225894507",
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right finger 12",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+						[10] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "bone",
+								["UniqueID"] = "2513789187",
+								["FollowPartName"] = "hand here",
+								["Bone"] = "right finger 0",
+								["FollowPartUID"] = "3987037548",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "3047838958",
+						["Name"] = "right hand",
+					},
+				},
+				[15] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "162860357",
+						["ClassName"] = "bone",
+						["UniqueID"] = "134337862",
+						["Size"] = 0.025,
+					},
+				},
+				[16] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "3984073599",
+						["ClassName"] = "bone",
+						["UniqueID"] = "245008652",
+						["Bone"] = "left forearm",
+					},
+				},
+				[17] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "378784506",
+						["ClassName"] = "bone",
+						["UniqueID"] = "370551166",
+						["Bone"] = "spine 1",
+					},
+				},
+				[18] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1334325737",
+						["FollowPartName"] = "right calf",
+						["Bone"] = "right calf",
+						["Name"] = " ",
+						["FollowPartUID"] = "3854697504",
+					},
+				},
+				[19] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["Position"] = Vector(1.833984375, -1.873779296875, -1.77734375),
+						["FollowPartUID"] = "1102501502",
+						["Bone"] = "right clavicle",
+						["UniqueID"] = "1963162629",
+						["Angles"] = Angle(-42.65625, 87.40625, -9.875),
+					},
+				},
+				[20] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2109730384",
+						["FollowPartName"] = "right foot",
+						["Bone"] = "right foot",
+						["Name"] = " ",
+						["FollowPartUID"] = "2555449567",
+					},
+				},
+				[21] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-57.125, 27.21875, -17.3125),
+								["ClassName"] = "clip",
+								["UniqueID"] = "516312977",
+								["Position"] = Vector(7.30859375, 1.154296875, 56.12109375),
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["Position"] = Vector(-0.947265625, 0.119140625, 0.671875),
+										["Color"] = Vector(0, 0, 0),
+										["Size"] = 0.05,
+										["Model"] = "models/pac/default.mdl",
+										["UniqueID"] = "2059543197",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(10.591796875, 12.64599609375, 62.28515625),
+								["Model"] = "models/pac/default.mdl",
+								["Angles"] = Angle(-6.34375, -61.28125, -130.34375),
+								["Size"] = 0.15,
+								["ClassName"] = "model",
+								["UniqueID"] = "1054103396",
+								["Material"] = "models/debug/debugwhite",
+								["Brightness"] = 0.7,
+								["EditorExpand"] = true,
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["Position"] = Vector(-0.947265625, 0.119140625, 0.671875),
+										["Color"] = Vector(0, 0, 0),
+										["Size"] = 0.05,
+										["Model"] = "models/pac/default.mdl",
+										["UniqueID"] = "1314323814",
+									},
+								},
+							},
+							["self"] = {
+								["Model"] = "models/pac/default.mdl",
+								["ClassName"] = "model",
+								["Position"] = Vector(8.3212890625, 10.64013671875, 66.6328125),
+								["Size"] = 0.15,
+								["EditorExpand"] = true,
+								["UniqueID"] = "2628553276",
+								["Brightness"] = 0.7,
+								["Material"] = "models/debug/debugwhite",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2035125457",
+						["Model"] = "models/props_c17/statue_horse.mdl",
+						["Angles"] = Angle(-23.28125, 46.15625, 155.625),
+						["ClassName"] = "model",
+						["Size"] = 0.325,
+						["PositionOffset"] = Vector(-7, 0.40000000596046, -51.400001525879),
+						["Color"] = Vector(127, 111, 63),
+						["Fullbright"] = true,
+						["Brightness"] = 7,
+						["Position"] = Vector(-7.7626953125, 1.572265625, 4.068359375),
+					},
+				},
+				[22] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "3362035935",
+						["ClassName"] = "bone",
+						["UniqueID"] = "2294260068",
+						["Bone"] = "left clavicle",
+					},
+				},
+				[23] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "2175158577",
+						["ClassName"] = "bone",
+						["UniqueID"] = "2304081070",
+						["Bone"] = "left upperarm",
+					},
+				},
+				[24] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "4087088527",
+						["EditorExpand"] = true,
+						["FollowPartName"] = "l toe",
+						["Bone"] = "left toe",
+						["Name"] = " ",
+						["FollowPartUID"] = "2814605446",
+					},
+				},
+				[25] = {
+					["children"] = {
+					},
+					["self"] = {
+						["FollowPartUID"] = "162860357",
+						["ClassName"] = "bone",
+						["UniqueID"] = "3407058126",
+						["Bone"] = "neck",
+					},
+				},
+				[26] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1848773865",
+						["EditorExpand"] = true,
+						["FollowPartName"] = "pelvis",
+						["Bone"] = "pelvis",
+						["Name"] = "pelvis",
+						["FollowPartUID"] = "2217226235",
+					},
+				},
+				[27] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-78.46875, -179.96875, 179.375),
+						["Position"] = Vector(30.1298828125, -2.751953125, -1.501953125),
+						["UniqueID"] = "3467803136",
+						["Size"] = 0.85,
+						["Bone"] = "left forearm",
+						["Model"] = "models/props_junk/gascan001a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[28] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "274874054",
+						["FollowPartName"] = "l calf",
+						["Bone"] = "left calf",
+						["Name"] = " ",
+						["FollowPartUID"] = "3576213206",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["UniqueID"] = "2928973470",
+				["Color"] = Vector(255, 0, 191),
+				["Bone"] = "none",
+				["Model"] = "models/Humans/Group01/male_03.mdl",
+				["Fullbright"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "19559296",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},

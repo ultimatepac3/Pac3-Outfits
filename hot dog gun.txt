@@ -1,0 +1,1052 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3030270176",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["WeaponHoldType"] = "rpg",
+				["ClassName"] = "animation",
+				["UniqueID"] = "3002568969",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Arguments"] = "attack@@0.45",
+						["Invert"] = true,
+						["Event"] = "animation_event",
+						["UniqueID"] = "2626896437",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["PlayCount"] = 1e+039,
+				["ClassName"] = "ogg",
+				["UniqueID"] = "2464758861",
+				["EditorExpand"] = true,
+				["URL"] = "https://dl.dropboxusercontent.com/s/5ed5orem7glny53/FIRE.ogg?dl=0",
+				["Overlapping"] = true,
+				["Name"] = "cannon",
+				["Volume"] = 4,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-90, -45, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "2737513938",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 4.5, 4.5),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "659355859",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, 45, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "383740898",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, -4.5, 4.5),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "3703930639",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, -90, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "3571430368",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 6, 0),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "2709890857",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[4] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.9375, 90, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "1220921652",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, -6, 0),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "1106619997",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[5] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, -180, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "3737477047",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 0, -6),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "2318956900",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[6] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, 145, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "2109582786",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, -4.5, -4.5),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "3544783578",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[7] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, 0, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "2089474161",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 0, 6),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "2311068904",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[8] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Arguments"] = "attack@@0.5",
+								["UniqueID"] = "1797516922",
+								["Event"] = "animation_event",
+								["ClassName"] = "event",
+								["EditorExpand"] = true,
+							},
+						},
+						[9] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, -145, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "4009115539",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 4.5, -4.5),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "3314255667",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "models/shadertest/shield",
+						["Position"] = Vector(0.3892822265625, 0, 22.6591796875),
+						["Size"] = 0.6,
+						["EditorExpand"] = true,
+						["UniqueID"] = "3333111506",
+						["Model"] = "models/props_c17/pulleywheels_small01.mdl",
+						["AngleOffset"] = Angle(0, -0.59375, 0),
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, 145, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "2713936985",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, -4.5, -4.5),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "2787081099",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, 45, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "2543937532",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, -4.5, 4.5),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "400720397",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-90, -45, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "2546161222",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 4.5, 4.5),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "1934967493",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[4] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, -145, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "3725729539",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 4.5, -4.5),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "3170658943",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[5] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, -90, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "2549459304",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 6, 0),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "253998548",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[6] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, 0, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "1049266562",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 0, 6),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "1858481803",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[7] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Expression"] = "nil,nil,time()*-100",
+								["ClassName"] = "proxy",
+								["UniqueID"] = "3631856840",
+								["VariableName"] = "AngleOffset",
+							},
+						},
+						[8] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "635615124",
+								["Event"] = "animation_event",
+								["Arguments"] = "attack@@0.5",
+								["Invert"] = true,
+							},
+						},
+						[9] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.96875, -180, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "2802172022",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, 0, -6),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "59707097",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+						[10] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-89.9375, 90, 0),
+										["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+										["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+										["UniqueID"] = "1264033540",
+										["Size"] = 0.6,
+										["Model"] = "models/food/hotdog.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/shader1_dudv",
+								["Position"] = Vector(0, -6, 0),
+								["ClassName"] = "model",
+								["EditorExpand"] = true,
+								["UniqueID"] = "3514633078",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Angles"] = Angle(90, 179.96875, 180),
+							},
+						},
+					},
+					["self"] = {
+						["Model"] = "models/props_c17/pulleywheels_small01.mdl",
+						["Material"] = "models/shadertest/shield",
+						["Position"] = Vector(0.3892822265625, 0, 22.6591796875),
+						["Size"] = 0.6,
+						["UniqueID"] = "1519959636",
+						["AngleOffset"] = Angle(0, 0, -420798.6875),
+						["Name"] = "shoot",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4052421338",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar@@1",
+						["Invert"] = true,
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["Position"] = Vector(-12.814453125, -0.00244140625, 29.541015625),
+						["Model"] = "models/pac/default.mdl",
+						["UniqueID"] = "2549101293",
+						["Name"] = "hot dog end",
+						["Angles"] = Angle(0, 180, 0),
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["Position"] = Vector(-12.814453125, -0.00244140625, 29.541015625),
+						["Model"] = "models/pac/default.mdl",
+						["EditorExpand"] = true,
+						["UniqueID"] = "2175831881",
+						["Name"] = "hot dog end",
+						["Angles"] = Angle(0, 180, 0),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(0.1767578125, 0.000244140625, -0.24609375),
+				["AimPartUID"] = "4085417930",
+				["Angles"] = Angle(11.9375, 0, 179.96875),
+				["Size"] = 2,
+				["PositionOffset"] = Vector(5.5, 0, -22.799999237061),
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "models/food/hotdog.mdl",
+				["UniqueID"] = "2255272922",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1514845246",
+						["Event"] = "animation_event",
+						["Arguments"] = "attack@@0.1",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Follow"] = false,
+				["UniqueID"] = "1518448818",
+				["EditorExpand"] = true,
+				["ClassName"] = "effect",
+				["Rate"] = 0.1,
+				["Angles"] = Angle(11.125, 0, 0),
+				["Bone"] = "right hand",
+				["Effect"] = "grenade_explosion_01",
+				["Position"] = Vector(43.203998565674, 0.00048828125, -17.466999053955),
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "weapon_class",
+								["Arguments"] = "crowbar",
+								["UniqueID"] = "1386180461",
+								["ClassName"] = "event",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["Position"] = Vector(-12.814453125, -0.00244140625, 29.541015625),
+								["Model"] = "models/pac/default.mdl",
+								["UniqueID"] = "2246116449",
+								["Name"] = "hot dog end",
+								["Angles"] = Angle(0, 180, 0),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["Position"] = Vector(-12.814453125, -0.00244140625, 29.541015625),
+								["Model"] = "models/pac/default.mdl",
+								["EditorExpand"] = true,
+								["UniqueID"] = "3579727215",
+								["Name"] = "hot dog end",
+								["Angles"] = Angle(0, 180, 0),
+							},
+						},
+						[4] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(-89.96875, 45, 0),
+												["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+												["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+												["UniqueID"] = "1222493957",
+												["Size"] = 0.6,
+												["Model"] = "models/food/hotdog.mdl",
+												["ClassName"] = "model",
+											},
+										},
+									},
+									["self"] = {
+										["Material"] = "models/shadertest/shader1_dudv",
+										["Position"] = Vector(0, -4.5, 4.5),
+										["ClassName"] = "model",
+										["EditorExpand"] = true,
+										["UniqueID"] = "2597714099",
+										["Model"] = "models/props_junk/PopCan01a.mdl",
+										["Angles"] = Angle(90, 179.96875, 180),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(-89.96875, -90, 0),
+												["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+												["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+												["UniqueID"] = "2511476779",
+												["Size"] = 0.6,
+												["Model"] = "models/food/hotdog.mdl",
+												["ClassName"] = "model",
+											},
+										},
+									},
+									["self"] = {
+										["Material"] = "models/shadertest/shader1_dudv",
+										["Position"] = Vector(0, 6, 0),
+										["ClassName"] = "model",
+										["EditorExpand"] = true,
+										["UniqueID"] = "846604930",
+										["Model"] = "models/props_junk/PopCan01a.mdl",
+										["Angles"] = Angle(90, 179.96875, 180),
+									},
+								},
+								[3] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(-89.96875, 0, 0),
+												["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+												["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+												["UniqueID"] = "433130352",
+												["Size"] = 0.6,
+												["Model"] = "models/food/hotdog.mdl",
+												["ClassName"] = "model",
+											},
+										},
+									},
+									["self"] = {
+										["Material"] = "models/shadertest/shader1_dudv",
+										["Position"] = Vector(0, 0, 6),
+										["ClassName"] = "model",
+										["EditorExpand"] = true,
+										["UniqueID"] = "4142643457",
+										["Model"] = "models/props_junk/PopCan01a.mdl",
+										["Angles"] = Angle(90, 179.96875, 180),
+									},
+								},
+								[4] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(-89.9375, 90, 0),
+												["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+												["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+												["UniqueID"] = "2848756721",
+												["Size"] = 0.6,
+												["Model"] = "models/food/hotdog.mdl",
+												["ClassName"] = "model",
+											},
+										},
+									},
+									["self"] = {
+										["Material"] = "models/shadertest/shader1_dudv",
+										["Position"] = Vector(0, -6, 0),
+										["ClassName"] = "model",
+										["EditorExpand"] = true,
+										["UniqueID"] = "3944807558",
+										["Model"] = "models/props_junk/PopCan01a.mdl",
+										["Angles"] = Angle(90, 179.96875, 180),
+									},
+								},
+								[5] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(-89.96875, -145, 0),
+												["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+												["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+												["UniqueID"] = "1622773975",
+												["Size"] = 0.6,
+												["Model"] = "models/food/hotdog.mdl",
+												["ClassName"] = "model",
+											},
+										},
+									},
+									["self"] = {
+										["Material"] = "models/shadertest/shader1_dudv",
+										["Position"] = Vector(0, 4.5, -4.5),
+										["ClassName"] = "model",
+										["EditorExpand"] = true,
+										["UniqueID"] = "2522722752",
+										["Model"] = "models/props_junk/PopCan01a.mdl",
+										["Angles"] = Angle(90, 179.96875, 180),
+									},
+								},
+								[6] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(-89.96875, 145, 0),
+												["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+												["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+												["UniqueID"] = "389870879",
+												["Size"] = 0.6,
+												["Model"] = "models/food/hotdog.mdl",
+												["ClassName"] = "model",
+											},
+										},
+									},
+									["self"] = {
+										["Material"] = "models/shadertest/shader1_dudv",
+										["Position"] = Vector(0, -4.5, -4.5),
+										["ClassName"] = "model",
+										["EditorExpand"] = true,
+										["UniqueID"] = "425133126",
+										["Model"] = "models/props_junk/PopCan01a.mdl",
+										["Angles"] = Angle(90, 179.96875, 180),
+									},
+								},
+								[7] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(-89.96875, -180, 0),
+												["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+												["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+												["UniqueID"] = "1641479061",
+												["Size"] = 0.6,
+												["Model"] = "models/food/hotdog.mdl",
+												["ClassName"] = "model",
+											},
+										},
+									},
+									["self"] = {
+										["Material"] = "models/shadertest/shader1_dudv",
+										["Position"] = Vector(0, 0, -6),
+										["ClassName"] = "model",
+										["EditorExpand"] = true,
+										["UniqueID"] = "849126040",
+										["Model"] = "models/props_junk/PopCan01a.mdl",
+										["Angles"] = Angle(90, 179.96875, 180),
+									},
+								},
+								[8] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(-90, -45, 0),
+												["Position"] = Vector(0.0009765625, -0.00048828125, 1.937744140625),
+												["PositionOffset"] = Vector(0, 0, -8.3999996185303),
+												["UniqueID"] = "99186623",
+												["Size"] = 0.6,
+												["Model"] = "models/food/hotdog.mdl",
+												["ClassName"] = "model",
+											},
+										},
+									},
+									["self"] = {
+										["Material"] = "models/shadertest/shader1_dudv",
+										["Position"] = Vector(0, 4.5, 4.5),
+										["ClassName"] = "model",
+										["EditorExpand"] = true,
+										["UniqueID"] = "2597427965",
+										["Model"] = "models/props_junk/PopCan01a.mdl",
+										["Angles"] = Angle(90, 179.96875, 180),
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Material"] = "models/shadertest/shield",
+								["Position"] = Vector(0.3892822265625, 0, 22.6591796875),
+								["Size"] = 0.6,
+								["EditorExpand"] = true,
+								["UniqueID"] = "3264593391",
+								["Model"] = "models/props_c17/pulleywheels_small01.mdl",
+								["AngleOffset"] = Angle(0, -0.59375, 0),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "309667998",
+						["AimPartUID"] = "108503414",
+						["Name"] = "hotdog side",
+						["Scale"] = Vector(1.1000000238419, 1, 1),
+						["Angles"] = Angle(0, 0, -76.6875),
+						["ClassName"] = "model",
+						["Size"] = 2,
+						["PositionOffset"] = Vector(-14.39999961853, 0, -29.5),
+						["EditorExpand"] = true,
+						["Bone"] = "spine 2",
+						["Model"] = "models/food/hotdog.mdl",
+						["Position"] = Vector(-0.9111328125, -0.810791015625, -0.947265625),
+					},
+				},
+			},
+			["self"] = {
+				["JigglePosition"] = false,
+				["UniqueID"] = "3442465179",
+				["Speed"] = 5,
+				["LocalVelocity"] = false,
+				["ClassName"] = "jiggle",
+				["Angles"] = Angle(-2.15625, 0, 0),
+				["Bone"] = "spine 2",
+				["Position"] = Vector(-9.8505859375, -7.393798828125, -1.9814453125),
+				["Strain"] = 0.9,
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "cannon",
+		["ClassName"] = "group",
+		["UniqueID"] = "1053467562",
+		["EditorExpand"] = true,
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Model"] = "models/player/items/scout/fwk_scout_hotdog.mdl",
+				["Angles"] = Angle(0, -89.96875, -90),
+				["UniqueID"] = "464667897",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(90, 0, 0),
+						["UniqueID"] = "3890543236",
+						["ClassName"] = "model",
+						["Size"] = 0.5,
+						["Model"] = "models/items/car_battery01.mdl",
+						["Position"] = Vector(4.697265625, -2.2301025390625, -5.4140625),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Model"] = "models/items/battery.mdl",
+						["ClassName"] = "model",
+						["Position"] = Vector(4.701171875, 0.16802978515625, -3.8046875),
+						["UniqueID"] = "996399268",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "2036180612",
+										["Event"] = "weapon_class",
+										["Arguments"] = "crowbar",
+										["Invert"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["EndPointName"] = "hot dog end",
+								["Position"] = Vector(-4.59326171875, -6.9453125, 5.6669921875),
+								["Bend"] = 15,
+								["UniqueID"] = "2993728149",
+								["EndPointUID"] = "2175831881",
+								["EditorExpand"] = true,
+								["ClassName"] = "beam",
+								["Width"] = 1.5,
+								["StartColor"] = Vector(255, 0, 0),
+								["Angles"] = Angle(-49.15625, -89.9375, 90),
+								["EndColor"] = Vector(0, 0, 0),
+								["Translucent"] = true,
+								["Material"] = "models/debug/debugwhite",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "1508021323",
+										["Event"] = "weapon_class",
+										["Arguments"] = "crowbar",
+										["Invert"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["EndPointName"] = "hot dog end",
+								["Position"] = Vector(0.00634765625, -0.000244140625, 14.08203125),
+								["Bend"] = 15,
+								["UniqueID"] = "4245613518",
+								["EndPointUID"] = "2549101293",
+								["EditorExpand"] = true,
+								["ClassName"] = "beam",
+								["Width"] = 1.5,
+								["StartColor"] = Vector(0, 63, 255),
+								["Angles"] = Angle(-90, 90, -89.96875),
+								["EndColor"] = Vector(0, 0, 0),
+								["Translucent"] = true,
+								["Material"] = "models/debug/debugwhite",
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["Position"] = Vector(4.694091796875, 3.0357666015625, -0.0029296875),
+						["UniqueID"] = "976411419",
+						["Size"] = 0.5,
+						["Model"] = "models/props_c17/canister01a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Model"] = "models/items/battery.mdl",
+						["ClassName"] = "model",
+						["Position"] = Vector(4.70263671875, -4.124267578125, -3.8017578125),
+						["UniqueID"] = "2700777718",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1356639881",
+				["Angles"] = Angle(3.46875, -90.21875, -94.03125),
+				["Position"] = Vector(3.56640625, -3.628662109375, -0.2900390625),
+				["Size"] = 0.6,
+				["EditorExpand"] = true,
+				["Bone"] = "spine 2",
+				["Model"] = "models/props_junk/gascan001a.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["DrawWeapon"] = false,
+				["UniqueID"] = "4280022047",
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "3222586027",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},

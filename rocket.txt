@@ -1,0 +1,1443 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "2446971508",
+						["Model"] = "models/weapons/ar2_grenade.mdl",
+						["EditorExpand"] = true,
+						["Name"] = "ar grenade",
+						["Position"] = Vector(3.080078125, -1.6611328125, 0.34521484375),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3958075135",
+						["Event"] = "weapon_class",
+						["Arguments"] = "rpg",
+						["Name"] = "weapon class find simple\"rpg\"",
+						["Invert"] = true,
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Arguments"] = "attack@@1.7",
+								["UniqueID"] = "2778430550",
+								["Event"] = "animation_event",
+								["Name"] = "animation event find simple\"reload\"",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Position"] = Vector(0.89404296875, -0.1259765625, 0.48291015625),
+						["Model"] = "models/weapons/w_missile_closed.mdl",
+						["Size"] = 0.525,
+						["UniqueID"] = "3054528401",
+						["Name"] = "w missile closed",
+						["Angles"] = Angle(0, 0.0625, 0),
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Position"] = Vector(1.8916015625, -2.105224609375, -5.69287109375),
+				["Model"] = "models/weapons/rifleshell.mdl",
+				["Size"] = 2.3,
+				["UniqueID"] = "965926439",
+				["Name"] = "rifleshell",
+				["Angles"] = Angle(0, -79.25, 0),
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1457417425",
+						["Event"] = "weapon_class",
+						["Arguments"] = "weapon_357",
+						["Name"] = "weapon class find simple\"weapon 357\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Position"] = Vector(0.5595703125, -2.291015625, -4.7138671875),
+				["Model"] = "models/weapons/w_357.mdl",
+				["Size"] = 0.55,
+				["UniqueID"] = "1748123060",
+				["Name"] = "357",
+				["Angles"] = Angle(1.71875, -78.46875, 179.34375),
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "736703516",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crossbow",
+						["Name"] = "weapon class find simple\"crossbow\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/weapons/w_crossbow.mdl",
+				["ClassName"] = "model",
+				["Position"] = Vector(-1.513671875, -2.9111328125, -5.77294921875),
+				["Size"] = 0.25,
+				["Angles"] = Angle(0, -76.125, 0),
+				["UniqueID"] = "4027714263",
+				["Name"] = "w crossbow",
+				["Scale"] = Vector(1, 1, 0.80000001192093),
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2552916953",
+						["Event"] = "weapon_class",
+						["Arguments"] = "pistol",
+						["Name"] = "weapon class find simple\"pistol\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Position"] = Vector(0.9208984375, -4.068359375, -4.76953125),
+				["Model"] = "models/weapons/w_pistol.mdl",
+				["Angles"] = Angle(-1.75, 105.21875, -179.46875),
+				["UniqueID"] = "1520632906",
+				["Name"] = "w pistol",
+				["Scale"] = Vector(0.60000002384186, 1, 1),
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1944764224",
+						["Event"] = "weapon_class",
+						["Arguments"] = "smg",
+						["Name"] = "weapon class find simple\"smg\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/weapons/w_smg1.mdl",
+				["ClassName"] = "model",
+				["Position"] = Vector(0.7451171875, -7.5126953125, -3.280517578125),
+				["Size"] = 0.525,
+				["Angles"] = Angle(3.03125, -79.28125, -105.09375),
+				["UniqueID"] = "3379163336",
+				["Name"] = "w smg p",
+				["Scale"] = Vector(0.69999998807907, 1, 1),
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2647034281",
+						["Event"] = "weapon_class",
+						["Arguments"] = "ar2",
+						["Name"] = "weapon class find simple\"ar2\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/weapons/w_irifle.mdl",
+				["ClassName"] = "model",
+				["Position"] = Vector(-0.54299998283386, -12.16845703125, -4.5283203125),
+				["Size"] = 0.45,
+				["Angles"] = Angle(-14.46875, 96.46875, 107.21875),
+				["UniqueID"] = "2358561980",
+				["Name"] = "w irifle",
+				["Scale"] = Vector(0.63999998569489, 1, 1),
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3743307097",
+						["Event"] = "weapon_class",
+						["Arguments"] = "tool",
+						["Name"] = "weapon class find simple\"tool\"",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "152508460",
+								["Event"] = "animation_event",
+								["Arguments"] = "attack@@0.5",
+								["Name"] = "animation event find simple\"attack@@0.5\"",
+								["Invert"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "ogg",
+								["UniqueID"] = "3274640296",
+								["URL"] = "https://dl.dropboxusercontent.com/u/183209082/Meh-freeze.ogg",
+								["Name"] = "meh-freeze",
+								["Volume"] = 4,
+							},
+						},
+					},
+					["self"] = {
+						["Velocity"] = 50,
+						["UniqueID"] = "2980079289",
+						["DieTime"] = 0.5,
+						["FireDelay"] = 0.1,
+						["Lighting"] = false,
+						["Name"] = "glow04 noz",
+						["NumberParticles"] = 4,
+						["EndSize"] = 5,
+						["ClassName"] = "particles",
+						["Position"] = Vector(0.1708984375, -0.8955078125, 0.01171875),
+						["Spread"] = 0.4,
+						["Angles"] = Angle(0, -79.1875, 0),
+						["Material"] = "sprites/glow04_noz",
+						["StartSize"] = 1,
+						["Gravity"] = Vector(0, 0, 0),
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["UniqueID"] = "3828929857",
+				["Size"] = 0,
+				["Name"] = "hoverball",
+				["Position"] = Vector(1.3974609375, -4.220703125, -6.8984375),
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2213752087",
+		["Name"] = "weapons",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "bone",
+				["Position"] = Vector(-3.47021484375, -21.6865234375, 10.7412109375),
+				["Bone"] = "right hand",
+				["Name"] = "right hand",
+				["UniqueID"] = "3072531414",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "proxy",
+						["UniqueID"] = "795796665",
+						["Expression"] = "nul,nul,time()*250",
+						["Name"] = "angleoffset =  proxy",
+						["VariableName"] = "AngleOffset",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Size"] = 0.2,
+										["Material"] = "models/weapons/c_items/c_urinejar_urine",
+										["Position"] = Vector(-0.000244140625, -6.654296875, -0.3203125),
+										["UniqueID"] = "23960695",
+										["Translucent"] = true,
+										["Fullbright"] = true,
+										["Name"] = "hoverball",
+										["ClassName"] = "model",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "proxy",
+										["UniqueID"] = "1163155726",
+										["Expression"] = "nul,time()*200,nul",
+										["Name"] = "angleoffset = , 2463906.055 proxy",
+										["VariableName"] = "AngleOffset",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["UniqueID"] = "4059058581",
+								["Size"] = 0,
+								["EditorExpand"] = true,
+								["Name"] = "hoverball",
+								["AngleOffset"] = Angle(0.09375, 1058982.125, 0.09375),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "4090177931",
+						["Name"] = "tubexx",
+						["Scale"] = Vector(1, 1, 0.30000001192093),
+						["Model"] = "models/hunter/tubes/tube2x2x025.mdl",
+						["Angles"] = Angle(88.71875, 146.78125, 127.5),
+						["Size"] = 0.15,
+						["ClassName"] = "model",
+						["Material"] = "models/weapons/c_items/c_urinejar_urine",
+						["Fullbright"] = true,
+						["Translucent"] = true,
+						["Position"] = Vector(-2.68359375, -0.30078125, 0.037353515625),
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Size"] = 0.2,
+										["Material"] = "models/weapons/c_items/c_urinejar_urine",
+										["Position"] = Vector(-0.000244140625, -6.654296875, -0.3203125),
+										["UniqueID"] = "2528106332",
+										["Translucent"] = true,
+										["Fullbright"] = true,
+										["Name"] = "hoverball",
+										["ClassName"] = "model",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "proxy",
+										["UniqueID"] = "1999018425",
+										["Expression"] = "nul,time()*200,nul",
+										["Name"] = "angleoffset = , 2463906.055 proxy",
+										["VariableName"] = "AngleOffset",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["UniqueID"] = "3456330800",
+								["Size"] = 0,
+								["EditorExpand"] = true,
+								["Name"] = "hoverball",
+								["AngleOffset"] = Angle(0.09375, 1058982.125, 0.09375),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2102007013",
+						["Name"] = "tubexx",
+						["Scale"] = Vector(1, 1, 0.30000001192093),
+						["Model"] = "models/hunter/tubes/tube2x2x025.mdl",
+						["Angles"] = Angle(-89.15625, 0, 170.75),
+						["Size"] = 0.15,
+						["ClassName"] = "model",
+						["Material"] = "models/weapons/c_items/c_urinejar_urine",
+						["Fullbright"] = true,
+						["Translucent"] = true,
+						["Position"] = Vector(0.6220703125, -0.2392578125, -0.011962890625),
+					},
+				},
+			},
+			["self"] = {
+				["Size"] = 0,
+				["Angles"] = Angle(0, -161.9375, 0),
+				["Position"] = Vector(-10.39453125, 0.1181640625, 0.16748046875),
+				["UniqueID"] = "2738134904",
+				["AngleOffset"] = Angle(0, 0, 1323727.625),
+				["Bone"] = "spine",
+				["Name"] = "hoverball 4",
+				["ClassName"] = "model",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Position"] = Vector(1.265380859375, -0.142578125, -0.0419921875),
+						["Size"] = 0.1,
+						["Angles"] = Angle(0, -10.78125, 0),
+						["UniqueID"] = "476544385",
+						["Name"] = "hoverball",
+						["Scale"] = Vector(1, 1, 1.2999999523163),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(1.5199999809265, -6.1810002326965, 1.7660000324249),
+				["Name"] = "hoverball 2",
+				["Scale"] = Vector(1, 1, 1.2000000476837),
+				["ClassName"] = "model",
+				["Size"] = 0.25,
+				["UniqueID"] = "3092748772",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["EyeAngles"] = true,
+				["Angles"] = Angle(0, 13, -0.09375),
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Position"] = Vector(-3.6943359375, -0.0185546875, 0.310546875),
+								["Model"] = "models/mechanics/wheels/wheel_rounded_36s.mdl",
+								["Size"] = 0.175,
+								["UniqueID"] = "767356485",
+								["Name"] = "wheel rounded s",
+								["Angles"] = Angle(0, 0, -89.3125),
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["Invert"] = true,
+										["Event"] = "is_in_noclip",
+										["Name"] = "is in noclip",
+										["UniqueID"] = "391623873",
+									},
+								},
+							},
+							["self"] = {
+								["Velocity"] = 1,
+								["UniqueID"] = "2502373286",
+								["Lighting"] = false,
+								["Name"] = "orangecore1",
+								["EndSize"] = 10,
+								["ClassName"] = "particles",
+								["EditorExpand"] = true,
+								["FireDelay"] = 0.1,
+								["Material"] = "sprites/orangecore1",
+								["DieTime"] = 1,
+								["Angles"] = Angle(-26.09375, -179.96875, -179.96875),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(2.7265625, 0.0400390625, -6.0126953125),
+						["Name"] = "scanner gib",
+						["Scale"] = Vector(0.69999998807907, 0.80000001192093, 1),
+						["EditorExpand"] = true,
+						["Size"] = 0.525,
+						["ClassName"] = "model",
+						["Angles"] = Angle(-3.40625, 179.96875, 179.53125),
+						["UniqueID"] = "2348756607",
+						["Model"] = "models/gibs/scanner_gib01.mdl",
+						["Material"] = "models/shadertest/envball_2",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.5205078125, -0.054443359375, 2.7509765625),
+						["Name"] = "hoverball 3",
+						["Scale"] = Vector(0.40000000596046, 1, 1),
+						["Angles"] = Angle(0.15625, 0, 0),
+						["Size"] = 0.45,
+						["Color"] = Vector(225, 255, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "3078440699",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.9384765625, 0.03076171875, 2.0283203125),
+						["Name"] = "hoverball 3",
+						["Scale"] = Vector(0.40000000596046, 1, 1),
+						["Angles"] = Angle(2.09375, 0, 0),
+						["Size"] = 0.45,
+						["Color"] = Vector(225, 255, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "2674398368",
+						["ClassName"] = "model",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(-3.037109375, 0.00048828125, -2.6875),
+								["Name"] = "popcana",
+								["Scale"] = Vector(1, 1, 2),
+								["Material"] = "models/shadertest/envball_2",
+								["Size"] = 0.325,
+								["UniqueID"] = "514752391",
+								["Angles"] = Angle(-59.09375, -180, 179.96875),
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(0.1904296875, -0.05517578125, 1.7646484375),
+						["Name"] = "hoverball 1",
+						["Scale"] = Vector(1.2000000476837, 1, 1),
+						["Angles"] = Angle(64.78125, 0, 0),
+						["Size"] = 0.45,
+						["Color"] = Vector(255, 0, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "2540198624",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_crouching",
+						["ClassName"] = "event",
+						["UniqueID"] = "2271547381",
+						["Name"] = "is crouching",
+					},
+				},
+				[6] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["Position"] = Vector(0.001953125, 0, -0.8583984375),
+										["Size"] = 0.375,
+										["Color"] = Vector(255, 0, 0),
+										["UniqueID"] = "2855752952",
+										["Name"] = "hoverball",
+										["Material"] = "models/ihvtest/eyeball_l",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(-0.6357421875, 0.0037841796875, -2.1240234375),
+								["Name"] = "popcana",
+								["Scale"] = Vector(1, 1, 0.30000001192093),
+								["UniqueID"] = "3162713803",
+								["Angles"] = Angle(16.40625, 0, 0),
+								["Size"] = 1.225,
+								["EditorExpand"] = true,
+								["Color"] = Vector(255, 0, 0),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Position"] = Vector(-0.1142578125, -0.0009765625, -2.490234375),
+						["Size"] = 0.425,
+						["Color"] = Vector(225, 255, 0),
+						["UniqueID"] = "966833424",
+						["Name"] = "hoverball 2",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "4133858018",
+				["Name"] = "body",
+				["Scale"] = Vector(1, 1, 0.40000000596046),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Size"] = 1.4,
+				["Angles"] = Angle(-1.5625, -137.15625, -87.90625),
+				["Color"] = Vector(255, 0, 0),
+				["Bone"] = "spine 2",
+				["Model"] = "models/props_junk/PopCan01a.mdl",
+				["Position"] = Vector(-3.6989998817444, 1.1849999427795, -0.035000000149012),
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.5205078125, -0.054443359375, 2.7509765625),
+						["Name"] = "hoverball 3",
+						["Scale"] = Vector(0.40000000596046, 1, 1),
+						["Angles"] = Angle(0.15625, 0, 0),
+						["Size"] = 0.45,
+						["Color"] = Vector(225, 255, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "2466821748",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "is_crouching",
+						["Name"] = "is crouching",
+						["UniqueID"] = "3043656489",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(-3.037109375, 0.00048828125, -2.6875),
+								["Name"] = "popcana",
+								["Scale"] = Vector(1, 1, 2),
+								["Material"] = "models/shadertest/envball_2",
+								["Size"] = 0.325,
+								["UniqueID"] = "1965765242",
+								["Angles"] = Angle(-59.09375, -180, 179.96875),
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(0.1904296875, -0.05517578125, 1.7646484375),
+						["Name"] = "hoverball 1",
+						["Scale"] = Vector(1.2000000476837, 1, 1),
+						["Angles"] = Angle(64.78125, 0, 0),
+						["Size"] = 0.45,
+						["Color"] = Vector(255, 0, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "537927785",
+						["ClassName"] = "model",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Position"] = Vector(-3.6943359375, -0.0185546875, 0.310546875),
+								["Model"] = "models/mechanics/wheels/wheel_rounded_36s.mdl",
+								["Size"] = 0.175,
+								["UniqueID"] = "545244205",
+								["Name"] = "wheel rounded s",
+								["Angles"] = Angle(0, 0, -89.3125),
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["Invert"] = true,
+										["Event"] = "is_in_noclip",
+										["Name"] = "is in noclip",
+										["UniqueID"] = "545017743",
+									},
+								},
+							},
+							["self"] = {
+								["Velocity"] = 1,
+								["UniqueID"] = "211335331",
+								["Lighting"] = false,
+								["Name"] = "orangecore1",
+								["EndSize"] = 10,
+								["ClassName"] = "particles",
+								["EditorExpand"] = true,
+								["FireDelay"] = 0.1,
+								["Material"] = "sprites/orangecore1",
+								["DieTime"] = 1,
+								["Angles"] = Angle(-14.125, 179.1875, -176.65625),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(2.20947265625, 0.4853515625, -4.08203125),
+						["Name"] = "scanner gib",
+						["Scale"] = Vector(0.69999998807907, 0.80000001192093, 1),
+						["EditorExpand"] = true,
+						["Size"] = 0.525,
+						["ClassName"] = "model",
+						["Angles"] = Angle(42.4375, 179.5, 179.34375),
+						["UniqueID"] = "3077532258",
+						["Model"] = "models/gibs/scanner_gib01.mdl",
+						["Material"] = "models/shadertest/envball_2",
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["Position"] = Vector(0.001953125, 0, -0.8583984375),
+										["Size"] = 0.375,
+										["Color"] = Vector(255, 0, 0),
+										["UniqueID"] = "1007171021",
+										["Name"] = "hoverball",
+										["Material"] = "models/ihvtest/eyeball_l",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(-0.6357421875, 0.0037841796875, -2.1240234375),
+								["Name"] = "popcana",
+								["Scale"] = Vector(1, 1, 0.30000001192093),
+								["UniqueID"] = "1971134277",
+								["Angles"] = Angle(16.40625, 0, 0),
+								["Size"] = 1.225,
+								["EditorExpand"] = true,
+								["Color"] = Vector(255, 0, 0),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Position"] = Vector(-0.1142578125, -0.0009765625, -2.490234375),
+						["Size"] = 0.425,
+						["Color"] = Vector(225, 255, 0),
+						["UniqueID"] = "1806961521",
+						["Name"] = "hoverball 2",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.9384765625, 0.03076171875, 2.0283203125),
+						["Name"] = "hoverball 3",
+						["Scale"] = Vector(0.40000000596046, 1, 1),
+						["Angles"] = Angle(2.09375, 0, 0),
+						["Size"] = 0.45,
+						["Color"] = Vector(225, 255, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "3312233112",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "446064095",
+				["Name"] = "body",
+				["Scale"] = Vector(1, 1, 0.40000000596046),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Size"] = 1.4,
+				["Angles"] = Angle(5.75, -172.28125, -108.0625),
+				["Color"] = Vector(255, 0, 0),
+				["Bone"] = "spine 2",
+				["Model"] = "models/props_junk/PopCan01a.mdl",
+				["Position"] = Vector(-1.59765625, 3.6298828125, 0.611328125),
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.4,
+						["ClassName"] = "model",
+						["Position"] = Vector(0.0205078125, 2.705078125, -4.375244140625),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Color"] = Vector(225, 255, 0),
+						["UniqueID"] = "3875102785",
+						["Name"] = "hoverball",
+						["Scale"] = Vector(0.89999997615814, 0.20000000298023, 0.5),
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(0.4462890625, 0.001708984375, 0.46399998664856),
+								["Name"] = "shellxx",
+								["Scale"] = Vector(0.69999998807907, 1, 0.87000000476837),
+								["Angles"] = Angle(49.25, 5.6875, 92.125),
+								["Size"] = 0.125,
+								["UniqueID"] = "2362079338",
+								["Color"] = Vector(225, 255, 0),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/hunter/misc/shell2x2x45.mdl",
+								["ClassName"] = "model",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "tool",
+										["UniqueID"] = "3313714234",
+										["Event"] = "weapon_class",
+										["Name"] = "weapon class find simple\"tool\"",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "2072253757",
+								["Name"] = "shellxx 2",
+								["Scale"] = Vector(1, 1, 0.94999998807907),
+								["Model"] = "models/hunter/misc/shell2x2x45.mdl",
+								["ClassName"] = "model",
+								["Size"] = 0.125,
+								["Angles"] = Angle(61.4375, -179.28125, 90.3125),
+								["Color"] = Vector(0, 255, 255),
+								["Material"] = "models/weapons/c_items/c_xms_cold_shoulder",
+								["Translucent"] = true,
+								["Position"] = Vector(-0.3779296875, 0.042724609375, -0.22300000488758),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(-1.068359375, -0.1470947265625, -0.21450805664063),
+								["Name"] = "shellxx 2",
+								["Scale"] = Vector(1, 1, 0.89999997615814),
+								["Angles"] = Angle(50.5625, -179.40625, 90.25),
+								["Size"] = 0.125,
+								["UniqueID"] = "3810103927",
+								["Color"] = Vector(255, 0, 0),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/hunter/misc/shell2x2x45.mdl",
+								["ClassName"] = "model",
+							},
+						},
+						[4] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "3347409854",
+										["Event"] = "weapon_class",
+										["Arguments"] = "tool",
+										["Name"] = "weapon class find simple\"tool\"",
+										["Invert"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "2811161543",
+								["Name"] = "shellxx 2",
+								["Scale"] = Vector(1, 1, 0.94999998807907),
+								["Model"] = "models/hunter/misc/shell2x2x45.mdl",
+								["ClassName"] = "model",
+								["Size"] = 0.125,
+								["Angles"] = Angle(-16.75, -175.0625, 88.84375),
+								["Color"] = Vector(0, 255, 255),
+								["Material"] = "models/weapons/c_items/c_xms_cold_shoulder",
+								["Translucent"] = true,
+								["Position"] = Vector(-0.3779296875, 0.042724609375, 0.776611328125),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(0, 0.459228515625, -0.3636474609375),
+						["Name"] = "shield scanner gib",
+						["Scale"] = Vector(1.2999999523163, 1.3999999761581, 1.7999999523163),
+						["Angles"] = Angle(-2.5, 0.3125, -95.84375),
+						["Size"] = 0.08,
+						["UniqueID"] = "2332007726",
+						["Color"] = Vector(255, 0, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Model"] = "models/props_phx/construct/metal_dome360.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.1005859375, 0.9173583984375, -0.476806640625),
+						["Name"] = "a",
+						["Scale"] = Vector(1.8999999761581, 1, 1),
+						["Material"] = "models/shadertest/envball_2",
+						["Size"] = 0.25,
+						["UniqueID"] = "3847225386",
+						["Angles"] = Angle(-84.375, 96.90625, -96.9375),
+						["Model"] = "models/Mechanics/robotics/a1.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.1484375, 3.6201171875, 3.19873046875),
+						["Name"] = "hoverball",
+						["Scale"] = Vector(0.89999997615814, 0.20000000298023, 0.5),
+						["Angles"] = Angle(0, 0, -19.375),
+						["Size"] = 0.4,
+						["Color"] = Vector(225, 255, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "2903614945",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.1572265625, 4.641845703125, 2.8369140625),
+						["Name"] = "hoverball",
+						["Scale"] = Vector(0.69999998807907, 0.20000000298023, 0.5),
+						["Angles"] = Angle(0, 0, -19.375),
+						["Size"] = 0.4,
+						["Color"] = Vector(225, 255, 0),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["UniqueID"] = "982410029",
+						["ClassName"] = "model",
+					},
+				},
+				[6] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["ClassName"] = "event",
+												["UniqueID"] = "3362245464",
+												["Event"] = "weapon_class",
+												["Arguments"] = "camera",
+												["Name"] = "is flashlight on",
+												["Invert"] = true,
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["ClassName"] = "sprite",
+												["Position"] = Vector(0.0068359375, 0.000244140625, 11.02685546875),
+												["SpritePath"] = "sprites/glow04_noz",
+												["Color"] = Vector(225, 255, 0),
+												["Size"] = 11.7,
+												["SizeX"] = 1.7,
+												["UniqueID"] = "1211175239",
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "3180713816",
+										["Model"] = "models/hunter/misc/cone1x1.mdl",
+										["Name"] = "conex",
+										["Scale"] = Vector(1, 1, 1.8999999761581),
+										["EditorExpand"] = true,
+										["Angles"] = Angle(-3.3125, -179.96875, -179.96875),
+										["Size"] = 0.15,
+										["ClassName"] = "model",
+										["Material"] = "models/weapons/c_items/c_urinejar_urine",
+										["Fullbright"] = true,
+										["Translucent"] = true,
+										["Position"] = Vector(0.3681640625, -0.002197265625, 15.865234375),
+									},
+								},
+							},
+							["self"] = {
+								["Model"] = "models/props_junk/glassjug01.mdl",
+								["ClassName"] = "model",
+								["Position"] = Vector(0.014000000432134, -0.0018310546875, -0.404541015625),
+								["Size"] = 0.425,
+								["EditorExpand"] = true,
+								["UniqueID"] = "901200988",
+								["Name"] = "glassjug",
+								["Material"] = "models/props_manor/volume_light_01",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(0.193359375, -0.009521484375, 1.490966796875),
+								["Name"] = "popcana",
+								["Scale"] = Vector(1, 1.1000000238419, 0.75),
+								["ClassName"] = "model",
+								["Size"] = 0.575,
+								["Color"] = Vector(220, 0, 255),
+								["UniqueID"] = "2862735704",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Material"] = "models/shadertest/envball_3",
+							},
+						},
+					},
+					["self"] = {
+						["Model"] = "models/props_junk/glassjug01.mdl",
+						["Material"] = "models/shadertest/envball_2",
+						["Position"] = Vector(-0.1123046875, 2.10009765625, -6.61474609375),
+						["Size"] = 0.35,
+						["UniqueID"] = "1631689477",
+						["Angles"] = Angle(0, -178.0625, -86.59375),
+						["Name"] = "glassjug",
+						["ClassName"] = "model",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.4,
+						["ClassName"] = "model",
+						["Position"] = Vector(0.0244140625, 3.966064453125, -4.376953125),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Color"] = Vector(225, 255, 0),
+						["UniqueID"] = "178146515",
+						["Name"] = "hoverball 3",
+						["Scale"] = Vector(0.69999998807907, 0.20000000298023, 0.5),
+					},
+				},
+				[8] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["ClassName"] = "model",
+												["Position"] = Vector(-0.032470703125, 0.2451171875, 1.7060546875),
+												["Size"] = 0.175,
+												["Color"] = Vector(225, 255, 0),
+												["UniqueID"] = "3633549508",
+												["Name"] = "hoverball",
+												["Material"] = "models/ihvtest/eyeball_l",
+											},
+										},
+									},
+									["self"] = {
+										["Position"] = Vector(-0.00537109375, 0.19140625, 1.12890625),
+										["Name"] = "popcana",
+										["UniqueID"] = "105787682",
+										["EditorExpand"] = true,
+										["Size"] = 0.3,
+										["Angles"] = Angle(0, 0, -13.40625),
+										["Color"] = Vector(225, 255, 0),
+										["Material"] = "models/ihvtest/eyeball_l",
+										["Model"] = "models/props_junk/PopCan01a.mdl",
+										["ClassName"] = "model",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(-0.018798828125, 0.052734375, 1.4931640625),
+								["Name"] = "popcana",
+								["UniqueID"] = "1201063199",
+								["EditorExpand"] = true,
+								["Size"] = 0.3,
+								["Angles"] = Angle(0, 0, -6.125),
+								["Color"] = Vector(225, 255, 0),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(4.517578125, 4.47509765625, -0.727783203125),
+						["Name"] = "lampshadea",
+						["ClassName"] = "model",
+						["Size"] = 0.15,
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(88.46875, 0, -17.9375),
+						["Model"] = "models/props_c17/lampShade001a.mdl",
+						["UniqueID"] = "1634525231",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1071471614",
+				["Name"] = "head",
+				["Scale"] = Vector(0.94999998807907, 0.80000001192093, 1),
+				["ClassName"] = "model",
+				["Size"] = 0.8,
+				["Angles"] = Angle(0, 9.75, 2.65625),
+				["Color"] = Vector(127, 92, 255),
+				["Fullbright"] = true,
+				["Material"] = "models/effects/pyro/pilotlight_motion",
+				["Position"] = Vector(1.0947265625, -3.543701171875, 0.279052734375),
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Position"] = Vector(1.265380859375, -0.142578125, -0.0419921875),
+						["Size"] = 0.1,
+						["Angles"] = Angle(0, -10.78125, 0),
+						["UniqueID"] = "2128202840",
+						["Name"] = "hoverball",
+						["Scale"] = Vector(1, 1, 1.2999999523163),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(1.5199999809265, -6.1810002326965, -1.6339999437332),
+				["Name"] = "hoverball 2",
+				["Scale"] = Vector(1, 1, 1.2000000476837),
+				["ClassName"] = "model",
+				["Size"] = 0.25,
+				["UniqueID"] = "3097410573",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["EyeAngles"] = true,
+				["Angles"] = Angle(0, 13, -0.09375),
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["FallApartOnDeath"] = true,
+				["Size"] = 0.35,
+				["UniqueID"] = "1043221518",
+				["DrawWeapon"] = false,
+				["Name"] = "KombatWaffle",
+				["HideEntity"] = true,
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "is_flashlight_on",
+						["Name"] = "is flashlight on",
+						["UniqueID"] = "3737490912",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "animation",
+				["UniqueID"] = "1937616105",
+				["Rate"] = 0.02,
+				["SequenceName"] = "taunt_dance",
+				["Name"] = "taunt dance",
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "2280926234",
+		["Description"] = "add parts to me!",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "is_in_noclip",
+						["Name"] = "is in noclip",
+						["UniqueID"] = "4149928548",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "1802556933",
+				["URL"] = "https://dl.dropboxusercontent.com/s/7t0m0hxenarue6s/Meh-woohoo.ogg?dl=0",
+				["Name"] = "meh-woohoo",
+				["Volume"] = 4,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "695547094",
+						["Arguments"] = "100",
+						["Event"] = "owner_health",
+						["Operator"] = "below",
+						["Name"] = "owner health below100",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "284654355",
+				["URL"] = "https://dl.dropboxusercontent.com/s/tjmp6f9ldv6dz5u/Meh-ow.ogg?dl=0",
+				["Name"] = "meh-ow",
+				["Volume"] = 4,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "is_flashlight_on",
+						["Name"] = "is flashlight on",
+						["UniqueID"] = "4279039787",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "1556561334",
+				["URL"] = "https://dl.dropboxusercontent.com/s/h7iumatkgvox0pe/Rocket%20Robot%20on%20Wheels%20OST-%20Whoopie%20world%20main.ogg?dl=0",
+				["Name"] = "rocket%20robot%20on%20wheels%20ost-%20whoopie%20world%20main",
+				["Volume"] = 4,
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1028123974",
+						["Event"] = "sequence_name",
+						["Arguments"] = "run",
+						["Name"] = "health",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["PlayCount"] = 1e+022,
+				["ClassName"] = "ogg",
+				["UniqueID"] = "1267097867",
+				["URL"] = "https://dl.dropboxusercontent.com/s/zqx0w3va6mx5qly/meh-tire.ogg?dl=0",
+				["Overlapping"] = true,
+				["Name"] = "meh-tire",
+				["Volume"] = 4,
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "536495992",
+						["Arguments"] = "50",
+						["Event"] = "owner_health",
+						["Operator"] = "equal or below",
+						["Name"] = "owner health equal or below50",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "2355234036",
+				["URL"] = "https://dl.dropboxusercontent.com/s/tjmp6f9ldv6dz5u/Meh-ow.ogg?dl=0",
+				["Name"] = "meh-ow",
+				["Volume"] = 4,
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2370288240",
+						["Arguments"] = "25",
+						["Event"] = "owner_health",
+						["Operator"] = "equal or below",
+						["Name"] = "owner health equal or below25",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "242620876",
+				["URL"] = "https://dl.dropboxusercontent.com/s/tjmp6f9ldv6dz5u/Meh-ow.ogg?dl=0",
+				["Name"] = "meh-ow",
+				["Volume"] = 4,
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1281386105",
+						["Arguments"] = "75",
+						["Event"] = "owner_health",
+						["Operator"] = "equal or below",
+						["Name"] = "owner health equal or below75",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "1408630844",
+				["URL"] = "https://dl.dropboxusercontent.com/s/tjmp6f9ldv6dz5u/Meh-ow.ogg?dl=0",
+				["Name"] = "meh-ow",
+				["Volume"] = 4,
+			},
+		},
+		[8] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_on_ground",
+						["ClassName"] = "event",
+						["UniqueID"] = "232206171",
+						["Name"] = "is on ground",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "4253823583",
+				["URL"] = "https://dl.dropboxusercontent.com/s/jtzxwgg56oiq9h1/Meh-jump.ogg?dl=0",
+				["Name"] = "meh-jump",
+				["Volume"] = 4,
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "is_on_ground",
+						["Name"] = "is on ground",
+						["UniqueID"] = "425002137",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "1357556096",
+				["URL"] = "https://dl.dropboxusercontent.com/s/g5flbxbm9m91ih3/landing.ogg?dl=0",
+				["Name"] = "meh-land",
+				["Volume"] = 4,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2776526043",
+		["Name"] = "ogg sounds",
+	},
+},

@@ -1,0 +1,217 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4052158804",
+						["Event"] = "sequence_name",
+						["GlobalID"] = "427828826",
+						["Arguments"] = "run",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["PlayCount"] = 1e+060,
+				["ClassName"] = "ogg",
+				["UniqueID"] = "755887541",
+				["URL"] = "https://dl.dropboxusercontent.com/u/183209082/ogg%20sounds/challenger/forward.ogg",
+				["GlobalID"] = "1207897200",
+				["Name"] = "forward",
+				["Volume"] = 2.5,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["UniqueID"] = "2995425088",
+				["GlobalID"] = "2224576949",
+				["ClassName"] = "sound",
+				["Sound"] = "vehicles/airboat/fan_motor_idle_loop1.wav",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "3562475155",
+						["UniqueID"] = "1574236576",
+						["Event"] = "sequence_name",
+						["ClassName"] = "event",
+						["Arguments"] = "run",
+					},
+				},
+			},
+			["self"] = {
+				["Velocity"] = 100,
+				["Collide"] = false,
+				["UniqueID"] = "2545875363",
+				["DieTime"] = 1.5,
+				["PositionSpread"] = 1.7,
+				["FireDelay"] = 0,
+				["Position"] = Vector(-17.044921875, 1.727294921875, 6.2470703125),
+				["Material"] = "sprites/heatwave",
+				["ClassName"] = "particles",
+				["NumberParticles"] = 10,
+				["Angles"] = Angle(-52.4375, 180, -180),
+				["GlobalID"] = "1019882227",
+				["Bone"] = "none",
+				["StartSize"] = 10,
+				["Gravity"] = Vector(0, 0, -40),
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "256521741",
+						["UniqueID"] = "2121728135",
+						["Event"] = "sequence_name",
+						["ClassName"] = "event",
+						["Arguments"] = "run",
+					},
+				},
+			},
+			["self"] = {
+				["PlayCount"] = 1e+072,
+				["ClassName"] = "ogg",
+				["UniqueID"] = "2419026018",
+				["URL"] = "https://dl.dropboxusercontent.com/u/183209082/ogg%20sounds/challenger/idle.ogg",
+				["GlobalID"] = "1210190149",
+				["Name"] = "idle",
+				["Volume"] = 4,
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["GlobalID"] = "731429571",
+						["UniqueID"] = "459998550",
+						["Expression"] = "nil, nil, owner_velocity_right() * 5",
+						["VariableName"] = "Angles",
+						["RootOwner"] = true,
+						["ClassName"] = "proxy",
+						["Description"] = "this is for side lean",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "proxy",
+								["Additive"] = true,
+								["Expression"] = "-owner_velocity_forward() * 2",
+								["UniqueID"] = "3346301612",
+								["RootOwner"] = true,
+								["GlobalID"] = "2886211071",
+								["VariableName"] = "Angles",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(0, 0, -0.10000000149012),
+						["UniqueID"] = "3440646591",
+						["GlobalID"] = "2737150895",
+						["EditorExpand"] = true,
+						["Size"] = 1.65,
+						["ClassName"] = "model",
+						["Angles"] = Angle(457.74685668945, 0, 0),
+						["Bone"] = "none",
+						["Model"] = "models/xeon133/racewheel/race-wheel-30.mdl",
+						["Description"] = "the actual forward roll ball",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(0, 0, 23.9951171875),
+				["Name"] = "base",
+				["Angles"] = Angle(0, 0, -4.2038953929745e-045),
+				["Size"] = 0.45,
+				["GlobalID"] = "3408384153",
+				["ClassName"] = "model",
+				["Bone"] = "none",
+				["Model"] = "models/xeon133/racewheel/race-wheel-30.mdl",
+				["UniqueID"] = "2375944239",
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1813204979",
+								["Event"] = "sequence_name",
+								["GlobalID"] = "1390184547",
+								["Arguments"] = "run",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3740435965",
+						["DieTime"] = 0.5,
+						["Position"] = Vector(-6.9734497070313, -0.0010986328125, -24.099609375),
+						["PositionSpread"] = 2,
+						["FireDelay"] = 0,
+						["Material"] = "sprites/flamelet2",
+						["EndSize"] = 5,
+						["ClassName"] = "particles",
+						["NumberParticles"] = 50,
+						["GlobalID"] = "3379560628",
+						["Angles"] = Angle(-11.59375, 179.96875, -180),
+						["EditorExpand"] = true,
+						["StartSize"] = 20,
+						["Gravity"] = Vector(0, 0, 10),
+					},
+				},
+			},
+			["self"] = {
+				["GlobalID"] = "3930863036",
+				["HideEntity"] = true,
+				["UniqueID"] = "2935525846",
+				["DrawWeapon"] = false,
+				["ClassName"] = "entity",
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "2819186278",
+				["GlobalID"] = "2049196733",
+				["URL"] = "https://dl.dropboxusercontent.com/u/183209082/ogg%20sounds/challenger/startup.ogg",
+				["Volume"] = 4,
+				["Name"] = "startup",
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2683560774",
+		["EditorExpand"] = true,
+		["GlobalID"] = "1490572803",
+		["Name"] = "rolling ball",
+		["Description"] = "add parts to me!",
+	},
+},

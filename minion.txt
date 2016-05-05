@@ -1,0 +1,741 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["UniqueID"] = "3117265059",
+				["Color"] = Vector(255, 246, 0),
+				["Size"] = 0.6,
+				["Material"] = "models/debug/debugwhite",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-90, 0, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "2698060183",
+						["Position"] = Vector(0.000457763671875, -0.00048828125, -8.9833984375),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1810820386",
+				["Name"] = "right leg",
+				["Scale"] = Vector(1, 1, 2.0999999046326),
+				["ClassName"] = "model",
+				["Size"] = 0.075,
+				["Position"] = Vector(1.4365234375, 1.03955078125, -0.00543212890625),
+				["Angles"] = Angle(-89.96875, 180, -11.5),
+				["Bone"] = "right calf",
+				["Model"] = "models/props_phx/construct/metal_plate_curve360.mdl",
+				["Material"] = "http://puu.sh/joaGL/1657cbcbd0.jpg",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3047641455",
+				["Bone"] = "left upperarm",
+				["Position"] = Vector(21.4296875, -6.3509998321533, 0.0003662109375),
+				["ClassName"] = "bone",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "2879328284",
+						["Material"] = "models/weapons/v_crowbar/head_uvw",
+						["Size"] = 0.125,
+						["Model"] = "models/props_phx/construct/metal_angle360.mdl",
+						["Scale"] = Vector(1, 0.5, 1),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "958905823",
+				["Name"] = "left foot",
+				["Scale"] = Vector(1, 0.5, 0.60000002384186),
+				["ClassName"] = "model",
+				["Position"] = Vector(3.59375, 0.94140625, -0.00067138671875),
+				["Angles"] = Angle(0, -32.4375, 90),
+				["Bone"] = "left foot",
+				["Model"] = "models/holograms/hq_hdome.mdl",
+				["Material"] = "models/weapons/v_crowbar/head_uvw",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3857956619",
+						["Scale"] = Vector(1, 1, 0.5),
+						["AngleOffset"] = Angle(0, 45, 0),
+						["Size"] = 0.31,
+						["Position"] = Vector(-0.000396728515625, -0.0006103515625, 7.580078125),
+						["Color"] = Vector(91, 91, 91),
+						["ClassName"] = "model",
+						["Model"] = "models/hunter/tubes/tube2x2x05.mdl",
+						["Material"] = "models/props_debris/plasterwall034a",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3411201253",
+						["Name"] = "head",
+						["Scale"] = Vector(1, 1, 0.80000001192093),
+						["ClassName"] = "model",
+						["Size"] = 0.3,
+						["Color"] = Vector(255, 246, 0),
+						["Position"] = Vector(-0.00018310546875, -0.001708984375, 8.0400390625),
+						["Model"] = "models/props_phx/construct/metal_dome360.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3934505773",
+						["Name"] = "pants",
+						["Scale"] = Vector(1, 1, 0.80000001192093),
+						["Material"] = "http://puu.sh/joaGL/1657cbcbd0.jpg",
+						["Size"] = 0.31,
+						["Position"] = Vector(-0.0003662109375, 0.0078125, -8.314453125),
+						["Angles"] = Angle(0, -179.96875, -179.96875),
+						["Model"] = "models/props_phx/construct/metal_dome360.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["BaseTexture"] = "http://puu.sh/jodYd/f1a681b9da.png",
+								["BaseTextureScale"] = Vector(2.5, 1, 1),
+								["UniqueID"] = "568114549",
+								["ClassName"] = "material",
+								["EditorExpand"] = true,
+								["BaseTextureAngleCenter"] = Vector(0, 0, 0),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "clip",
+								["UniqueID"] = "511999043",
+								["Angles"] = Angle(0, 104.28125, 0),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3562500460",
+						["Name"] = "pocket",
+						["Scale"] = Vector(1, 1, 0.5),
+						["Alpha"] = 0.999,
+						["Angles"] = Angle(0, -90, 0),
+						["Size"] = 0.3,
+						["Position"] = Vector(-6.48193359375, 12.564697265625, -8.865234375),
+						["AngleOffset"] = Angle(0, -17.59375, 0),
+						["Model"] = "models/props_phx/construct/metal_plate_curve.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["BaseTexture"] = "http://puu.sh/joaGL/1657cbcbd0.jpg",
+								["BaseTexturePosition"] = Vector(0, 0.20000000298023, 0),
+								["UniqueID"] = "3103965120",
+								["BaseTextureAngle"] = 0.175,
+								["BaseTextureScale"] = Vector(0.60000002384186, 0.40000000596046, 1),
+								["ClassName"] = "material",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2993738977",
+						["Name"] = "back",
+						["Scale"] = Vector(1, 1, 0.5),
+						["Angles"] = Angle(0, 90, 0),
+						["Size"] = 0.3,
+						["Position"] = Vector(0.42300000786781, -14.28600025177, -8.84765625),
+						["AngleOffset"] = Angle(0, -45, 0),
+						["Model"] = "models/props_phx/construct/metal_plate_curve.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[6] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "proxy",
+								["UniqueID"] = "3774378171",
+								["Axis"] = "z",
+								["Min"] = -0.9,
+								["Input"] = "voice_volume",
+								["VariableName"] = "Scale",
+							},
+						},
+					},
+					["self"] = {
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+						["UniqueID"] = "4240230858",
+						["Size"] = 0.375,
+						["Color"] = Vector(0, 0, 0),
+						["Position"] = Vector(3.0517578125e-005, 12.519592285156, 0.7353515625),
+						["Name"] = "mouth",
+						["Scale"] = Vector(1, 1, 0.050000000745058),
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "729476224",
+						["Name"] = "overall two",
+						["Scale"] = Vector(1, 0.40000000596046, 0.89999997615814),
+						["Material"] = "http://puu.sh/joaGL/1657cbcbd0.jpg",
+						["Size"] = 14.675,
+						["Position"] = Vector(-4.0859999656677, 0.00311279296875, -3.10546875),
+						["Angles"] = Angle(3.6232024285709e-005, 180, -90.000007629395),
+						["Model"] = "http://puu.sh/joeXD/8b7420f4b6.obj",
+						["ClassName"] = "model",
+					},
+				},
+				[8] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Position"] = Vector(4.6959838867188, 0.0023193359375, -0.0361328125),
+										["ClassName"] = "model",
+										["UniqueID"] = "423917936",
+										["Size"] = 0.175,
+										["Color"] = Vector(255, 191, 0),
+										["Material"] = "models/debug/debugwhite",
+										["Model"] = "models/pac/default.mdl",
+										["Scale"] = Vector(0.10000000149012, 1, 1),
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["UniqueID"] = "1857441314",
+										["Color"] = Vector(0, 0, 0),
+										["Size"] = 0.125,
+										["Model"] = "models/pac/default.mdl",
+										["Position"] = Vector(4.1895141601563, -8.392333984375e-005, -0.017578125),
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Position"] = Vector(0.40000000596046, 0, 0.60000002384186),
+								["Model"] = "models/pac/default.mdl",
+								["Size"] = 0.595,
+								["EditorExpand"] = true,
+								["EyeAngles"] = true,
+								["UniqueID"] = "547107303",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Material"] = "models/shadertest/envball_4",
+								["Position"] = Vector(-0.00201416015625, -0.0625, 4.8096923828125),
+								["Size"] = 0.195,
+								["EditorExpand"] = true,
+								["UniqueID"] = "3035008176",
+								["Model"] = "models/hunter/tubes/tube1x1x1.mdl",
+								["Scale"] = Vector(1, 1, 0.10000000149012),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/envball_4",
+								["UniqueID"] = "1517178422",
+								["ClassName"] = "model",
+								["Size"] = 0.15,
+								["Position"] = Vector(-4.9000000953674, 0, 0),
+								["Model"] = "models/Mechanics/robotics/a1.mdl",
+								["Angles"] = Angle(0, 90, 0),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3078992764",
+						["Name"] = "eye two",
+						["Scale"] = Vector(1, 1, 1.2000000476837),
+						["Material"] = "models/shadertest/envball_4",
+						["Size"] = 0.1,
+						["Position"] = Vector(-4.5159997940063, 11.173583984375, 7.654296875),
+						["Angles"] = Angle(0, 0, -90),
+						["Model"] = "models/props_phx/construct/metal_plate_curve360.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[9] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["BaseTexture"] = "http://puu.sh/joaGL/1657cbcbd0.jpg",
+								["BaseTexturePosition"] = Vector(0, 0.20000000298023, 0),
+								["UniqueID"] = "3213941220",
+								["BaseTextureAngle"] = 0.175,
+								["BaseTextureScale"] = Vector(0.60000002384186, 0.40000000596046, 1),
+								["ClassName"] = "material",
+								["EditorExpand"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["UniqueID"] = "3552392544",
+								["Position"] = Vector(-4.416015625, 7.8756103515625, 5.9384765625),
+								["Color"] = Vector(60, 44, 0),
+								["Size"] = 0.35,
+								["Model"] = "models/cheeze/beta/white_button.mdl",
+								["Angles"] = Angle(-89.999992370605, 11.481636047363, 0),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["UniqueID"] = "1339823374",
+								["Position"] = Vector(7.302490234375, -3.7674560546875, 6.080078125),
+								["Color"] = Vector(60, 44, 0),
+								["Size"] = 0.35,
+								["Model"] = "models/cheeze/beta/white_button.mdl",
+								["Angles"] = Angle(-89.999992370605, 77.652793884277, 0),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2173425826",
+						["Name"] = "front",
+						["Scale"] = Vector(1, 1, 0.5),
+						["Angles"] = Angle(0, -90, 0),
+						["Size"] = 0.3,
+						["Position"] = Vector(-0.4229736328125, 14.286010742188, -8.84765625),
+						["AngleOffset"] = Angle(0, -45, 0),
+						["Model"] = "models/props_phx/construct/metal_plate_curve.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[10] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Position"] = Vector(4.6959838867188, 0.0023193359375, -0.0361328125),
+										["ClassName"] = "model",
+										["UniqueID"] = "1564483975",
+										["Size"] = 0.175,
+										["Color"] = Vector(183, 153, 71),
+										["Material"] = "models/debug/debugwhite",
+										["Model"] = "models/pac/default.mdl",
+										["Scale"] = Vector(0.10000000149012, 1, 1),
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["UniqueID"] = "423917936",
+										["Color"] = Vector(0, 0, 0),
+										["Size"] = 0.125,
+										["Model"] = "models/pac/default.mdl",
+										["Position"] = Vector(4.1895141601563, -8.392333984375e-005, -0.017578125),
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Position"] = Vector(-0.40000000596046, 0, 0.60000002384186),
+								["Model"] = "models/pac/default.mdl",
+								["Size"] = 0.595,
+								["EditorExpand"] = true,
+								["EyeAngles"] = true,
+								["UniqueID"] = "72243706",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Material"] = "models/shadertest/envball_4",
+								["UniqueID"] = "3923210057",
+								["ClassName"] = "model",
+								["Size"] = 0.15,
+								["Position"] = Vector(4.9000000953674, 0, 0),
+								["Model"] = "models/Mechanics/robotics/a1.mdl",
+								["Angles"] = Angle(0, 90, 0),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["Material"] = "models/shadertest/envball_4",
+								["Position"] = Vector(-0.00341796875, -0.0390625, 4.798095703125),
+								["Size"] = 0.195,
+								["EditorExpand"] = true,
+								["UniqueID"] = "1379022869",
+								["Model"] = "models/hunter/tubes/tube1x1x1.mdl",
+								["Scale"] = Vector(1, 1, 0.10000000149012),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "43070816",
+						["Name"] = "eye",
+						["Scale"] = Vector(1, 1, 1.2000000476837),
+						["Material"] = "models/shadertest/envball_4",
+						["Size"] = 0.1,
+						["Position"] = Vector(4.5161743164063, 11.173583984375, 7.654296875),
+						["Angles"] = Angle(0, 0, -90),
+						["Model"] = "models/props_phx/construct/metal_plate_curve360.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[11] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(0, 90, 0),
+								["ClassName"] = "clip",
+								["UniqueID"] = "511999043",
+								["Position"] = Vector(-0.268310546875, 4.2806396484375, 0.0361328125),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["BaseTexture"] = "http://puu.sh/joelU/d5aa3368f9.png",
+								["BaseTextureScale"] = Vector(5, 1.7999999523163, 1),
+								["UniqueID"] = "2252204645",
+								["ClassName"] = "material",
+								["EditorExpand"] = true,
+								["BaseTextureAngleCenter"] = Vector(0, 0, 0),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-90, 89.96875, 0),
+								["ClassName"] = "clip",
+								["UniqueID"] = "651807201",
+								["Position"] = Vector(-0.275146484375, 4.2796020507813, 2.14453125),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3874378092",
+						["Name"] = "gru",
+						["Scale"] = Vector(1, 1, 0.5),
+						["Alpha"] = 0.999,
+						["Angles"] = Angle(0, -90, 0),
+						["Size"] = 0.3,
+						["Model"] = "models/props_phx/construct/metal_plate_curve.mdl",
+						["ClassName"] = "model",
+						["AngleOffset"] = Angle(0, -9.1875, 0),
+						["Translucent"] = true,
+						["Position"] = Vector(-8.160400390625, 11.464477539063, -10.41015625),
+					},
+				},
+				[12] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "4042211260",
+						["Name"] = "overall one",
+						["Scale"] = Vector(1, 0.40000000596046, 0.89999997615814),
+						["Material"] = "http://puu.sh/joaGL/1657cbcbd0.jpg",
+						["Size"] = 14.675,
+						["Position"] = Vector(4.085693359375, 0.00311279296875, -3.10546875),
+						["Angles"] = Angle(5.8696929272628e-007, 0, -90),
+						["Model"] = "http://puu.sh/joeXD/8b7420f4b6.obj",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(1.5693359375, -0.00177001953125, -0.001739501953125),
+				["Name"] = "body",
+				["Scale"] = Vector(1, 1, 0.60000002384186),
+				["Material"] = "models/debug/debugwhite",
+				["ClassName"] = "model",
+				["Size"] = 0.3,
+				["Angles"] = Angle(90, 0, 0),
+				["Color"] = Vector(255, 246, 0),
+				["Bone"] = "spine",
+				["Model"] = "models/hunter/tubes/tube2x2x2.mdl",
+				["UniqueID"] = "1862567497",
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "1646728141",
+				["Bone"] = "left thigh",
+				["Position"] = Vector(5.7820000648499, 0, 6.103515625e-005),
+				["ClassName"] = "bone",
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.0517578125, 0, 1.6891479492188),
+						["ClassName"] = "model",
+						["UniqueID"] = "3434406574",
+						["Size"] = 0.15,
+						["Color"] = Vector(0, 0, 0),
+						["Angles"] = Angle(-36.09375, 0, 0),
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1.7999999523163, 1, 0.89999997615814),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(2.5283203125, 0, 0.582275390625),
+						["ClassName"] = "model",
+						["UniqueID"] = "3528561289",
+						["Size"] = 0.15,
+						["Color"] = Vector(0, 0, 0),
+						["Angles"] = Angle(-9.59375, 0, 0),
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1.8999999761581, 1, 0.89999997615814),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(2.18359375, 0.0087890625, -0.84295654296875),
+						["ClassName"] = "model",
+						["UniqueID"] = "3528561289",
+						["Size"] = 0.15,
+						["Color"] = Vector(0, 0, 0),
+						["Angles"] = Angle(10.40625, 0, 0),
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1.7999999523163, 1, 0.89999997615814),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3723433362",
+				["Name"] = "right hand",
+				["Scale"] = Vector(1.5, 0.80000001192093, 1),
+				["Angles"] = Angle(0, 0, 180),
+				["Size"] = 0.25,
+				["Position"] = Vector(2.6572265625, -0.63800001144409, -0.25811767578125),
+				["Color"] = Vector(0, 0, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/pac/default.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[8] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-90, 0, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "3466087673",
+						["Position"] = Vector(0.000457763671875, -0.00048828125, -8.9833984375),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3382930279",
+				["Name"] = "left leg",
+				["Scale"] = Vector(1, 1, 2.0999999046326),
+				["ClassName"] = "model",
+				["Size"] = 0.075,
+				["Position"] = Vector(1.4365234375, 1.03955078125, -0.00543212890625),
+				["Angles"] = Angle(-89.96875, 180, -11.5),
+				["Bone"] = "left calf",
+				["Model"] = "models/props_phx/construct/metal_plate_curve360.mdl",
+				["Material"] = "http://puu.sh/joaGL/1657cbcbd0.jpg",
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "910991680",
+						["Material"] = "models/weapons/v_crowbar/head_uvw",
+						["Size"] = 0.125,
+						["Model"] = "models/props_phx/construct/metal_angle360.mdl",
+						["Scale"] = Vector(1, 0.5, 1),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2689740447",
+				["Name"] = "right foot",
+				["Scale"] = Vector(1, 0.5, 0.60000002384186),
+				["ClassName"] = "model",
+				["Position"] = Vector(3.59375, 0.94140625, -0.00067138671875),
+				["Angles"] = Angle(0, -32.4375, 90),
+				["Bone"] = "right foot",
+				["Model"] = "models/holograms/hq_hdome.mdl",
+				["Material"] = "models/weapons/v_crowbar/head_uvw",
+			},
+		},
+		[10] = {
+			["children"] = {
+			},
+			["self"] = {
+				["CrouchIdle"] = "idle_all_01",
+				["ClassName"] = "holdtype",
+				["UniqueID"] = "1504032542",
+				["CrouchWalk"] = "walk_all",
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "570459510",
+				["Bone"] = "right thigh",
+				["Position"] = Vector(-5.7822875976563, -0.001953125, 6.103515625e-005),
+				["ClassName"] = "bone",
+			},
+		},
+		[12] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(2.5283203125, 0, 0.582275390625),
+						["ClassName"] = "model",
+						["UniqueID"] = "1795809550",
+						["Size"] = 0.15,
+						["Color"] = Vector(0, 0, 0),
+						["Angles"] = Angle(-9.59375, 0, 0),
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1.8999999761581, 1, 0.89999997615814),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.0517578125, 0, 1.6891479492188),
+						["ClassName"] = "model",
+						["UniqueID"] = "3528561289",
+						["Size"] = 0.15,
+						["Color"] = Vector(0, 0, 0),
+						["Angles"] = Angle(-36.09375, 0, 0),
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1.7999999523163, 1, 0.89999997615814),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(2.18359375, 0.0087890625, -0.84295654296875),
+						["ClassName"] = "model",
+						["UniqueID"] = "1795809550",
+						["Size"] = 0.15,
+						["Color"] = Vector(0, 0, 0),
+						["Angles"] = Angle(10.40625, 0, 0),
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1.7999999523163, 1, 0.89999997615814),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1290265502",
+				["Name"] = "left hand",
+				["Scale"] = Vector(1.5, 0.80000001192093, 1),
+				["ClassName"] = "model",
+				["Size"] = 0.25,
+				["Color"] = Vector(0, 0, 0),
+				["Bone"] = "left hand",
+				["Model"] = "models/pac/default.mdl",
+				["Position"] = Vector(2.6611328125, -0.64700001478195, 0.25738525390625),
+			},
+		},
+		[13] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "370342216",
+				["Bone"] = "right upperarm",
+				["Position"] = Vector(21.4296875, -6.3505859375, 0.0003662109375),
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "3832576266",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},

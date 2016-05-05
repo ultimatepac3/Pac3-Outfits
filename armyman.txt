@@ -1,0 +1,921 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3269160085",
+						["Event"] = "weapon_class",
+						["Arguments"] = "pistol",
+						["Name"] = "weapon class find simple\"pistol\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "668495693",
+				["Name"] = "w pist fiveseven",
+				["Angles"] = Angle(2.125, -4.71875, -179.53125),
+				["ClassName"] = "model",
+				["Size"] = 1.075,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(16, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_pist_fiveseven.mdl",
+				["Position"] = Vector(2.9349999427795, -1.4220000505447, 2.2809998989105),
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4157705974",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crossbow",
+						["Name"] = "weapon class find simple\"crossbow\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1823903763",
+				["Name"] = "w snip gsg",
+				["ClassName"] = "model",
+				["Angles"] = Angle(-86.03125, -96.625, 9.03125),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(33, 255, 0),
+				["Bone"] = "bowr 1",
+				["Model"] = "models/weapons/w_snip_g3sg1.mdl",
+				["Position"] = Vector(6.9705810546875, -8.4990234375, -10.226806640625),
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4138592968",
+						["Event"] = "weapon_class",
+						["Arguments"] = "weapon_frag",
+						["Name"] = "weapon class find simple\"weapon frag\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "291339596",
+				["Name"] = "w eq fraggrenade",
+				["ClassName"] = "model",
+				["Angles"] = Angle(8.3125, -88.78125, -169.71875),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(33, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_eq_fraggrenade.mdl",
+				["Position"] = Vector(2.900390625, -2.9755859375, 0.794921875),
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2897246434",
+						["Event"] = "weapon_class",
+						["Arguments"] = "phys",
+						["Name"] = "weapon class find simple\"phys\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3712424521",
+				["Name"] = "w physics",
+				["ClassName"] = "model",
+				["Angles"] = Angle(-6.5625, -7.21875, -78.9375),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(33, 255, 0),
+				["Bone"] = "left hand",
+				["Model"] = "models/weapons/w_physics.mdl",
+				["Position"] = Vector(-3.9219999313354, -0.64300000667572, 9.0139999389648),
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2215900767",
+						["Event"] = "weapon_class",
+						["Arguments"] = "tool",
+						["Name"] = "weapon class find simple\"tool\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2506900838",
+				["Name"] = "w toolgun",
+				["ClassName"] = "model",
+				["Angles"] = Angle(1.1875, -9.1875, -183.09375),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(16, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_toolgun.mdl",
+				["Position"] = Vector(0.046000000089407, -0.81099998950958, -1.0659999847412),
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "743450649",
+						["Event"] = "weapon_class",
+						["Arguments"] = "shotgun",
+						["Name"] = "weapon class find simple\"shotgun\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2215368308",
+				["Name"] = "w shot msuper",
+				["ClassName"] = "model",
+				["Angles"] = Angle(-87.4375, -149.78125, 58.5),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(33, 255, 0),
+				["Bone"] = "gun",
+				["Model"] = "models/weapons/w_shot_m3super90.mdl",
+				["Position"] = Vector(-0.22300000488758, -7.2709999084473, -7.2620000839233),
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2162334464",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["Name"] = "weapon class find simple\"crowbar\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "7404495",
+				["Name"] = "w spade",
+				["ClassName"] = "model",
+				["Angles"] = Angle(-0.59375, -30.6875, -2.125),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(4, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_spade.mdl",
+				["Position"] = Vector(2.1879999637604, -2.7709999084473, -34.1513671875),
+			},
+		},
+		[8] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "288188024",
+						["Event"] = "weapon_class",
+						["Arguments"] = "weapon_357",
+						["Name"] = "weapon class find simple\"weapon 357\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2548162068",
+				["Name"] = "w pist deagle",
+				["ClassName"] = "model",
+				["Angles"] = Angle(2.25, -13.34375, 179.25),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(33, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_pist_deagle.mdl",
+				["Position"] = Vector(3.040283203125, -1.712890625, 2.5517578125),
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4066804567",
+						["Event"] = "weapon_class",
+						["Arguments"] = "ar2",
+						["Name"] = "weapon class find simple\"ar2\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2338297385",
+				["Name"] = "w rif ak",
+				["Angles"] = Angle(-1.8125, 12.15625, -164.59375),
+				["ClassName"] = "model",
+				["Size"] = 1.2,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(8, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_rif_ak47.mdl",
+				["Position"] = Vector(3.2039999961853, -3.260999917984, 4.2690000534058),
+			},
+		},
+		[10] = {
+			["children"] = {
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["HideEntity"] = true,
+				["Color"] = Vector(33, 255, 0),
+				["UniqueID"] = "328265491",
+				["Name"] = "viewmodel",
+				["ClassName"] = "entity",
+			},
+		},
+		[11] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.99560546875, -4.4521484375, 12.498046875),
+						["Name"] = "trappropeller lever",
+						["ClassName"] = "model",
+						["Size"] = 0.5,
+						["Angles"] = Angle(-21.3125, 10.8125, -144.0625),
+						["Color"] = Vector(33, 255, 0),
+						["Material"] = "models/debug/debugwhite",
+						["Model"] = "models/props_c17/TrapPropeller_Lever.mdl",
+						["UniqueID"] = "2385159773",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "214942264",
+						["Event"] = "weapon_class",
+						["Arguments"] = "rpg",
+						["Name"] = "weapon class find simple\"rpg\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2241616908",
+				["Name"] = "metal plate curvex",
+				["Scale"] = Vector(1, 4.8000001907349, 1),
+				["Angles"] = Angle(-2.3125, 96.53125, 56.0625),
+				["ClassName"] = "model",
+				["Size"] = 0.04,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(33, 255, 0),
+				["Bone"] = "foot",
+				["Model"] = "models/props_phx/construct/metal_plate_curve360x2.mdl",
+				["Position"] = Vector(12.211000442505, -10.798000335693, -11.458000183105),
+			},
+		},
+		[12] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "989959292",
+						["Event"] = "weapon_class",
+						["Arguments"] = "smg",
+						["Name"] = "weapon class find simple\"smg\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "4018579419",
+				["Name"] = "w smg mp",
+				["ClassName"] = "model",
+				["Angles"] = Angle(-4.3125, -9.25, -179.125),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(50, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_smg_mp5.mdl",
+				["Position"] = Vector(3.3220000267029, -1.6909999847412, 4.7049999237061),
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["OwnerName"] = "viewmodel",
+		["UniqueID"] = "1022779447",
+		["Name"] = "viewmodel",
+		["Description"] = "add parts to me!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "53905759",
+						["Event"] = "weapon_class",
+						["Arguments"] = "shotgun",
+						["Name"] = "weapon class find simple\"shotgun\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2050867211",
+				["Name"] = "w shot msuper",
+				["Angles"] = Angle(-81.15625, 112.15625, 148.34375),
+				["ClassName"] = "model",
+				["Size"] = 0.4,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(21, 255, 0),
+				["Bone"] = "attach right hand",
+				["Model"] = "models/weapons/w_shot_m3super90.mdl",
+				["Position"] = Vector(-0.671142578125, -1.2431640625, 3.6591796875),
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2239231311",
+						["Event"] = "weapon_class",
+						["Arguments"] = "ar2",
+						["Name"] = "weapon class find simple\"ar2\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "61655316",
+				["Name"] = "w rif ak",
+				["Angles"] = Angle(-0.3125, -5.75, 176.6875),
+				["ClassName"] = "model",
+				["Size"] = 0.425,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(8, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_rif_ak47.mdl",
+				["Position"] = Vector(4.107421875, -0.589111328125, 1.921875),
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1094621664",
+						["Event"] = "weapon_class",
+						["Arguments"] = "weapon_frag",
+						["Name"] = "weapon class find simple\"weapon frag\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "262771576",
+				["Name"] = "w eq fraggrenade",
+				["Angles"] = Angle(10.15625, -179.96875, -179.96875),
+				["ClassName"] = "model",
+				["Size"] = 0.4,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(33, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_eq_fraggrenade.mdl",
+				["Position"] = Vector(0.6572265625, -1.044921875, 1.14990234375),
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2977173243",
+						["Event"] = "weapon_class",
+						["Arguments"] = "phys",
+						["Name"] = "weapon class find simple\"phys\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(0.81591796875, -0.51611328125, -1.4150390625),
+				["Name"] = "w physics",
+				["Fullbright"] = true,
+				["UniqueID"] = "2898608270",
+				["Angles"] = Angle(6.4375, 10.0625, -161.125),
+				["Size"] = 0.4,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(4, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_physics.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Arguments"] = "rpg",
+						["UniqueID"] = "2601166798",
+						["Event"] = "weapon_class",
+						["Name"] = "weapon class find simple\"tool\"",
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "390970391",
+				["Name"] = "computer keyboard",
+				["Scale"] = Vector(1.2000000476837, 0.69999998807907, 1.2000000476837),
+				["ClassName"] = "model",
+				["Angles"] = Angle(48.90625, -34.71875, 88.9375),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(16, 255, 0),
+				["Bone"] = "left foot",
+				["Model"] = "models\\props/cs_office/computer_keyboard.mdl",
+				["Position"] = Vector(-0.5859375, 2.8271484375, -2.9871826171875),
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3347196377",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["Name"] = "weapon class find simple\"crowbar\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2593467592",
+				["Name"] = "w spade",
+				["Angles"] = Angle(0, 0, -1.25),
+				["ClassName"] = "model",
+				["Size"] = 0.375,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(4, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_spade.mdl",
+				["Position"] = Vector(1.3876953125, -0.93310546875, -14.49462890625),
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1932254502",
+						["Event"] = "weapon_class",
+						["Arguments"] = "weapon_357",
+						["Name"] = "weapon class find simple\"weapon 357\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "929028506",
+				["Name"] = "w pist deagle",
+				["Angles"] = Angle(0, 0, -172.84375),
+				["ClassName"] = "model",
+				["Size"] = 0.475,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(33, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_pist_deagle.mdl",
+				["Position"] = Vector(1.045166015625, -1.20361328125, 1.576171875),
+			},
+		},
+		[8] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4071765843",
+						["Event"] = "weapon_class",
+						["Arguments"] = "tool",
+						["Name"] = "weapon class find simple\"tool\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2278300929",
+				["Name"] = "w toolgun",
+				["Angles"] = Angle(0, 0, -177.3125),
+				["ClassName"] = "model",
+				["Size"] = 0.4,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(16, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_toolgun.mdl",
+				["Position"] = Vector(0.050537109375, -0.3134765625, -0.47265625),
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2232864111",
+						["Event"] = "weapon_class",
+						["Arguments"] = "smg",
+						["Name"] = "weapon class find simple\"smg\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1500349813",
+				["Name"] = "w smg mp",
+				["Angles"] = Angle(12.9375, -3, 168.15625),
+				["ClassName"] = "model",
+				["Size"] = 0.375,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(50, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_smg_mp5.mdl",
+				["Position"] = Vector(2.892822265625, -0.240234375, 1.734375),
+			},
+		},
+		[10] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4070238291",
+						["Event"] = "weapon_class",
+						["Arguments"] = "rpg",
+						["Name"] = "weapon class find simple\"tool\"",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(-1.41845703125, -1.89111328125, 3.3896484375),
+								["Name"] = "trappropeller lever 1",
+								["ClassName"] = "model",
+								["Size"] = 0.5,
+								["Angles"] = Angle(22.59375, -11.53125, -118),
+								["Color"] = Vector(33, 255, 0),
+								["Material"] = "models/debug/debugwhite",
+								["Model"] = "models/props_c17/TrapPropeller_Lever.mdl",
+								["UniqueID"] = "3924355970",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(1.061279296875, -1.870849609375, 3.54296875),
+								["Name"] = "trappropeller lever",
+								["ClassName"] = "model",
+								["Size"] = 0.5,
+								["Angles"] = Angle(-21.3125, 10.8125, -117.75),
+								["Color"] = Vector(33, 255, 0),
+								["Material"] = "models/debug/debugwhite",
+								["Model"] = "models/props_c17/TrapPropeller_Lever.mdl",
+								["UniqueID"] = "3686576859",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(2.481201171875, -5.314453125, 1.2861328125),
+						["UniqueID"] = "510256949",
+						["Name"] = "metal plate curvex",
+						["Scale"] = Vector(1, 1, 5.4000000953674),
+						["EditorExpand"] = true,
+						["Material"] = "models/debug/debugwhite",
+						["Size"] = 0.025,
+						["UseLegacyScale"] = true,
+						["Color"] = Vector(33, 255, 0),
+						["Angles"] = Angle(5.3437876701355, 3.124981880188, 25.038110733032),
+						["Model"] = "models/props_phx/construct/metal_plate_curve360x2.mdl",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2357004359",
+				["Name"] = "computer keyboard",
+				["Scale"] = Vector(1.3999999761581, 0.80000001192093, 1.2000000476837),
+				["ClassName"] = "model",
+				["Angles"] = Angle(-54.21875, -138.53125, 59.03125),
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(16, 255, 0),
+				["Bone"] = "left foot",
+				["Model"] = "models\\props/cs_office/computer_keyboard.mdl",
+				["Position"] = Vector(-3.6982421875, -2.806640625, -4.2275390625),
+			},
+		},
+		[11] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2831650083",
+						["Event"] = "weapon_class",
+						["Arguments"] = "rpg",
+						["Name"] = "weapon class find simple\"rpg\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Name"] = "pose ducking 01",
+				["ClassName"] = "animation",
+				["UniqueID"] = "2723578469",
+				["SequenceName"] = "pose_ducking_01",
+			},
+		},
+		[12] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1670881766",
+						["Event"] = "weapon_class",
+						["Arguments"] = "camera",
+						["Name"] = "weapon class find simple\"camera\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Name"] = "pose standing 01",
+				["ClassName"] = "animation",
+				["UniqueID"] = "3231508068",
+				["SequenceName"] = "pose_standing_01",
+			},
+		},
+		[13] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(1.32666015625, 0.9305419921875, -10.517578125),
+						["Name"] = "trappropeller lever 1",
+						["Scale"] = Vector(1, 2.7000000476837, 1),
+						["Material"] = "models/debug/debugwhite",
+						["Size"] = 0.525,
+						["UniqueID"] = "1651393714",
+						["Color"] = Vector(33, 255, 0),
+						["Angles"] = Angle(-13.3125, 9.21875, -91.09375),
+						["Model"] = "models/props_c17/TrapPropeller_Lever.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-3.45947265625, -2.515380859375, -10.51953125),
+						["Name"] = "trappropeller lever 1",
+						["Scale"] = Vector(1, 2.7000000476837, 1),
+						["Material"] = "models/debug/debugwhite",
+						["Size"] = 0.525,
+						["UniqueID"] = "1229932080",
+						["Color"] = Vector(33, 255, 0),
+						["Angles"] = Angle(19.09375, 4.96875, -108.3125),
+						["Model"] = "models/props_c17/TrapPropeller_Lever.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2190735900",
+						["Event"] = "weapon_class",
+						["Arguments"] = "camera",
+						["Name"] = "weapon class find simple\"camera\"",
+						["Invert"] = true,
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-3.195068359375, 3.814697265625, -10.8134765625),
+						["Name"] = "trappropeller lever",
+						["Scale"] = Vector(1, 2.7000000476837, 1),
+						["Material"] = "models/debug/debugwhite",
+						["Size"] = 0.525,
+						["UniqueID"] = "842889120",
+						["Color"] = Vector(33, 255, 0),
+						["Angles"] = Angle(19.09375, 4.96875, -71.0625),
+						["Model"] = "models/props_c17/TrapPropeller_Lever.mdl",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2783972979",
+				["Name"] = "camera",
+				["Angles"] = Angle(-35.4375, 157.125, 173.6875),
+				["ClassName"] = "model",
+				["Size"] = 0.4,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(33, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/dav0r/camera.mdl",
+				["Position"] = Vector(0.92578125, 1.31103515625, 2.203125),
+			},
+		},
+		[14] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "842585931",
+				["DrawWeapon"] = false,
+				["ClassName"] = "entity",
+				["Size"] = 0.4,
+				["Name"] = "KombatWaffle",
+				["Color"] = Vector(21, 255, 0),
+				["EditorExpand"] = true,
+				["Model"] = "models/player/Barney.mdl",
+				["Material"] = "models/debug/debugwhite",
+			},
+		},
+		[15] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "540857354",
+						["Event"] = "weapon_class",
+						["Arguments"] = "pistol",
+						["Name"] = "weapon class find simple\"pistol\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2637923369",
+				["Name"] = "w pist fiveseven",
+				["Angles"] = Angle(4.84375, -4.125, -179.53125),
+				["ClassName"] = "model",
+				["Size"] = 0.45,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(16, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_pist_fiveseven.mdl",
+				["Position"] = Vector(1.50732421875, -1.07275390625, 1.4296875),
+			},
+		},
+		[16] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2498103167",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crossbow",
+						["Name"] = "weapon class find simple\"crossbow\"",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "4173258736",
+				["Name"] = "w snip gsg",
+				["Angles"] = Angle(-10.84375, 6.15625, 171.34375),
+				["ClassName"] = "model",
+				["Size"] = 0.4,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(8, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_snip_g3sg1.mdl",
+				["Position"] = Vector(4.24169921875, 0.20849609375, 2.728515625),
+			},
+		},
+		[17] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(1.0595703125, -0.401611328125, 0.05322265625),
+				["Name"] = "hardhat",
+				["Scale"] = Vector(0.89999997615814, 1, 1),
+				["Material"] = "models/debug/debugwhite",
+				["Size"] = 0.35,
+				["UniqueID"] = "900570159",
+				["Color"] = Vector(0, 255, 4),
+				["Angles"] = Angle(-0.34375, 109.71875, 89.1875),
+				["Model"] = "models/props_2fort/hardhat001.mdl",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "2250661624",
+		["Description"] = "add parts to me!",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3736919854",
+				["Name"] = "w eq fraggrenade",
+				["Angles"] = Angle(4.09375, -179.96875, -179.96875),
+				["ClassName"] = "model",
+				["Size"] = 0.6,
+				["Material"] = "models/debug/debugwhite",
+				["Color"] = Vector(25, 255, 0),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_eq_fraggrenade.mdl",
+				["Position"] = Vector(-0.146484375, -1.818359375, 1.998046875),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["UniqueID"] = "1011351244",
+				["DrawWeapon"] = false,
+				["Name"] = "entity",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "group",
+		["ClassName"] = "group",
+		["UniqueID"] = "1112212955",
+		["OwnerName"] = "npc_grenade_frag",
+	},
+},

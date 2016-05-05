@@ -1,0 +1,434 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "ogg",
+								["UniqueID"] = "157237120",
+								["URL"] = "https://dl.dropboxusercontent.com/s/i02kh7aeef7eqzv/step1.ogg?dl=0",
+								["Name"] = "left",
+								["Volume"] = 2,
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["Invert"] = true,
+						["Name"] = "is ranger below 5?",
+						["ClassName"] = "event",
+						["UniqueID"] = "3181550699",
+						["RootOwner"] = false,
+						["EditorExpand"] = true,
+						["Operator"] = "below",
+						["Arguments"] = "5@@10",
+						["Event"] = "ranger",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3681250577",
+				["TintColor"] = Vector(0.63942295312881, 0.63942295312881, 0.63942295312881),
+				["Name"] = "left foot",
+				["Alpha"] = 0,
+				["Angles"] = Angle(0, 90, 0),
+				["EditorExpand"] = true,
+				["Bone"] = "left toe",
+				["ClassName"] = "model",
+				["Position"] = Vector(-30, 0, 0),
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "ogg",
+								["UniqueID"] = "3425895079",
+								["URL"] = "https://dl.dropboxusercontent.com/s/vijmjo52h5jnto5/step2.ogg?dl=0",
+								["Name"] = "right",
+								["Volume"] = 2,
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["Invert"] = true,
+						["Name"] = "is ranger below 5?",
+						["ClassName"] = "event",
+						["UniqueID"] = "213354147",
+						["RootOwner"] = false,
+						["EditorExpand"] = true,
+						["Operator"] = "below",
+						["Arguments"] = "5@@10",
+						["Event"] = "ranger",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "103201093",
+				["TintColor"] = Vector(0.63942295312881, 0.63942295312881, 0.63942295312881),
+				["Name"] = "right foot",
+				["Alpha"] = 0,
+				["Angles"] = Angle(0, 90, 0),
+				["EditorExpand"] = true,
+				["Bone"] = "right toe",
+				["ClassName"] = "model",
+				["Position"] = Vector(-30, 0, 0),
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "footsteps",
+		["ClassName"] = "group",
+		["UniqueID"] = "2980027574",
+		["Description"] = "add parts to me!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "owner_health",
+						["Invert"] = true,
+						["Operator"] = "equal or below",
+						["UniqueID"] = "2573404273",
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "2571418945",
+				["URL"] = "https://dl.dropboxusercontent.com/s/yndcpzwoxqqfyhq/death.ogg?dl=0",
+				["Name"] = "die",
+				["Volume"] = 2,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "speed",
+								["UniqueID"] = "2340890207",
+								["Operator"] = "equal or above",
+								["ClassName"] = "event",
+								["Arguments"] = "120",
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "models/debug/debugwhite",
+						["UniqueID"] = "4177975946",
+						["ClassName"] = "model",
+						["Angles"] = Angle(-25, 0, 0),
+						["Position"] = Vector(-0.0849609375, -0.0205078125, 10),
+						["Model"] = "models/jaanus/wiretool/wiretool_siren.mdl",
+						["Scale"] = Vector(1, 1, 2),
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 0.2,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "2017758063",
+								["Pow"] = 120,
+								["Min"] = 1,
+								["VariableName"] = "Scale",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(8.5859375, -16.4765625, 9.8076171875),
+						["ClassName"] = "model",
+						["UniqueID"] = "934998093",
+						["Size"] = 0.2,
+						["Color"] = Vector(0, 0, 0),
+						["Material"] = "models/debug/debugwhite",
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(0.97327440977097, 1, 1),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(17.0849609375, -1.5166015625, -0.0126953125),
+						["ClassName"] = "model",
+						["UniqueID"] = "4126629706",
+						["Size"] = 0.675,
+						["Color"] = Vector(255, 0, 0),
+						["Material"] = "models/debug/debugwhite",
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1.3999999761581, 1, 0.5),
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "4164467731",
+						["Scale"] = Vector(1.2999999523163, 1, 0.5),
+						["ClassName"] = "model",
+						["Size"] = 0.675,
+						["Position"] = Vector(17.083984375, -9.087890625, -0.0048828125),
+						["Color"] = Vector(255, 0, 0),
+						["Angles"] = Angle(0, -24.4375, 0),
+						["Model"] = "models/pac/default.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 0.2,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "1197123299",
+								["Pow"] = 120,
+								["Min"] = 1,
+								["VariableName"] = "Scale",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(8.5859375, -16.4765625, -9.8079996109009),
+						["ClassName"] = "model",
+						["UniqueID"] = "433214818",
+						["Size"] = 0.2,
+						["Color"] = Vector(0, 0, 0),
+						["Material"] = "models/debug/debugwhite",
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(0.97327440977097, 1, 1),
+					},
+				},
+				[6] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1374755379",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "120",
+								["Invert"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 25,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "2378742941",
+								["Axis"] = "x",
+								["InputMultiplier"] = 50,
+								["Min"] = -25,
+								["VariableName"] = "Angles",
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "models/debug/debugwhite",
+						["UniqueID"] = "2137341870",
+						["ClassName"] = "model",
+						["Angles"] = Angle(24.463556289673, 0, 0),
+						["Position"] = Vector(-0.0849609375, -0.0205078125, 10),
+						["Model"] = "models/jaanus/wiretool/wiretool_siren.mdl",
+						["Scale"] = Vector(1, 1, 2),
+					},
+				},
+				[7] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "speed",
+								["UniqueID"] = "790761019",
+								["Operator"] = "equal or above",
+								["ClassName"] = "event",
+								["Arguments"] = "120",
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "models/debug/debugwhite",
+						["UniqueID"] = "3272896138",
+						["ClassName"] = "model",
+						["Angles"] = Angle(-25, -179.96875, 179.96875),
+						["Position"] = Vector(-0.0849609375, -0.0205078125, -10),
+						["Model"] = "models/jaanus/wiretool/wiretool_siren.mdl",
+						["Scale"] = Vector(1, 1, 2),
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "62950917",
+						["Scale"] = Vector(1.3999999761581, 1, 0.5),
+						["ClassName"] = "model",
+						["Size"] = 0.675,
+						["Position"] = Vector(15.3759765625, 6.14453125, -0.025390625),
+						["Color"] = Vector(255, 0, 0),
+						["Angles"] = Angle(0, 20.03125, 0),
+						["Model"] = "models/pac/default.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[9] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 25,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "598834040",
+								["Axis"] = "x",
+								["InputMultiplier"] = 50,
+								["Min"] = -25,
+								["VariableName"] = "Angles",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "2524308481",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "120",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "models/debug/debugwhite",
+						["UniqueID"] = "3519125180",
+						["ClassName"] = "model",
+						["Angles"] = Angle(-13.969485282898, -179.96875, 179.96875),
+						["Position"] = Vector(-0.0849609375, -0.0205078125, -10),
+						["Model"] = "models/jaanus/wiretool/wiretool_siren.mdl",
+						["Scale"] = Vector(1, 1, 2),
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 0, 90),
+						["ClassName"] = "model",
+						["UniqueID"] = "2848806626",
+						["Size"] = 0.6,
+						["Color"] = Vector(225, 255, 0),
+						["Position"] = Vector(4.125, -18.5498046875, 0.01318359375),
+						["Model"] = "models/holograms/hq_cone.mdl",
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+			},
+			["self"] = {
+				["Material"] = "models/debug/debugwhite",
+				["UniqueID"] = "1057744503",
+				["ClassName"] = "model",
+				["Size"] = 2.725,
+				["Model"] = "models/holograms/hq_rcube.mdl",
+				["Angles"] = Angle(0, 20, 0),
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["WeaponHoldType"] = "normal",
+				["ClassName"] = "animation",
+				["UniqueID"] = "433515585",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["UniqueID"] = "1284980719",
+				["MuteSounds"] = true,
+				["Color"] = Vector(225, 255, 0),
+				["Size"] = 0.425,
+				["DrawWeapon"] = false,
+				["Material"] = "models/debug/debugwhite",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3760603212",
+						["Event"] = "is_on_ground",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "ogg",
+				["UniqueID"] = "2753615413",
+				["URL"] = "https://dl.dropboxusercontent.com/s/5t8c8hsmjk5dz48/jumping.ogg?dl=0",
+				["Name"] = "jump",
+				["Volume"] = 2,
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2344686000",
+				["Bone"] = "left thigh",
+				["Position"] = Vector(20, 0, 0),
+				["ClassName"] = "bone",
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3750030071",
+				["Bone"] = "right thigh",
+				["Position"] = Vector(-20, 0, 0),
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "3405039204",
+		["Description"] = "add parts to me!",
+	},
+},
