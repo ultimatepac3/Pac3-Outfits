@@ -1,0 +1,181 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "575073914",
+								["Event"] = "button",
+								["Arguments"] = "r",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "ogg",
+						["UniqueID"] = "2740786608",
+						["URL"] = "https://dl.dropboxusercontent.com/u/183209082/yell.ogg",
+						["EditorExpand"] = true,
+						["Name"] = "yell",
+						["Volume"] = 4,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "4078255508",
+								["Event"] = "button",
+								["Arguments"] = "r",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "ogg",
+						["UniqueID"] = "2044676629",
+						["URL"] = "https://dl.dropboxusercontent.com/u/183209082/yell.ogg",
+						["EditorExpand"] = true,
+						["Name"] = "yell",
+						["Volume"] = 4,
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "4078255508",
+								["Event"] = "button",
+								["Arguments"] = "r",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "ogg",
+						["UniqueID"] = "2044676629",
+						["URL"] = "https://dl.dropboxusercontent.com/u/183209082/yell.ogg",
+						["EditorExpand"] = true,
+						["Name"] = "yell",
+						["Volume"] = 4,
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "4078255508",
+								["Event"] = "button",
+								["Arguments"] = "r",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "ogg",
+						["UniqueID"] = "2044676629",
+						["URL"] = "https://dl.dropboxusercontent.com/u/183209082/yell.ogg",
+						["EditorExpand"] = true,
+						["Name"] = "yell",
+						["Volume"] = 4,
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "644392823",
+				["Bone"] = "hitpos",
+				["Model"] = "models/pac/default.mdl",
+			},
+		},
+	},
+	["self"] = {
+		["UniqueID"] = "3777923206",
+		["ClassName"] = "group",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "bone",
+				["Position"] = Vector(-3.2451171875, -0.798828125, 0.00341796875),
+				["UniqueID"] = "1677264082",
+				["EditorExpand"] = true,
+				["Scale"] = Vector(1.2000000476837, 1, 1),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["UniqueID"] = "2777888898",
+				["Scale"] = Vector(1, 1, 0.69999998807907),
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Flex"] = "chin_raiser",
+				["ClassName"] = "flex",
+				["Weight"] = 0.9,
+				["UniqueID"] = "1328450831",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Flex"] = "dilator",
+				["ClassName"] = "flex",
+				["Weight"] = 8.9,
+				["UniqueID"] = "4293859428",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Flex"] = "blink",
+				["ClassName"] = "flex",
+				["Weight"] = -12.2,
+				["UniqueID"] = "3841372283",
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Flex"] = "bite",
+				["ClassName"] = "flex",
+				["Weight"] = 4.6,
+				["UniqueID"] = "1276647146",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "1922468849",
+		["Description"] = "add parts to me!",
+	},
+},

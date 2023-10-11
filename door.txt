@@ -1,0 +1,133 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Max"] = 0,
+						["Pow"] = 500,
+						["UniqueID"] = "1881292017",
+						["Min"] = 1,
+						["VariableName"] = "Alpha",
+						["ClassName"] = "proxy",
+						["InputDivider"] = 1000,
+						["Input"] = "eye_position_distance",
+						["Function"] = "abs",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Max"] = 0,
+						["UniqueID"] = "1055872467",
+						["Axis"] = "y",
+						["Min"] = 180,
+						["VariableName"] = "Angles",
+						["ClassName"] = "proxy",
+						["InputDivider"] = 1000,
+						["Input"] = "eye_position_distance",
+						["Function"] = "none",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2006066504",
+				["Model"] = "models/props_phx/construct/metal_plate1x2.mdl",
+				["ClassName"] = "model",
+				["EditorExpand"] = true,
+				["Size"] = 1.225,
+				["PositionOffset"] = Vector(-26.700000762939, 0, 0),
+				["EyeAngles"] = true,
+				["Position"] = Vector(-47.9794921875, 0, 0),
+				["Translucent"] = true,
+				["Angles"] = Angle(0, 72.020782470703, 90),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Position"] = Vector(0, 0, -45.0908203125),
+				["UniqueID"] = "1458698459",
+				["EditorExpand"] = true,
+				["Model"] = "models/props_phx/construct/metal_plate1.mdl",
+				["Scale"] = Vector(5, 5, 1),
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Max"] = 0,
+						["Pow"] = 500,
+						["UniqueID"] = "3601914070",
+						["Min"] = 1,
+						["VariableName"] = "Alpha",
+						["ClassName"] = "proxy",
+						["InputDivider"] = 200,
+						["Function"] = "abs",
+						["Input"] = "eye_position_distance",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "303666683",
+				["Alpha"] = -1.6385384225716e+037,
+				["ClassName"] = "model",
+				["Size"] = 1.225,
+				["Model"] = "models/props_borealis/bluebarrel001.mdl",
+				["Translucent"] = true,
+				["Position"] = Vector(50.087890625, 0, 0),
+				["EyeAngles"] = true,
+				["EditorExpand"] = true,
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Pow"] = 500,
+						["ClassName"] = "proxy",
+						["UniqueID"] = "3601914070",
+						["InputDivider"] = 900,
+						["EditorExpand"] = true,
+						["Input"] = "eye_position_distance",
+						["Function"] = "abs",
+						["VariableName"] = "Alpha",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "303666683",
+				["Model"] = "models/props_phx/construct/metal_plate1x2.mdl",
+				["EditorExpand"] = true,
+				["Alpha"] = 1.0339570833536e-107,
+				["Angles"] = Angle(0, -5.1707034111023, 90),
+				["Size"] = 1.225,
+				["PositionOffset"] = Vector(-26.700000762939, 0, 0),
+				["ClassName"] = "model",
+				["EyeAngles"] = true,
+				["Translucent"] = true,
+				["Position"] = Vector(-47.9794921875, 0, 0),
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["OwnerName"] = "1076",
+		["UniqueID"] = "1088360799",
+		["EditorExpand"] = true,
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},

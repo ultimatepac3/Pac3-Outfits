@@ -1,0 +1,739 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["UniqueID"] = "3344047621",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2053283594",
+		["Name"] = "entity",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Arguments"] = "50",
+								["Invert"] = true,
+								["UniqueID"] = "2557175899",
+								["Event"] = "speed",
+								["Operator"] = "below",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "animation",
+						["UniqueID"] = "651033337",
+						["SequenceName"] = "Idle01",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "speed",
+								["UniqueID"] = "313997517",
+								["Operator"] = "below",
+								["ClassName"] = "event",
+								["Arguments"] = "50",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "animation",
+						["OwnerCycle"] = true,
+						["Rate"] = 100,
+						["SequenceName"] = "Run1",
+						["UniqueID"] = "922966187",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "1626023763",
+						["Bone"] = "hcfast body",
+						["Size"] = 0.1,
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "animation",
+										["UniqueID"] = "2614468135",
+										["SequenceName"] = "drive_jeep",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left bicep",
+										["UniqueID"] = "3831792259",
+										["ClassName"] = "bone",
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left finger 21",
+										["UniqueID"] = "1644305091",
+										["ClassName"] = "bone",
+									},
+								},
+								[4] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "anim_attachment_lh",
+										["UniqueID"] = "2310910076",
+										["ClassName"] = "bone",
+									},
+								},
+								[5] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right finger 11",
+										["UniqueID"] = "2243158851",
+										["ClassName"] = "bone",
+									},
+								},
+								[6] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right forearm",
+										["UniqueID"] = "4067500856",
+										["ClassName"] = "bone",
+									},
+								},
+								[7] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right bicep",
+										["UniqueID"] = "1710109201",
+										["ClassName"] = "bone",
+									},
+								},
+								[8] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right finger 0",
+										["UniqueID"] = "1608799073",
+										["ClassName"] = "bone",
+									},
+								},
+								[9] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "spine 4",
+										["UniqueID"] = "3025926622",
+										["ClassName"] = "bone",
+									},
+								},
+								[10] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right shoulder",
+										["UniqueID"] = "2562118651",
+										["ClassName"] = "bone",
+									},
+								},
+								[11] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right elbow",
+										["UniqueID"] = "3769142367",
+										["ClassName"] = "bone",
+									},
+								},
+								[12] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "invalidbone",
+										["UniqueID"] = "3296006519",
+										["ClassName"] = "bone",
+									},
+								},
+								[13] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left upperarm",
+										["UniqueID"] = "2477146872",
+										["ClassName"] = "bone",
+									},
+								},
+								[14] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left toe",
+										["UniqueID"] = "902908236",
+										["ClassName"] = "bone",
+									},
+								},
+								[15] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left shoulder",
+										["UniqueID"] = "266020924",
+										["ClassName"] = "bone",
+									},
+								},
+								[16] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "forward",
+										["UniqueID"] = "1108576567",
+										["ClassName"] = "bone",
+									},
+								},
+								[17] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left hand",
+										["UniqueID"] = "1189054443",
+										["ClassName"] = "bone",
+									},
+								},
+								[18] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "anim_attachment_head",
+										["UniqueID"] = "4187183317",
+										["ClassName"] = "bone",
+									},
+								},
+								[19] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right clavicle",
+										["UniqueID"] = "3281598885",
+										["ClassName"] = "bone",
+									},
+								},
+								[20] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "attach left hand",
+										["UniqueID"] = "3712927229",
+										["ClassName"] = "bone",
+									},
+								},
+								[21] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left foot",
+										["UniqueID"] = "3649227553",
+										["ClassName"] = "bone",
+									},
+								},
+								[22] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "attach right hand",
+										["UniqueID"] = "2846630792",
+										["ClassName"] = "bone",
+									},
+								},
+								[23] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left wrist",
+										["UniqueID"] = "2487904810",
+										["ClassName"] = "bone",
+									},
+								},
+								[24] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left trapezius",
+										["UniqueID"] = "2146812053",
+										["ClassName"] = "bone",
+									},
+								},
+								[25] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right finger 1",
+										["UniqueID"] = "842883486",
+										["ClassName"] = "bone",
+									},
+								},
+								[26] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(20, 0, 0),
+										["Bone"] = "right thigh",
+										["UniqueID"] = "186066656",
+										["ClassName"] = "bone",
+									},
+								},
+								[27] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left finger 0",
+										["UniqueID"] = "2861303174",
+										["ClassName"] = "bone",
+									},
+								},
+								[28] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "spine 2",
+										["UniqueID"] = "1407844446",
+										["ClassName"] = "bone",
+									},
+								},
+								[29] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "mouth",
+										["UniqueID"] = "801815496",
+										["ClassName"] = "bone",
+									},
+								},
+								[30] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right trapezius",
+										["UniqueID"] = "3363521096",
+										["ClassName"] = "bone",
+									},
+								},
+								[31] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left ulna",
+										["UniqueID"] = "304935530",
+										["ClassName"] = "bone",
+									},
+								},
+								[32] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left finger 01",
+										["UniqueID"] = "2424726774",
+										["ClassName"] = "bone",
+									},
+								},
+								[33] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right hand",
+										["UniqueID"] = "959312029",
+										["ClassName"] = "bone",
+									},
+								},
+								[34] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "eyes",
+										["UniqueID"] = "2959416812",
+										["ClassName"] = "bone",
+									},
+								},
+								[35] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "anim_attachment_rh",
+										["UniqueID"] = "2841561446",
+										["ClassName"] = "bone",
+									},
+								},
+								[36] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right ulna",
+										["UniqueID"] = "2303679122",
+										["ClassName"] = "bone",
+									},
+								},
+								[37] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right calf",
+										["UniqueID"] = "792219942",
+										["ClassName"] = "bone",
+									},
+								},
+								[38] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right finger 21",
+										["UniqueID"] = "3835062381",
+										["ClassName"] = "bone",
+									},
+								},
+								[39] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right upperarm",
+										["UniqueID"] = "1595324815",
+										["ClassName"] = "bone",
+									},
+								},
+								[40] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right finger 2",
+										["UniqueID"] = "147188224",
+										["ClassName"] = "bone",
+									},
+								},
+								[41] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-20, 4.0762438402453e-006, 2.4853768991306e-005),
+										["Bone"] = "left thigh",
+										["UniqueID"] = "1659957293",
+										["ClassName"] = "bone",
+									},
+								},
+								[42] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right finger 12",
+										["UniqueID"] = "2131176059",
+										["ClassName"] = "bone",
+									},
+								},
+								[43] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left finger 2",
+										["UniqueID"] = "4183929403",
+										["ClassName"] = "bone",
+									},
+								},
+								[44] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right wrist",
+										["UniqueID"] = "852462448",
+										["ClassName"] = "bone",
+									},
+								},
+								[45] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left calf",
+										["UniqueID"] = "4270693097",
+										["ClassName"] = "bone",
+									},
+								},
+								[46] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right finger 02",
+										["UniqueID"] = "52924909",
+										["ClassName"] = "bone",
+									},
+								},
+								[47] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left finger 1",
+										["UniqueID"] = "1324298470",
+										["ClassName"] = "bone",
+									},
+								},
+								[48] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "chest",
+										["UniqueID"] = "2374194254",
+										["ClassName"] = "bone",
+									},
+								},
+								[49] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right finger 22",
+										["UniqueID"] = "737435642",
+										["ClassName"] = "bone",
+									},
+								},
+								[50] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left clavicle",
+										["UniqueID"] = "3030979376",
+										["ClassName"] = "bone",
+									},
+								},
+								[51] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left finger 02",
+										["UniqueID"] = "3297246105",
+										["ClassName"] = "bone",
+									},
+								},
+								[52] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right finger 01",
+										["UniqueID"] = "1641076259",
+										["ClassName"] = "bone",
+									},
+								},
+								[53] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left forearm",
+										["UniqueID"] = "2908761428",
+										["ClassName"] = "bone",
+									},
+								},
+								[54] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, 7.8000001907349, 0),
+										["Bone"] = "spine 1",
+										["UniqueID"] = "370284120",
+										["ClassName"] = "bone",
+									},
+								},
+								[55] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right toe",
+										["UniqueID"] = "2495119556",
+										["ClassName"] = "bone",
+									},
+								},
+								[56] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "right foot",
+										["UniqueID"] = "1492816221",
+										["ClassName"] = "bone",
+									},
+								},
+								[57] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left finger 12",
+										["UniqueID"] = "1715273457",
+										["ClassName"] = "bone",
+									},
+								},
+								[58] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left finger 22",
+										["UniqueID"] = "1122067417",
+										["ClassName"] = "bone",
+									},
+								},
+								[59] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left finger 11",
+										["UniqueID"] = "316545156",
+										["ClassName"] = "bone",
+									},
+								},
+								[60] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "left elbow",
+										["UniqueID"] = "254395090",
+										["ClassName"] = "bone",
+									},
+								},
+								[61] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "bone",
+										["UniqueID"] = "3226203461",
+										["FollowPartName"] = "fake head",
+										["FollowPartUID"] = "398872864",
+										["Angles"] = Angle(-90, 0, 90),
+									},
+								},
+								[62] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "neck",
+										["UniqueID"] = "3648004559",
+										["ClassName"] = "bone",
+									},
+								},
+								[63] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(2.7320756998961e-005, 17.700000762939, 0),
+										["Bone"] = "spine",
+										["UniqueID"] = "1541060435",
+										["ClassName"] = "bone",
+									},
+								},
+								[64] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Bone"] = "pelvis",
+										["UniqueID"] = "2930958772",
+										["ClassName"] = "bone",
+									},
+								},
+							},
+							["self"] = {
+								["Angles"] = Angle(22.926191329956, -3.5225988540333e-005, -1.2977995538677e-005),
+								["UniqueID"] = "2041395395",
+								["Model"] = "models/player/group03/male_03.mdl",
+								["Position"] = Vector(-22.881591796875, -0.0283203125, 80.104248046875),
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "model",
+						["UniqueID"] = "3162704442",
+						["PositionOffset"] = Vector(2.9000000953674, 0, -67.099998474121),
+						["Size"] = 5,
+						["Bone"] = "hcfast hips",
+						["Model"] = "models/food/hotdog.mdl",
+						["Angles"] = Angle(-76.300003051758, -90, 0),
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1916079358",
+								["Event"] = "button",
+								["Arguments"] = "e",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "animation",
+						["UniqueID"] = "2728397383",
+						["SequenceName"] = "Idle02",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["BoneMerge"] = true,
+						["UniqueID"] = "398872864",
+						["Name"] = "fake head",
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["Model"] = "models/pac/default.mdl",
+						["Position"] = Vector(0, 33.599998474121, 12.39999961853),
+						["Bone"] = "hcfast hips",
+						["EyeAngles"] = true,
+						["Translucent"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["UniqueID"] = "1758016553",
+				["Size"] = 2,
+				["Bone"] = "none",
+				["Model"] = "models/headcrab.mdl",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "1970138676",
+		["Description"] = "add parts to me!",
+	},
+},

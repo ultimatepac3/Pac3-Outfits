@@ -1,0 +1,605 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3193931580",
+				["Bone"] = "right upperarm",
+				["Position"] = Vector(4.822265625, 0.00390625, 0.0009765625),
+				["ClassName"] = "bone",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Model"] = "models/player/Barney.mdl",
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["UniqueID"] = "588202774",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0, 0, 2.2999999523163),
+						["ClassName"] = "model",
+						["UniqueID"] = "2381416069",
+						["Size"] = 0.31,
+						["Color"] = Vector(255, 0, 0),
+						["Material"] = "models/shadertest/shield",
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1, 1, 0.10000000149012),
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "is_voice_chatting",
+								["ClassName"] = "event",
+								["Invert"] = true,
+								["UniqueID"] = "3846473123",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(90, -89.999954223633, 90.000022888184),
+						["UniqueID"] = "1361366701",
+						["EditorExpand"] = true,
+						["Position"] = Vector(0.005859375, -0.0009765625, 3.443359375),
+						["ClassName"] = "clip",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1858754842",
+						["Scale"] = Vector(1, 1.2000000476837, 0.10000000149012),
+						["ClassName"] = "model",
+						["Size"] = 0.335,
+						["Position"] = Vector(0, 0, 3.5999999046326),
+						["Color"] = Vector(255, 0, 0),
+						["Angles"] = Angle(0, 0, -32.799999237061),
+						["Model"] = "models/pac/default.mdl",
+						["Material"] = "models/shadertest/shield",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3330999364",
+				["Scale"] = Vector(1, 1, 1.2999999523163),
+				["ClassName"] = "model",
+				["Size"] = 0.175,
+				["Angles"] = Angle(89.999984741211, 11.318316459656, 0),
+				["Color"] = Vector(255, 189, 141),
+				["Material"] = "models/shadertest/shield",
+				["Model"] = "models/props_c17/canister_propane01a.mdl",
+				["DoubleFace"] = true,
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2855880955",
+				["Bone"] = "left upperarm",
+				["Position"] = Vector(4.822265625, 0.00390625, 0.0009765625),
+				["ClassName"] = "bone",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["ClassName"] = "bone",
+				["Position"] = Vector(-2.58984375, -2.580078125, -0.014404296875),
+				["UniqueID"] = "2947058039",
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-56.206993103027, 89.999969482422, -90.000053405762),
+						["ClassName"] = "clip",
+						["UniqueID"] = "751030573",
+						["Position"] = Vector(0.002685546875, -0.001953125, 2.4400000572205),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.00390625, 0.00048828125, 11.69921875),
+						["ClassName"] = "model",
+						["UniqueID"] = "4052207669",
+						["Size"] = 0.03,
+						["Color"] = Vector(255, 93, 0),
+						["Material"] = "models/shadertest/shield",
+						["Model"] = "models/props_foliage/bramble001a.mdl",
+						["Scale"] = Vector(1, 1, 2.5999999046326),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1130576248",
+						["Scale"] = Vector(1, 1, 2.5999999046326),
+						["ClassName"] = "model",
+						["Size"] = 0.03,
+						["Position"] = Vector(0.6337890625, 0.09326171875, 12.1376953125),
+						["Color"] = Vector(255, 93, 0),
+						["Angles"] = Angle(0, 90, -34.99100112915),
+						["Model"] = "models/props_foliage/bramble001a.mdl",
+						["Material"] = "models/shadertest/shield",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3228274835",
+						["Scale"] = Vector(1, 1, 2.5999999046326),
+						["ClassName"] = "model",
+						["Size"] = 0.03,
+						["Position"] = Vector(0.00390625, 0.00048828125, 11.69921875),
+						["Color"] = Vector(255, 93, 0),
+						["Angles"] = Angle(-1.1099056791863e-005, -123.56105804443, -8.9646218839334e-006),
+						["Model"] = "models/props_foliage/bramble001a.mdl",
+						["Material"] = "models/shadertest/shield",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "4056622550",
+						["Scale"] = Vector(1, 1, 2.5999999046326),
+						["ClassName"] = "model",
+						["Size"] = 0.03,
+						["Position"] = Vector(0.6337890625, 0.09326171875, 12.1376953125),
+						["Color"] = Vector(255, 93, 0),
+						["Angles"] = Angle(31.855333328247, 90.000038146973, 1.5077532680152e-006),
+						["Model"] = "models/props_foliage/bramble001a.mdl",
+						["Material"] = "models/shadertest/shield",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "2431017046",
+						["Position"] = Vector(0, -3.03125, 6.8564453125),
+						["Color"] = Vector(255, 131, 0),
+						["Size"] = 0.2,
+						["Model"] = "models/pac/default.mdl",
+						["Material"] = "models/shadertest/shield",
+					},
+				},
+				[7] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["UniqueID"] = "3873819806",
+								["Position"] = Vector(1.03125, 0.0009765625, -0.00048828125),
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.06,
+								["Model"] = "models/pac/default.mdl",
+								["Material"] = "models/shadertest/shield",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2534259389",
+						["Name"] = "eye 2",
+						["Material"] = "models/shadertest/shield",
+						["Size"] = 0.175,
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+						["Position"] = Vector(-1.2999999523163, -3.0329999923706, 9.201000213623),
+						["EyeAngles"] = true,
+						["EditorExpand"] = true,
+					},
+				},
+				[8] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["UniqueID"] = "649657088",
+								["Position"] = Vector(1.03125, 0.0009765625, -0.00048828125),
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.06,
+								["Model"] = "models/pac/default.mdl",
+								["Material"] = "models/shadertest/shield",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "1570921539",
+						["Name"] = "eye 2",
+						["Material"] = "models/shadertest/shield",
+						["Size"] = 0.175,
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+						["Position"] = Vector(1.2999999523163, -3.0329999923706, 9.201000213623),
+						["EyeAngles"] = true,
+						["EditorExpand"] = true,
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1279610686",
+						["Scale"] = Vector(1, 1, 2.5999999046326),
+						["ClassName"] = "model",
+						["Size"] = 0.03,
+						["Position"] = Vector(0.00390625, 0.00048828125, 11.69921875),
+						["Color"] = Vector(255, 93, 0),
+						["Angles"] = Angle(29.599935531616, -3.9276737879845e-006, 3.7435638660099e-006),
+						["Model"] = "models/props_foliage/bramble001a.mdl",
+						["Material"] = "models/shadertest/shield",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "616863167",
+				["Scale"] = Vector(1, 1, 1.2999999523163),
+				["ClassName"] = "model",
+				["Size"] = 0.175,
+				["Angles"] = Angle(89.999984741211, 11.318316459656, 0),
+				["Color"] = Vector(255, 189, 141),
+				["Material"] = "models/shadertest/shield",
+				["Model"] = "models/props_c17/canister_propane01a.mdl",
+				["DoubleFace"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "635037617",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2.2,
+						["Bone"] = "spine 4",
+						["UniqueID"] = "4233593161",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.475,
+						["Bone"] = "left thigh",
+						["UniqueID"] = "3527429819",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2.825,
+						["Bone"] = "left bicep",
+						["UniqueID"] = "4233593161",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2.275,
+						["Bone"] = "right ulna",
+						["UniqueID"] = "3783393942",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 1.075,
+						["Bone"] = "spine",
+						["UniqueID"] = "4233593161",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 1.65,
+						["Bone"] = "spine 1",
+						["UniqueID"] = "4233593161",
+						["ClassName"] = "bone",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.4,
+						["Bone"] = "right foot",
+						["UniqueID"] = "2911939208",
+						["ClassName"] = "bone",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 3.475,
+						["Bone"] = "right shoulder",
+						["UniqueID"] = "4233593161",
+						["ClassName"] = "bone",
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "857887203",
+						["Bone"] = "left pectoral",
+						["Size"] = 2.425,
+						["Position"] = Vector(0.001953125, 4.728515625, -0.0009765625),
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.4,
+						["Bone"] = "left foot",
+						["UniqueID"] = "3527429819",
+						["ClassName"] = "bone",
+					},
+				},
+				[11] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 3.475,
+						["Bone"] = "left shoulder",
+						["UniqueID"] = "1899778437",
+						["ClassName"] = "bone",
+					},
+				},
+				[12] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 1.55,
+						["Bone"] = "spine",
+						["UniqueID"] = "857887203",
+						["ClassName"] = "bone",
+					},
+				},
+				[13] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2.825,
+						["Bone"] = "right bicep",
+						["UniqueID"] = "4233593161",
+						["ClassName"] = "bone",
+					},
+				},
+				[14] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.4,
+						["Bone"] = "left calf",
+						["UniqueID"] = "3527429819",
+						["ClassName"] = "bone",
+					},
+				},
+				[15] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.4,
+						["Bone"] = "right calf",
+						["UniqueID"] = "3527429819",
+						["ClassName"] = "bone",
+					},
+				},
+				[16] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "4233593161",
+						["Bone"] = "right pectoral",
+						["Size"] = 2.425,
+						["Position"] = Vector(0.001953125, 4.728515625, -0.0009765625),
+					},
+				},
+				[17] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2.275,
+						["Bone"] = "left ulna",
+						["UniqueID"] = "3394729709",
+						["ClassName"] = "bone",
+					},
+				},
+				[18] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "8310312",
+						["Size"] = 0.1,
+						["Color"] = Vector(255, 127, 127),
+						["Bone"] = "right pectoral",
+						["Model"] = "models/pac/default.mdl",
+						["Position"] = Vector(-0.0810546875, 1.5470000505447, 5.5400390625),
+					},
+				},
+				[19] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "1957220387",
+						["Size"] = 0.1,
+						["Color"] = Vector(255, 127, 127),
+						["Bone"] = "left pectoral",
+						["Model"] = "models/pac/default.mdl",
+						["Position"] = Vector(-0.0810546875, -1.5474853515625, 5.5400390625),
+					},
+				},
+				[20] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.475,
+						["Bone"] = "right thigh",
+						["UniqueID"] = "3527429819",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "2184654011",
+				["Color"] = Vector(255, 189, 141),
+				["Model"] = "models/pac/male/base_male.mdl",
+				["Material"] = "models/shadertest/shield",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["Bone"] = "spine",
+						["UniqueID"] = "184449336",
+						["Scale"] = Vector(0, 0, 0),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["Bone"] = "spine 4",
+						["UniqueID"] = "2854484251",
+						["Scale"] = Vector(0, 0, 0),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "184449336",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right forearm",
+						["UniqueID"] = "184449336",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["Bone"] = "spine 1",
+						["UniqueID"] = "2240326637",
+						["Scale"] = Vector(0, 0, 0),
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["Bone"] = "spine 2",
+						["UniqueID"] = "2240326637",
+						["Scale"] = Vector(0, 0, 0),
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["Position"] = Vector(0, 0, 0.10000000149012),
+						["Size"] = 0.1,
+						["Bone"] = "left forearm",
+						["UniqueID"] = "2530028138",
+						["ClassName"] = "bone",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.625,
+						["Bone"] = "neck",
+						["UniqueID"] = "2473076348",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "2661739118",
+				["Model"] = "models/player/Barney.mdl",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "595867526",
+		["EditorExpand"] = true,
+	},
+},

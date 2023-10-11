@@ -1,0 +1,2452 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["URL"] = "https://dl.dropboxusercontent.com/s/4e5mdqy0bqe08p9/HLDSwordSheathedIdle.txt",
+														["ClassName"] = "custom_animation",
+														["UniqueID"] = "2499016502",
+													},
+												},
+											},
+											["self"] = {
+												["AffectChildrenOnly"] = true,
+												["ClassName"] = "event",
+												["UniqueID"] = "290689954",
+												["Event"] = "animation_event",
+												["EditorExpand"] = true,
+												["Arguments"] = "attack primary@@0.7",
+											},
+										},
+									},
+									["self"] = {
+										["AffectChildrenOnly"] = true,
+										["ClassName"] = "event",
+										["UniqueID"] = "227322387",
+										["Event"] = "command",
+										["EditorExpand"] = true,
+										["Arguments"] = "afk",
+									},
+								},
+							},
+							["self"] = {
+								["AffectChildrenOnly"] = true,
+								["ClassName"] = "event",
+								["UniqueID"] = "2304056247",
+								["Event"] = "is_crouching",
+								["EditorExpand"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["StandIdle"] = "idle_melee2",
+								["ClassName"] = "holdtype",
+								["UniqueID"] = "2136176337",
+								["AttackStandPrimaryfire"] = "range_rpg",
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "weapon_class",
+						["UniqueID"] = "1776981413",
+						["Arguments"] = "crowbar",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["AffectChildrenOnly"] = true,
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["UniqueID"] = "2545337005",
+				["Event"] = "speed",
+				["Operator"] = "equal or below",
+				["Name"] = "sword",
+				["Arguments"] = "250",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Run"] = "run_all_charging",
+								["ClassName"] = "holdtype",
+								["UniqueID"] = "2454982258",
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["UniqueID"] = "1966678551",
+						["Name"] = "with sword",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Run"] = "run_all_02",
+								["ClassName"] = "holdtype",
+								["UniqueID"] = "2029724260",
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["ClassName"] = "event",
+						["UniqueID"] = "319327637",
+						["Event"] = "weapon_class",
+						["EditorExpand"] = true,
+						["Name"] = "without sword",
+						["Arguments"] = "crowbar",
+					},
+				},
+			},
+			["self"] = {
+				["AffectChildrenOnly"] = true,
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["UniqueID"] = "338298226",
+				["Event"] = "speed",
+				["Operator"] = "equal or above",
+				["Name"] = "running",
+				["Arguments"] = "250",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["EditorExpand"] = true,
+										["ClassName"] = "animation",
+										["UniqueID"] = "2700146378",
+										["SequenceName"] = "pose_ducking_01",
+									},
+								},
+							},
+							["self"] = {
+								["AffectChildrenOnly"] = true,
+								["ClassName"] = "event",
+								["UniqueID"] = "234837303",
+								["Event"] = "animation_event",
+								["EditorExpand"] = true,
+								["Arguments"] = "attack",
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "is_crouching",
+						["UniqueID"] = "1228406295",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["AffectChildrenOnly"] = true,
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["UniqueID"] = "3054727041",
+				["Event"] = "speed",
+				["Operator"] = "below",
+				["Name"] = "crouching",
+				["Arguments"] = "1",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["WeaponHoldType"] = "melee2",
+										["ClassName"] = "animation",
+										["UniqueID"] = "31376584",
+										["Hide"] = true,
+										["EditorExpand"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["URL"] = "https://dl.dropboxusercontent.com/s/1wx9g5anzr1jvdf/HLDSlash.txt",
+										["ClassName"] = "custom_animation",
+										["UniqueID"] = "3148609827",
+										["EditorExpand"] = true,
+									},
+								},
+								[3] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Velocity"] = 500,
+												["UniqueID"] = "268688547",
+												["StickToSurface"] = false,
+												["EndSize"] = 10,
+												["Material"] = "sprites/glow04_noz",
+												["Bone"] = "none",
+												["Color2"] = Vector(0, 255, 255),
+												["Position"] = Vector(-39.23046875, -0.0029296875, 42.240234375),
+												["Lighting"] = false,
+												["FireDelay"] = 0.1,
+												["ClassName"] = "particles",
+												["StartLength"] = 200,
+												["Spread"] = 0,
+												["DieTime"] = 0.2,
+												["EditorExpand"] = true,
+												["StartSize"] = 0,
+												["Color1"] = Vector(0, 255, 255),
+											},
+										},
+										[2] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Velocity"] = 1,
+														["UniqueID"] = "723165797",
+														["3D"] = true,
+														["EndSize"] = 100,
+														["Material"] = "particle/Particle_Crescent",
+														["DieTime"] = 0.4,
+														["Additive"] = true,
+														["NumberParticles"] = 2,
+														["Gravity"] = Vector(0, 0, 0),
+														["RandomColour"] = false,
+														["Collide"] = false,
+														["Position"] = Vector(-0.025390625, 5.33740234375, -1.388671875),
+														["Sliding"] = false,
+														["AirResistance"] = 0,
+														["Color1"] = Vector(127, 255, 255),
+														["FireDelay"] = 0.8,
+														["Bounce"] = 0,
+														["ParticleAngleVelocity"] = Vector(0, 0, 500),
+														["ClassName"] = "particles",
+														["DoubleSided"] = false,
+														["Spread"] = 0,
+														["Color2"] = Vector(0, 255, 255),
+														["ParticleAngle"] = Angle(-80.5, 0, 136.10000610352),
+														["StartSize"] = 60,
+														["Lighting"] = false,
+													},
+												},
+												[2] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Velocity"] = 1,
+														["UniqueID"] = "1423619668",
+														["3D"] = true,
+														["EndSize"] = 80,
+														["Material"] = "particle/Particle_Crescent",
+														["DieTime"] = 0.2,
+														["Additive"] = true,
+														["NumberParticles"] = 2,
+														["Color2"] = Vector(0, 255, 255),
+														["Gravity"] = Vector(0, 0, 0),
+														["RandomColour"] = false,
+														["Collide"] = false,
+														["Position"] = Vector(-0.025390625, 5.33740234375, -1.388671875),
+														["Sliding"] = false,
+														["Bounce"] = 0,
+														["Lighting"] = false,
+														["FireDelay"] = 0.8,
+														["ParticleAngleVelocity"] = Vector(0, 0, 500),
+														["AirResistance"] = 0,
+														["ClassName"] = "particles",
+														["DoubleSided"] = false,
+														["Spread"] = 0,
+														["EditorExpand"] = true,
+														["ParticleAngle"] = Angle(-80.5, 0, 136.10000610352),
+														["StartSize"] = 70,
+														["Color1"] = Vector(127, 255, 255),
+													},
+												},
+												[3] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Velocity"] = 1,
+														["UniqueID"] = "2063744315",
+														["3D"] = true,
+														["EndSize"] = 110,
+														["Material"] = "particle/Particle_Ring_Wave_8",
+														["DieTime"] = 0.3,
+														["StartAlpha"] = 20,
+														["Additive"] = true,
+														["NumberParticles"] = 18,
+														["Gravity"] = Vector(0, 0, 0),
+														["RandomColour"] = false,
+														["Collide"] = false,
+														["Position"] = Vector(-0.025390625, 5.33740234375, -1.388671875),
+														["Sliding"] = false,
+														["AirResistance"] = 0,
+														["Color1"] = Vector(127, 255, 255),
+														["FireDelay"] = 0.8,
+														["Bounce"] = 0,
+														["ParticleAngleVelocity"] = Vector(0, 0, 100),
+														["ClassName"] = "particles",
+														["DoubleSided"] = false,
+														["Spread"] = 0,
+														["Color2"] = Vector(0, 255, 255),
+														["ParticleAngle"] = Angle(-80.5, 0, 136.10000610352),
+														["StartSize"] = 90,
+														["Lighting"] = false,
+													},
+												},
+											},
+											["self"] = {
+												["Alpha"] = 0,
+												["ClassName"] = "model",
+												["UniqueID"] = "4097969092",
+												["Model"] = "models/pac/default.mdl",
+												["EditorExpand"] = true,
+												["Bone"] = "",
+												["Name"] = "B03",
+												["Position"] = Vector(0, 0, 35.4794921875),
+											},
+										},
+									},
+									["self"] = {
+										["AffectChildrenOnly"] = true,
+										["ClassName"] = "event",
+										["UniqueID"] = "2951940996",
+										["Event"] = "animation_event",
+										["EditorExpand"] = true,
+										["Arguments"] = "attack@@0.3",
+									},
+								},
+							},
+							["self"] = {
+								["AffectChildrenOnly"] = true,
+								["ClassName"] = "event",
+								["Invert"] = true,
+								["Event"] = "animation_event",
+								["UniqueID"] = "1987532848",
+								["Arguments"] = "attack primary@@0.7",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["UniqueID"] = "2655858010",
+						["Name"] = "weapon class",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["AffectChildrenOnly"] = true,
+				["ClassName"] = "event",
+				["UniqueID"] = "547936285",
+				["Event"] = "speed",
+				["Operator"] = "equal or above",
+				["Name"] = "attack",
+				["Arguments"] = "250",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "animation",
+						["UniqueID"] = "2668332371",
+						["SequenceName"] = "pose_ducking_02",
+					},
+				},
+			},
+			["self"] = {
+				["AffectChildrenOnly"] = true,
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["Event"] = "command",
+				["UniqueID"] = "1298131112",
+				["Name"] = "afk",
+				["Arguments"] = "afk",
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "animation",
+						["OwnerCycle"] = true,
+						["Loop"] = false,
+						["SequenceName"] = "death_04",
+						["EditorExpand"] = true,
+						["UniqueID"] = "566949864",
+					},
+				},
+			},
+			["self"] = {
+				["AffectChildrenOnly"] = true,
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["Event"] = "owner_health",
+				["Operator"] = "equal or below",
+				["Name"] = "death",
+				["UniqueID"] = "1851699627",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1424263193",
+		["Name"] = "animations",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-90, -90, -90),
+										["ClassName"] = "clip",
+										["UniqueID"] = "2084225497",
+										["Position"] = Vector(0.00439453125, 0.00537109375, -0.6494140625),
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 360,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "3647313889",
+										["Axis"] = "x",
+										["Function"] = "none",
+										["VariableName"] = "Angles",
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "1383462209",
+								["Model"] = "models/props_foliage/tree_poplar_01.mdl",
+								["Name"] = "side",
+								["Position"] = Vector(0.004638671875, -0.0087890625, 3.51318359375),
+								["Alpha"] = 0.25,
+								["ClassName"] = "model",
+								["Size"] = 0.01,
+								["PositionOffset"] = Vector(0, 0, -3.7999999523163),
+								["Color"] = Vector(0, 255, 255),
+								["Angles"] = Angle(830804.9375, 0, 90),
+								["Translucent"] = true,
+								["Material"] = "models/ihvtest/eyeball_l",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 360,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "3426726800",
+										["Axis"] = "x",
+										["Function"] = "none",
+										["VariableName"] = "Angles",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-90, -90, -90),
+										["ClassName"] = "clip",
+										["UniqueID"] = "1523345243",
+										["Position"] = Vector(0.00439453125, 0.00537109375, -0.6494140625),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "600234572",
+								["Model"] = "models/props_foliage/tree_poplar_01.mdl",
+								["Name"] = "side 2 inner",
+								["Scale"] = Vector(0.69999998807907, 0.69999998807907, 1),
+								["Position"] = Vector(0.004638671875, -0.0087890625, 3.51318359375),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Size"] = 0.01,
+								["PositionOffset"] = Vector(0, 0, -3.7999999523163),
+								["Color"] = Vector(0, 255, 255),
+								["Angles"] = Angle(830804.9375, 0, -90),
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "attack@@0.3",
+										["UniqueID"] = "112748967",
+										["Event"] = "animation_event",
+										["ClassName"] = "event",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["Max"] = 0,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "4288903413",
+								["Axis"] = "z",
+								["EditorExpand"] = true,
+								["VariableName"] = "Angles",
+							},
+						},
+						[4] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-90, -90, -90),
+										["ClassName"] = "clip",
+										["UniqueID"] = "468198152",
+										["Position"] = Vector(0.001953125, 0.0048828125, 9.0810546875),
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 360,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "2899459474",
+										["Axis"] = "y",
+										["Function"] = "none",
+										["VariableName"] = "Angles",
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "1384020146",
+								["Model"] = "models/props_foliage/tree_poplar_01.mdl",
+								["EditorExpand"] = true,
+								["Scale"] = Vector(1.25, 1.25, 4.4000000953674),
+								["Alpha"] = 0.25,
+								["ClassName"] = "model",
+								["Size"] = 0.01,
+								["Angles"] = Angle(0, 830804.9375, 0),
+								["Color"] = Vector(0, 255, 255),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Translucent"] = true,
+								["Position"] = Vector(0.001953125, 0, -7.1934814453125),
+							},
+						},
+						[5] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["UniqueID"] = "98351398",
+										["Position"] = Vector(7.986328125, 0.0048828125, -0.0013427734375),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "3004089549",
+								["Position"] = Vector(0, 0, 3.5309998989105),
+								["Scale"] = Vector(4.0999999046326, 1, 1),
+								["EditorExpand"] = true,
+								["Angles"] = Angle(0, -90, 90.000015258789),
+								["Size"] = 0.8,
+								["PositionOffset"] = Vector(-8.8999996185303, 0, -1),
+								["Color"] = Vector(0, 255, 255),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/Items/AR2_Grenade.mdl",
+								["ClassName"] = "model",
+							},
+						},
+						[6] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "3852742958",
+										["Event"] = "speed",
+										["Operator"] = "equal or above",
+										["Arguments"] = "250",
+										["Invert"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(-0.00634765625, 0.0029296875, 17.294311523438),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["BlurLength"] = 10,
+								["Name"] = "blur",
+								["Scale"] = Vector(4.0999999046326, 1, 1),
+								["EditorExpand"] = true,
+								["ClassName"] = "model",
+								["Size"] = 0.9,
+								["PositionOffset"] = Vector(0, 0, -1),
+								["Color"] = Vector(0, 255, 255),
+								["Angles"] = Angle(-90, -1.4327520148072e-005, 3.5818800824927e-005),
+								["Model"] = "models/Items/AR2_Grenade.mdl",
+								["UniqueID"] = "1761193179",
+							},
+						},
+						[7] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-90, -90, -90),
+										["ClassName"] = "clip",
+										["UniqueID"] = "3695091999",
+										["Position"] = Vector(0.00439453125, 0.00537109375, -0.6494140625),
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 360,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "764547442",
+										["Axis"] = "x",
+										["Function"] = "none",
+										["VariableName"] = "Angles",
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "690560051",
+								["Model"] = "models/props_foliage/tree_poplar_01.mdl",
+								["Name"] = "side inner",
+								["Scale"] = Vector(0.69999998807907, 0.69999998807907, 1),
+								["Position"] = Vector(0.004638671875, -0.0087890625, 3.51318359375),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Size"] = 0.01,
+								["PositionOffset"] = Vector(0, 0, -3.7999999523163),
+								["Color"] = Vector(0, 255, 255),
+								["Angles"] = Angle(830804.9375, 0, 90),
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[8] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "472086248",
+								["Position"] = Vector(-0.00634765625, 0.0029296875, 17.294311523438),
+								["Scale"] = Vector(4.0999999046326, 1, 1),
+								["EditorExpand"] = true,
+								["Angles"] = Angle(-90, -1.4327520148072e-005, 3.5818800824927e-005),
+								["Size"] = 0.9,
+								["PositionOffset"] = Vector(0, 0, -1),
+								["Color"] = Vector(0, 255, 255),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/Items/AR2_Grenade.mdl",
+								["ClassName"] = "model",
+							},
+						},
+						[9] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 360,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "379844897",
+										["Axis"] = "y",
+										["Function"] = "none",
+										["VariableName"] = "Angles",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-90, -90, -90),
+										["ClassName"] = "clip",
+										["UniqueID"] = "2544144219",
+										["Position"] = Vector(0.001953125, 0.0048828125, 9.0810546875),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "4168528939",
+								["Scale"] = Vector(0.89999997615814, 0.89999997615814, 4.4000000953674),
+								["Model"] = "models/props_foliage/tree_poplar_01.mdl",
+								["Angles"] = Angle(0, 830804.9375, 0),
+								["Size"] = 0.01,
+								["Position"] = Vector(0.001953125, 0, -7.1934814453125),
+								["Color"] = Vector(0, 255, 255),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Translucent"] = true,
+								["ClassName"] = "model",
+							},
+						},
+						[10] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "clip",
+										["UniqueID"] = "1013078202",
+										["Position"] = Vector(7.986328125, 0.0048828125, -0.0013427734375),
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "4177537142",
+								["Position"] = Vector(0, 0, 3.5309998989105),
+								["Scale"] = Vector(4.0999999046326, 1, 1),
+								["EditorExpand"] = true,
+								["Angles"] = Angle(0, 89.999961853027, -90.000007629395),
+								["Size"] = 0.8,
+								["PositionOffset"] = Vector(-8.8999996185303, 0, -1),
+								["Color"] = Vector(0, 255, 255),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/Items/AR2_Grenade.mdl",
+								["ClassName"] = "model",
+							},
+						},
+						[11] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(-90, -90, -90),
+										["ClassName"] = "clip",
+										["UniqueID"] = "3487634965",
+										["Position"] = Vector(0.00439453125, 0.00537109375, -0.6494140625),
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 360,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "3149852495",
+										["Axis"] = "x",
+										["Function"] = "none",
+										["VariableName"] = "Angles",
+									},
+								},
+							},
+							["self"] = {
+								["UniqueID"] = "3057198811",
+								["Model"] = "models/props_foliage/tree_poplar_01.mdl",
+								["Name"] = "side 2",
+								["Position"] = Vector(0.004638671875, -0.0087890625, 3.51318359375),
+								["Alpha"] = 0.25,
+								["ClassName"] = "model",
+								["Size"] = 0.01,
+								["PositionOffset"] = Vector(0, 0, -3.7999999523163),
+								["Color"] = Vector(0, 255, 255),
+								["Angles"] = Angle(830804.9375, 0, -90),
+								["Translucent"] = true,
+								["Material"] = "models/ihvtest/eyeball_l",
+							},
+						},
+						[12] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "attack@@0.6",
+										["Invert"] = true,
+										["Event"] = "animation_event",
+										["UniqueID"] = "1696461340",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Max"] = 180,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "433049291",
+								["Axis"] = "z",
+								["EditorExpand"] = true,
+								["Min"] = 180,
+								["VariableName"] = "Angles",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "870568846",
+						["Angles"] = Angle(-0.00016029601101764, 90.000053405762, 0),
+						["Size"] = 0.35,
+						["Name"] = "sword",
+						["Scale"] = Vector(1, 1, 2.7999999523163),
+						["EditorExpand"] = true,
+						["ClassName"] = "model",
+						["DoubleFace"] = true,
+						["Position"] = Vector(3, -0.5, 0),
+						["Color"] = Vector(40, 2, 2),
+						["Bone"] = "right hand",
+						["Model"] = "models/Items/grenadeAmmo.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+			},
+			["self"] = {
+				["AffectChildrenOnly"] = true,
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["Event"] = "weapon_class",
+				["UniqueID"] = "287056160",
+				["Name"] = "Sword",
+				["Arguments"] = "crowbar",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "455916614",
+		["Name"] = "Sword Group",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["HideEntity"] = true,
+				["Model"] = "models/pac/male/base_male.mdl",
+				["Size"] = 0.9,
+				["UniqueID"] = "2046086927",
+				["DrawWeapon"] = false,
+				["ClassName"] = "entity",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3463167383",
+		["Name"] = "entity",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(1.693359375, 0.0048828125, -1.3359375),
+						["ClassName"] = "model",
+						["UniqueID"] = "1028780559",
+						["Size"] = 0.1,
+						["Color"] = Vector(0, 165, 255),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(0.5, 0.5, 1),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(90, -5.5607630201848e-005, -2.0852859961451e-005),
+						["ClassName"] = "clip",
+						["UniqueID"] = "567716829",
+						["Position"] = Vector(0.0009765625, 0.0029296875, 2.484375),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2557650722",
+				["Angles"] = Angle(-90, 0, -0.00042304847738706),
+				["Name"] = "left forearm",
+				["Scale"] = Vector(1, 1, 1.8999999761581),
+				["Size"] = 0.425,
+				["ClassName"] = "model",
+				["DoubleFace"] = true,
+				["Position"] = Vector(1.76708984375, -0.010009765625, -0.029296875),
+				["Color"] = Vector(140, 140, 140),
+				["Bone"] = "left forearm",
+				["Model"] = "models/props_c17/lamp001a.mdl",
+				["Material"] = "models/ihvtest/eyeball_l",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3885269522",
+						["Scale"] = Vector(1, 0.60000002384186, 1.8999999761581),
+						["ClassName"] = "model",
+						["Size"] = 0.15,
+						["Position"] = Vector(-1, 0, 0),
+						["Color"] = Vector(225, 255, 0),
+						["Angles"] = Angle(90, 179.99983215332, 179.99983215332),
+						["Model"] = "models/holograms/icosphere.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+			},
+			["self"] = {
+				["ConstrainY"] = true,
+				["Position"] = Vector(-3.958984375, 9.07373046875, 0.02197265625),
+				["Speed"] = 5,
+				["ConstrainX"] = true,
+				["Angles"] = Angle(6.6701068135444e-006, -18.222917556763, 0.00015624058141839),
+				["ConstrainZ"] = true,
+				["Bone"] = "spine 4",
+				["ClassName"] = "jiggle",
+				["UniqueID"] = "206430736",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-0.783203125, 0.580078125, 0.1123046875),
+				["Name"] = "red cape",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["EditorExpand"] = true,
+				["ClassName"] = "model",
+				["Size"] = 0.925,
+				["Angles"] = Angle(-8.0254721979145e-005, 88.845832824707, 90.000045776367),
+				["Color"] = Vector(255, 34, 60),
+				["Bone"] = "spine 4",
+				["Model"] = "models/pac/jiggle/clothing/base_cape_2_gravity.mdl",
+				["UniqueID"] = "3899488072",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right glut",
+						["UniqueID"] = "1380825456",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left upperarm",
+						["UniqueID"] = "1063674209",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "spine",
+						["UniqueID"] = "2215926381",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "spine 4",
+						["UniqueID"] = "4097487556",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "spine 2",
+						["UniqueID"] = "947430237",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "anim_attachment_head",
+						["UniqueID"] = "1330153928",
+						["ClassName"] = "bone",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "attach left hand",
+						["UniqueID"] = "3710263072",
+						["ClassName"] = "bone",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "90963985",
+						["ClassName"] = "bone",
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right forearm",
+						["UniqueID"] = "3913253500",
+						["ClassName"] = "bone",
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "spine 1",
+						["UniqueID"] = "2736458661",
+						["ClassName"] = "bone",
+					},
+				},
+				[11] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left thigh",
+						["UniqueID"] = "1749538816",
+						["ClassName"] = "bone",
+					},
+				},
+				[12] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left glut",
+						["UniqueID"] = "3119649743",
+						["ClassName"] = "bone",
+					},
+				},
+				[13] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2,
+						["Bone"] = "left toe",
+						["UniqueID"] = "2568055509",
+						["ClassName"] = "bone",
+					},
+				},
+				[14] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left clavicle",
+						["UniqueID"] = "2381024915",
+						["ClassName"] = "bone",
+					},
+				},
+				[15] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2,
+						["Bone"] = "left calf",
+						["UniqueID"] = "1538420110",
+						["ClassName"] = "bone",
+					},
+				},
+				[16] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "anim_attachment_lh",
+						["UniqueID"] = "3571043294",
+						["ClassName"] = "bone",
+					},
+				},
+				[17] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "neck",
+						["UniqueID"] = "377146501",
+						["ClassName"] = "bone",
+					},
+				},
+				[18] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "1186422070",
+						["ClassName"] = "bone",
+					},
+				},
+				[19] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "clip",
+						["Position"] = Vector(0.660888671875, 0.0322265625, 0.0419921875),
+						["Bone"] = "left calf",
+						["Angles"] = Angle(-5.0185881264042e-005, 0, -0.00019658140081447),
+						["UniqueID"] = "2937809707",
+					},
+				},
+				[20] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "eyes",
+						["UniqueID"] = "1873539282",
+						["ClassName"] = "bone",
+					},
+				},
+				[21] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right calf",
+						["UniqueID"] = "1924055146",
+						["ClassName"] = "bone",
+					},
+				},
+				[22] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right foot",
+						["UniqueID"] = "3459306420",
+						["ClassName"] = "bone",
+					},
+				},
+				[23] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "pelvis",
+						["UniqueID"] = "4079251704",
+						["ClassName"] = "bone",
+					},
+				},
+				[24] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "righthand",
+						["UniqueID"] = "3375239560",
+						["ClassName"] = "bone",
+					},
+				},
+				[25] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "attach right hand",
+						["UniqueID"] = "4197011176",
+						["ClassName"] = "bone",
+					},
+				},
+				[26] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "lefthand",
+						["UniqueID"] = "528816251",
+						["ClassName"] = "bone",
+					},
+				},
+				[27] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "anim_attachment_rh",
+						["UniqueID"] = "2767659895",
+						["ClassName"] = "bone",
+					},
+				},
+				[28] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right clavicle",
+						["UniqueID"] = "41953475",
+						["ClassName"] = "bone",
+					},
+				},
+				[29] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left hand",
+						["UniqueID"] = "3386702694",
+						["ClassName"] = "bone",
+					},
+				},
+				[30] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2,
+						["Bone"] = "left foot",
+						["UniqueID"] = "192937021",
+						["ClassName"] = "bone",
+					},
+				},
+				[31] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right thigh",
+						["UniqueID"] = "3223531416",
+						["ClassName"] = "bone",
+					},
+				},
+				[32] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left forearm",
+						["UniqueID"] = "829791565",
+						["ClassName"] = "bone",
+					},
+				},
+				[33] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right hand",
+						["UniqueID"] = "576934361",
+						["ClassName"] = "bone",
+					},
+				},
+				[34] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "invalidbone",
+						["UniqueID"] = "2431565355",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "749261976",
+				["Model"] = "models/pac/male/base_male_leg_l.mdl",
+				["Color"] = Vector(61, 61, 61),
+				["Size"] = 0.4,
+				["Name"] = "left boot",
+				["Material"] = "models/ihvtest/eyeball_l",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-1.957763671875, -0.00390625, -0.4765625),
+						["Name"] = "right shoulder",
+						["Scale"] = Vector(1, 1.2999999523163, 1),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["ClassName"] = "model",
+						["Size"] = 0.35,
+						["Angles"] = Angle(-30, 2.1874218873563e-005, 0.00010682473657653),
+						["Color"] = Vector(186, 89, 69),
+						["Bone"] = "right upperarm",
+						["Model"] = "models/Gibs/Antlion_gib_Large_2.mdl",
+						["UniqueID"] = "221073878",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(-1.42333984375, -1.492431640625, 0.423828125),
+				["Name"] = "right shoulder",
+				["Scale"] = Vector(1, 1.2999999523163, 1),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Size"] = 0.375,
+				["Angles"] = Angle(-24.060941696167, -168.71572875977, 157.27731323242),
+				["Color"] = Vector(255, 34, 60),
+				["Bone"] = "right upperarm",
+				["Model"] = "models/Gibs/Antlion_gib_Large_2.mdl",
+				["UniqueID"] = "1791263071",
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(1.693359375, 0.0048828125, -1.3359375),
+						["ClassName"] = "model",
+						["UniqueID"] = "1490239344",
+						["Size"] = 0.1,
+						["Color"] = Vector(0, 165, 255),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(0.5, 0.5, 1),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(90, -5.5607630201848e-005, -2.0852859961451e-005),
+						["ClassName"] = "clip",
+						["UniqueID"] = "2108114557",
+						["Position"] = Vector(0.0009765625, 0.0029296875, 2.484375),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1341391607",
+				["Angles"] = Angle(90, -90.000007629395, 89.999824523926),
+				["Name"] = "right forearm",
+				["Scale"] = Vector(1, 1, 1.8999999761581),
+				["Size"] = 0.425,
+				["ClassName"] = "model",
+				["DoubleFace"] = true,
+				["Position"] = Vector(1.76708984375, -0.010009765625, -0.029296875),
+				["Color"] = Vector(140, 140, 140),
+				["Bone"] = "right forearm",
+				["Model"] = "models/props_c17/lamp001a.mdl",
+				["Material"] = "models/ihvtest/eyeball_l",
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.00732421875, -3.03515625, 0.0068359375),
+						["Name"] = "left foot",
+						["Scale"] = Vector(1, 0.40000000596046, 1),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Angles"] = Angle(-7.454511069227e-005, -4.7081217765808, 0.00013148115249351),
+						["Color"] = Vector(140, 140, 140),
+						["Bone"] = "",
+						["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+						["UniqueID"] = "1964069203",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1417844718",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Name"] = "left foot",
+				["Scale"] = Vector(1, 0.40000000596046, 1),
+				["Position"] = Vector(2.4208984375, -0.005859375, 1.5771484375),
+				["Angles"] = Angle(-3.7032434192952e-005, -90, 90),
+				["Size"] = 0.05,
+				["PositionOffset"] = Vector(0.10000000149012, 0, 3.2000000476837),
+				["Color"] = Vector(140, 140, 140),
+				["Bone"] = "left foot",
+				["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+				["AngleOffset"] = Angle(-71.199996948242, 0, 0),
+			},
+		},
+		[8] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-90, 180, -180),
+								["ClassName"] = "clip",
+								["UniqueID"] = "201709515",
+								["Position"] = Vector(5.5999999046326, 0, 6.4000000953674),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-15, 179.99990844727, -179.99996948242),
+								["ClassName"] = "clip",
+								["UniqueID"] = "3970787202",
+								["Position"] = Vector(5.5, -0.20000000298023, 6.4000000953674),
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(-10.5, 1.25, 0),
+						["Name"] = "helmet",
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Size"] = 2.175,
+						["ClassName"] = "model",
+						["DoubleFace"] = true,
+						["Angles"] = Angle(-5.4641513997922e-005, -81, -89.999969482422),
+						["Color"] = Vector(61, 61, 61),
+						["LodOverride"] = 1,
+						["Model"] = "models/props_c17/doll01.mdl",
+						["UniqueID"] = "808904438",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "2110490534",
+								["Scale"] = Vector(1, 1, 1.6000000238419),
+								["Position"] = Vector(-0.25, 0, 3.7200000286102),
+								["Angles"] = Angle(75, 179.99981689453, 0),
+								["Size"] = 0.075,
+								["ClassName"] = "model",
+								["Color"] = Vector(255, 93, 0),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/holograms/pyramid.mdl",
+								["AngleOffset"] = Angle(0, 45, 0),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(-0.28466796875, 2.4375, 2.7333984375),
+								["Name"] = "right",
+								["Scale"] = Vector(1, 1, 2),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["ClassName"] = "model",
+								["Size"] = 0.075,
+								["AngleOffset"] = Angle(0, 45, 0),
+								["Color"] = Vector(255, 93, 0),
+								["Angles"] = Angle(15, -20, 50),
+								["Model"] = "models/holograms/pyramid.mdl",
+								["UniqueID"] = "3917076468",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Position"] = Vector(-0.20000000298023, -2.5999999046326, 3),
+								["Name"] = "left",
+								["Scale"] = Vector(1, 1, 2),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["ClassName"] = "model",
+								["Size"] = 0.075,
+								["AngleOffset"] = Angle(0, 45, 0),
+								["Color"] = Vector(255, 93, 0),
+								["Angles"] = Angle(40, 120, 14),
+								["Model"] = "models/holograms/pyramid.mdl",
+								["UniqueID"] = "1802098013",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "1144999404",
+								["Scale"] = Vector(1, 1, 2.7999999523163),
+								["Position"] = Vector(1.5, 0, 3),
+								["Angles"] = Angle(62, 179.99993896484, 179.99995422363),
+								["Size"] = 0.075,
+								["ClassName"] = "model",
+								["Color"] = Vector(255, 93, 0),
+								["Material"] = "models/ihvtest/eyeball_l",
+								["Model"] = "models/holograms/pyramid.mdl",
+								["AngleOffset"] = Angle(0, 45, 0),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2676571139",
+						["Name"] = "top shade",
+						["Scale"] = Vector(1, 1.7999999523163, 1.7999999523163),
+						["Angles"] = Angle(0.00036427899613045, 13, 90),
+						["Size"] = 0.725,
+						["Position"] = Vector(3.294921875, 0.00341796875, 0.1533203125),
+						["Color"] = Vector(140, 140, 140),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Model"] = "models/gibs/antlion_gib_small_2.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(2.18505859375, 1.5, -4.5),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Scale"] = Vector(1, 0.40000000596046, 1),
+						["ClassName"] = "model",
+						["AngleOffset"] = Angle(-71.199996948242, 0, 0),
+						["Size"] = 0.05,
+						["PositionOffset"] = Vector(0.10000000149012, 0, 3.2000000476837),
+						["Color"] = Vector(140, 140, 140),
+						["Angles"] = Angle(6.0511207266245e-005, -1.0738872333604e-006, -100),
+						["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+						["UniqueID"] = "751361416",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-2, 0, 0),
+						["ClassName"] = "model",
+						["UniqueID"] = "2584443902",
+						["Size"] = 0.375,
+						["Color"] = Vector(255, 34, 60),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Model"] = "models/pac/default.mdl",
+						["Scale"] = Vector(1, 1, 1.2000000476837),
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 0.1,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "2178017684",
+								["Pow"] = 500,
+								["Min"] = 1,
+								["VariableName"] = "Scale",
+							},
+						},
+					},
+					["self"] = {
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+						["UniqueID"] = "267656412",
+						["Size"] = 0.075,
+						["Color"] = Vector(0, 0, 0),
+						["Position"] = Vector(1.029296875, -3.201171875, 1.8240000009537),
+						["Name"] = "right eye",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3450846107",
+						["Name"] = "red mask",
+						["Scale"] = Vector(1.0750000476837, 1, 0.89999997615814),
+						["Angles"] = Angle(89.999969482422, -160, 0),
+						["Size"] = 0.25,
+						["Position"] = Vector(-5.4000000953674, -2.2999999523163, 0),
+						["Color"] = Vector(255, 34, 60),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Model"] = "models/props_c17/light_industrialbell01_on.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3646408698",
+						["Name"] = "bottom shade",
+						["Scale"] = Vector(0.60000002384186, 1.7999999523163, 1.7999999523163),
+						["Angles"] = Angle(-0.00051108316984028, -15, 90),
+						["Size"] = 0.6,
+						["Position"] = Vector(3, -0.85000002384186, 0),
+						["Color"] = Vector(61, 61, 61),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Model"] = "models/gibs/antlion_gib_small_2.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[8] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 0.1,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "1438382638",
+								["Pow"] = 500,
+								["Min"] = 1,
+								["VariableName"] = "Scale",
+							},
+						},
+					},
+					["self"] = {
+						["Model"] = "models/pac/default.mdl",
+						["ClassName"] = "model",
+						["UniqueID"] = "446628194",
+						["Size"] = 0.075,
+						["Color"] = Vector(0, 0, 0),
+						["Position"] = Vector(1.029296875, -3.201171875, -1.82421875),
+						["Name"] = "left eye",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(2.18505859375, 1.5, 4.5),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Scale"] = Vector(1, 0.40000000596046, 1),
+						["ClassName"] = "model",
+						["AngleOffset"] = Angle(-71.199996948242, 0, 0),
+						["Size"] = 0.05,
+						["PositionOffset"] = Vector(0.10000000149012, 0, 3.2000000476837),
+						["Color"] = Vector(140, 140, 140),
+						["Angles"] = Angle(6.0511174524436e-005, 0, -80),
+						["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+						["UniqueID"] = "4010741698",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["UniqueID"] = "166169901",
+				["Model"] = "models/pac/default.mdl",
+				["Color"] = Vector(0, 165, 255),
+				["Size"] = 0.475,
+				["Name"] = "head",
+				["Material"] = "models/ihvtest/eyeball_l",
+			},
+		},
+		[9] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(3.6279296875, 0.6025390625, -0.07421875),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Name"] = "left calf",
+				["Scale"] = Vector(1, 1, 0.30000001192093),
+				["EditorExpand"] = true,
+				["ClassName"] = "model",
+				["Size"] = 0.825,
+				["Angles"] = Angle(89.999984741211, 3.5257678031921, 0),
+				["Color"] = Vector(61, 61, 61),
+				["Bone"] = "left calf",
+				["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+				["UniqueID"] = "3696185130",
+			},
+		},
+		[10] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-2.0400390625, -0.0068359375, -0.3037109375),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Name"] = "left shoulder",
+						["Scale"] = Vector(1, 1.2999999523163, 1),
+						["EditorExpand"] = true,
+						["ClassName"] = "model",
+						["Size"] = 0.35,
+						["Angles"] = Angle(-30, 8.2798924267991e-006, 4.7839375838521e-006),
+						["Color"] = Vector(186, 89, 69),
+						["Bone"] = "left upperarm",
+						["Model"] = "models/Gibs/Antlion_gib_Large_2.mdl",
+						["UniqueID"] = "2789458280",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(-1.168212890625, -1.197265625, -0.080078125),
+				["Name"] = "left shoulder",
+				["Scale"] = Vector(1, 1.2999999523163, 1),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Size"] = 0.375,
+				["Angles"] = Angle(19.265186309814, -167.36851501465, 34.185325622559),
+				["Color"] = Vector(255, 34, 60),
+				["Bone"] = "left upperarm",
+				["Model"] = "models/Gibs/Antlion_gib_Large_2.mdl",
+				["UniqueID"] = "1523813130",
+			},
+		},
+		[11] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "447722717",
+						["Scale"] = Vector(1, 0.80000001192093, 0.25),
+						["ClassName"] = "model",
+						["Size"] = 1.4,
+						["Position"] = Vector(-0.2978515625, -0.751953125, -3.9033203125),
+						["Color"] = Vector(90, 90, 90),
+						["Angles"] = Angle(5.3360854508355e-006, 179.99992370605, 177.63125610352),
+						["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1044920250",
+						["Name"] = "pelvis",
+						["Scale"] = Vector(0.80000001192093, 0.69999998807907, 0.075000002980232),
+						["EditorExpand"] = true,
+						["Size"] = 2.125,
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Color"] = Vector(163, 146, 99),
+						["Bone"] = "spine",
+						["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "4176118761",
+						["Scale"] = Vector(1, 0.80000001192093, 0.25),
+						["ClassName"] = "model",
+						["Size"] = 1.625,
+						["Position"] = Vector(-0.3173828125, 0.6500244140625, -3.7177734375),
+						["Color"] = Vector(90, 90, 90),
+						["Angles"] = Angle(0, 179.99992370605, 179.99993896484),
+						["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(0.42578125, 2.1279296875, -0.05615234375),
+				["Name"] = "pelvis",
+				["Scale"] = Vector(0.89999997615814, 0.69999998807907, 0.25),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Size"] = 1.8,
+				["Angles"] = Angle(89.999984741211, 3.5257678031921, 0),
+				["Color"] = Vector(90, 90, 90),
+				["Bone"] = "spine",
+				["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+				["UniqueID"] = "3904608236",
+			},
+		},
+		[12] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1642798408",
+						["Scale"] = Vector(1, 1, 0.69999998807907),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["EditorExpand"] = true,
+						["Size"] = 2.025,
+						["Angles"] = Angle(3.7307004928589, -6.502458563773e-005, -4.539577960968),
+						["Color"] = Vector(90, 90, 90),
+						["Position"] = Vector(-0.77490234375, -0.828125, -3.66748046875),
+						["Model"] = "models/props_junk/PopCan01a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(90, -2.6488361982047e-005, -1.7658907381701e-005),
+						["UniqueID"] = "1056558621",
+						["EditorExpand"] = true,
+						["Position"] = Vector(-0.00390625, -0.009765625, 7.0302734375),
+						["ClassName"] = "clip",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1111432337",
+				["Angles"] = Angle(-38.015350341797, -89.814781188965, -98.034934997559),
+				["Name"] = "right thigh",
+				["Scale"] = Vector(1, 1, 0.80000001192093),
+				["Size"] = 1.075,
+				["ClassName"] = "model",
+				["DoubleFace"] = true,
+				["Position"] = Vector(5.96923828125, -0.154296875, 0.57421875),
+				["Color"] = Vector(90, 90, 90),
+				["Bone"] = "right thigh",
+				["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+				["Material"] = "models/ihvtest/eyeball_l",
+			},
+		},
+		[13] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2489843227",
+						["Position"] = Vector(-0.00537109375, -0.3173828125, -2.2744140625),
+						["Scale"] = Vector(1.2999999523163, 1, 0.20000000298023),
+						["EditorExpand"] = true,
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Size"] = 1.35,
+						["Angles"] = Angle(-6.6167458498967e-006, -179.99993896484, 178.13638305664),
+						["Color"] = Vector(255, 34, 60),
+						["Bone"] = "neck",
+						["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(0.751953125, -1.55859375, -0.058990478515625),
+				["Name"] = "neck",
+				["Scale"] = Vector(1, 1.2000000476837, 0.20000000298023),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Size"] = 1.1,
+				["Angles"] = Angle(89.999992370605, 28.161344528198, 0),
+				["Color"] = Vector(255, 34, 60),
+				["Bone"] = "neck",
+				["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+				["UniqueID"] = "172131687",
+			},
+		},
+		[14] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-2.2109375, 1.754638671875, 0.0234375),
+				["Name"] = "orange cape",
+				["Scale"] = Vector(0.80000001192093, 1, 1),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["EditorExpand"] = true,
+				["Angles"] = Angle(-0.00012123586202506, 85.135795593262, 90.000045776367),
+				["Color"] = Vector(186, 89, 69),
+				["Bone"] = "spine 4",
+				["Model"] = "models/pac/jiggle/clothing/base_cape_2_gravity.mdl",
+				["UniqueID"] = "3926905108",
+			},
+		},
+		[15] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2,
+						["Bone"] = "right calf",
+						["UniqueID"] = "1397077567",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left calf",
+						["UniqueID"] = "173842562",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "spine 4",
+						["UniqueID"] = "1847959439",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "spine 2",
+						["UniqueID"] = "3753451338",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right glut",
+						["UniqueID"] = "1931521847",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2,
+						["Bone"] = "right foot",
+						["UniqueID"] = "350604527",
+						["ClassName"] = "bone",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left hand",
+						["UniqueID"] = "2258635255",
+						["ClassName"] = "bone",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left clavicle",
+						["UniqueID"] = "165739607",
+						["ClassName"] = "bone",
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "anim_attachment_head",
+						["EditorExpand"] = true,
+						["UniqueID"] = "3149930567",
+						["ClassName"] = "bone",
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left thigh",
+						["UniqueID"] = "1889334242",
+						["ClassName"] = "bone",
+					},
+				},
+				[11] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "attach right hand",
+						["UniqueID"] = "4292609602",
+						["ClassName"] = "bone",
+					},
+				},
+				[12] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left forearm",
+						["UniqueID"] = "3267112946",
+						["ClassName"] = "bone",
+					},
+				},
+				[13] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left glut",
+						["UniqueID"] = "3781519919",
+						["ClassName"] = "bone",
+					},
+				},
+				[14] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "invalidbone",
+						["UniqueID"] = "1308416594",
+						["ClassName"] = "bone",
+					},
+				},
+				[15] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.40283203125, -0.00732421875, 0.0244140625),
+						["ClassName"] = "clip",
+						["UniqueID"] = "2762436171",
+						["Bone"] = "right calf",
+					},
+				},
+				[16] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "anim_attachment_rh",
+						["UniqueID"] = "3691332511",
+						["ClassName"] = "bone",
+					},
+				},
+				[17] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "spine",
+						["UniqueID"] = "2882892430",
+						["ClassName"] = "bone",
+					},
+				},
+				[18] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "spine 1",
+						["UniqueID"] = "2343594886",
+						["ClassName"] = "bone",
+					},
+				},
+				[19] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "2233226530",
+						["ClassName"] = "bone",
+					},
+				},
+				[20] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "attach left hand",
+						["UniqueID"] = "3067101750",
+						["ClassName"] = "bone",
+					},
+				},
+				[21] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "pelvis",
+						["UniqueID"] = "1575585947",
+						["ClassName"] = "bone",
+					},
+				},
+				[22] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right forearm",
+						["UniqueID"] = "2797932799",
+						["ClassName"] = "bone",
+					},
+				},
+				[23] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "neck",
+						["UniqueID"] = "926714162",
+						["ClassName"] = "bone",
+					},
+				},
+				[24] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right hand",
+						["UniqueID"] = "1619632427",
+						["ClassName"] = "bone",
+					},
+				},
+				[25] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left foot",
+						["UniqueID"] = "3095166098",
+						["ClassName"] = "bone",
+					},
+				},
+				[26] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "anim_attachment_lh",
+						["UniqueID"] = "1312851591",
+						["ClassName"] = "bone",
+					},
+				},
+				[27] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right clavicle",
+						["UniqueID"] = "3238032167",
+						["ClassName"] = "bone",
+					},
+				},
+				[28] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 2,
+						["Bone"] = "right toe",
+						["UniqueID"] = "1089255459",
+						["ClassName"] = "bone",
+					},
+				},
+				[29] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right thigh",
+						["UniqueID"] = "880858599",
+						["ClassName"] = "bone",
+					},
+				},
+				[30] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "righthand",
+						["UniqueID"] = "3805886202",
+						["ClassName"] = "bone",
+					},
+				},
+				[31] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "eyes",
+						["UniqueID"] = "2611296591",
+						["ClassName"] = "bone",
+					},
+				},
+				[32] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2528467774",
+						["ClassName"] = "bone",
+					},
+				},
+				[33] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left upperarm",
+						["UniqueID"] = "696640863",
+						["ClassName"] = "bone",
+					},
+				},
+				[34] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "lefthand",
+						["UniqueID"] = "4234173079",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "2285093472",
+				["Model"] = "models/pac/male/base_male_leg_r.mdl",
+				["Color"] = Vector(61, 61, 61),
+				["Size"] = 0.4,
+				["Name"] = "right boot",
+				["Material"] = "models/ihvtest/eyeball_l",
+			},
+		},
+		[16] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Arguments"] = "four",
+				["UniqueID"] = "2008757258",
+				["Event"] = "command",
+				["ClassName"] = "event",
+				["EditorExpand"] = true,
+			},
+		},
+		[17] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(90, -2.6488361982047e-005, -1.7658907381701e-005),
+						["UniqueID"] = "3442213961",
+						["EditorExpand"] = true,
+						["Position"] = Vector(-0.00390625, -0.009765625, 7.0302734375),
+						["ClassName"] = "clip",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1920735463",
+						["Scale"] = Vector(1, 1, 0.69999998807907),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["EditorExpand"] = true,
+						["Size"] = 2.025,
+						["Angles"] = Angle(0, -2.055192089756e-005, 0),
+						["Color"] = Vector(90, 90, 90),
+						["Position"] = Vector(-0.8009033203125, 0.3134765625, -4.86279296875),
+						["Model"] = "models/props_junk/PopCan01a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3502606359",
+				["Angles"] = Angle(-0.00017075473442674, -90.000030517578, -78.631286621094),
+				["Name"] = "left thigh",
+				["Scale"] = Vector(1, 1, 0.80000001192093),
+				["Size"] = 1.075,
+				["ClassName"] = "model",
+				["DoubleFace"] = true,
+				["Position"] = Vector(5.8984375, -0.25244140625, -0.28125),
+				["Color"] = Vector(90, 90, 90),
+				["Bone"] = "left thigh",
+				["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+				["Material"] = "models/ihvtest/eyeball_l",
+			},
+		},
+		[18] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.00732421875, -3.03515625, 0.0068359375),
+						["Name"] = "right foot",
+						["Scale"] = Vector(1, 0.40000000596046, 1),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["Angles"] = Angle(-7.454511069227e-005, -4.7081217765808, 0.00013148115249351),
+						["Color"] = Vector(140, 140, 140),
+						["Bone"] = "",
+						["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+						["UniqueID"] = "2263779105",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3455079812",
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Name"] = "right foot",
+				["Scale"] = Vector(1, 0.40000000596046, 1),
+				["Position"] = Vector(2.773681640625, -0.00732421875, 1.220703125),
+				["Angles"] = Angle(-2.9882079616073e-005, -89.999977111816, 86.256164550781),
+				["Size"] = 0.05,
+				["PositionOffset"] = Vector(0.10000000149012, 0, 3.2000000476837),
+				["Color"] = Vector(140, 140, 140),
+				["Bone"] = "right foot",
+				["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+				["AngleOffset"] = Angle(-71.199996948242, 0, 0),
+			},
+		},
+		[19] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = -0.25,
+						["Bone"] = "right glut",
+						["UniqueID"] = "1430530213",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 1.5,
+						["Bone"] = "left thigh",
+						["UniqueID"] = "2868087986",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "344119953",
+						["Bone"] = "left forearm",
+						["Size"] = 1.4,
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = -0.25,
+						["Bone"] = "left glut",
+						["UniqueID"] = "2432298434",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["EditorExpand"] = true,
+								["UniqueID"] = "3002454309",
+								["Bone"] = "spine 1",
+								["Size"] = 1.9,
+								["ClassName"] = "bone",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Size"] = 0.925,
+								["Bone"] = "spine 2",
+								["UniqueID"] = "3352843427",
+								["ClassName"] = "bone",
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "3795337366",
+						["Bone"] = "spine",
+						["Size"] = 1.425,
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 1.4,
+						["Bone"] = "right forearm",
+						["UniqueID"] = "3879415225",
+						["ClassName"] = "bone",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 1.5,
+						["Bone"] = "right thigh",
+						["UniqueID"] = "1722916139",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["UniqueID"] = "1335468941",
+				["ClassName"] = "model",
+				["Size"] = 0.475,
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Color"] = Vector(36, 40, 36),
+				["Bone"] = "none",
+				["Model"] = "models/pac/male/base_male.mdl",
+				["Position"] = Vector(0.0001220703125, 0, 0),
+			},
+		},
+		[20] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(3.31103515625, 0.666015625, -0.12890625),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["Name"] = "right calf",
+				["Scale"] = Vector(1, 1, 0.30000001192093),
+				["EditorExpand"] = true,
+				["ClassName"] = "model",
+				["Size"] = 0.825,
+				["Angles"] = Angle(89.999984741211, 3.5257678031921, 0),
+				["Color"] = Vector(61, 61, 61),
+				["Bone"] = "right calf",
+				["Model"] = "models/props_junk/garbage_glassbottle002a.mdl",
+				["UniqueID"] = "1755878922",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "1232090358",
+		["Description"] = "add parts to me!",
+	},
+},

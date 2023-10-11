@@ -1,0 +1,64 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Max"] = 255,
+						["Offset"] = 1,
+						["UniqueID"] = "551755445",
+						["Axis"] = "r",
+						["ClassName"] = "proxy",
+						["Name"] = "red color proxy",
+						["VariableName"] = "Color",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Max"] = 255,
+						["Offset"] = 2,
+						["UniqueID"] = "3754195910",
+						["Axis"] = "g",
+						["ClassName"] = "proxy",
+						["Name"] = "green color proxy",
+						["VariableName"] = "Color",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Max"] = 255,
+						["Offset"] = 3,
+						["UniqueID"] = "583588619",
+						["Axis"] = "b",
+						["ClassName"] = "proxy",
+						["Name"] = "blue color proxy",
+						["VariableName"] = "Color",
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/pac/default.mdl",
+				["ClassName"] = "model",
+				["UniqueID"] = "3806244319",
+				["Size"] = 1.3,
+				["Color"] = Vector(144.88777160645, 243.17985534668, 235.11640930176),
+				["EditorExpand"] = true,
+				["Name"] = "set this models color to black",
+				["Material"] = "models/ihvtest/eyeball_l",
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "1116759819",
+		["ClassName"] = "group",
+		["Name"] = "color",
+		["Description"] = "add parts to me!",
+	},
+},

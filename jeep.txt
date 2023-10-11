@@ -1,0 +1,224 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-90, 0, 90),
+				["UniqueID"] = "878471313",
+				["PositionOffset"] = Vector(0, 2.5, 0),
+				["Position"] = Vector(0, -49.915000915527, 30.855600357056),
+				["Model"] = "models/props_c17/TrapPropeller_Engine.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 90, 0),
+						["UniqueID"] = "2260962250",
+						["EditorExpand"] = true,
+						["Position"] = Vector(0, -23.771999359131, 0),
+						["ClassName"] = "clip",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -90, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "3171217855",
+						["Position"] = Vector(0, 18.114999771118, 0),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "436962462",
+				["Scale"] = Vector(3.4000000953674, 3, 0.80000001192093),
+				["ClassName"] = "model",
+				["Size"] = 0.625,
+				["Angles"] = Angle(-90, 90, 0),
+				["Color"] = Vector(0, 0, 0),
+				["Position"] = Vector(-2.7750000953674, -63.105701446533, 16.399200439453),
+				["Model"] = "models/props_interiors/Radiator01a.mdl",
+				["EditorExpand"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -179.96879577637, -179.96879577637),
+						["ClassName"] = "clip",
+						["UniqueID"] = "4167656838",
+						["Position"] = Vector(-13.008799552917, 0, 0),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(3.313600063324, 8.0729999542236, 23.756799697876),
+				["Scale"] = Vector(0.80000001192093, 1, 1),
+				["EditorExpand"] = true,
+				["DoubleFace"] = true,
+				["AngleOffset"] = Angle(0, 0, -4.7811999320984),
+				["ClassName"] = "model",
+				["UniqueID"] = "1969984095",
+				["Model"] = "models/props_vehicles/car002b_physics.mdl",
+				["Angles"] = Angle(0, -90, 0),
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -90, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "1751085198",
+						["Position"] = Vector(0, -58.458000183105, 45.219699859619),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-90, 90, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "2595028372",
+						["Position"] = Vector(0, -82.616500854492, 49.662498474121),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 180, 0),
+				["Position"] = Vector(0, -32.120399475098, -16.437599182129),
+				["ClassName"] = "model",
+				["EditorExpand"] = true,
+				["Model"] = "models/buggy.mdl",
+				["UniqueID"] = "3237964436",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-0, -90, 0),
+				["UniqueID"] = "274483603",
+				["ClassName"] = "model",
+				["Position"] = Vector(-34.717529296875, -4.6123046875, 30.1611328125),
+				["Model"] = "models/props_vehicles/carparts_door01a.mdl",
+				["AngleOffset"] = Angle(0, 3.5, 0),
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 0, -93.593803405762),
+				["Position"] = Vector(0, 72.315696716309, 26.221700668335),
+				["ClassName"] = "model",
+				["Size"] = 0.85,
+				["EditorExpand"] = true,
+				["Model"] = "models/props_phx/wheels/trucktire.mdl",
+				["UniqueID"] = "638883613",
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "clip",
+						["UniqueID"] = "1006679282",
+						["Position"] = Vector(14.146499633789, 0, 0),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(0, 5.6449999809265, 23.397499084473),
+				["Name"] = "car002a_physics",
+				["Scale"] = Vector(1.1000000238419, 1, 1),
+				["AngleOffset"] = Angle(0, 0, -3.2811999320984),
+				["DoubleFace"] = true,
+				["UniqueID"] = "2175447785",
+				["EditorExpand"] = true,
+				["Angles"] = Angle(0, -90, 0),
+				["Model"] = "models/props_vehicles/car002a_physics.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["AngleOffset"] = Angle(0, 3.5, 0),
+				["Angles"] = Angle(-2.7631364218905e-007, 90, 180),
+				["Invert"] = true,
+				["Size"] = -1,
+				["Position"] = Vector(32.382568359375, -4.6123046875, 30.1611328125),
+				["UniqueID"] = "4281492051",
+				["Model"] = "models/props_vehicles/carparts_door01a.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -90, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "4195992247",
+						["Position"] = Vector(0, 0, 45.219699859619),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 90, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "560758744",
+						["Position"] = Vector(0, -61.713401794434, 34.439498901367),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 180, 0),
+				["Position"] = Vector(0, -32.120399475098, -16.437599182129),
+				["ClassName"] = "model",
+				["EditorExpand"] = true,
+				["Model"] = "models/buggy.mdl",
+				["UniqueID"] = "513602011",
+			},
+		},
+		[10] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-0, 180, 0),
+				["Position"] = Vector(-13.027954101563, 7.30859375, 0),
+				["ClassName"] = "model",
+				["Model"] = "models/nova/jeep_seat.mdl",
+				["UniqueID"] = "72846547",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["OwnerName"] = "1173",
+		["UniqueID"] = "2693509847",
+		["EditorExpand"] = true,
+		["Name"] = "Entity [1173][prop_physics]",
+		["Description"] = "add parts to me!",
+	},
+},

@@ -6,47 +6,6 @@
 					["children"] = {
 					},
 					["self"] = {
-						["Max"] = 0.2,
-						["ClassName"] = "proxy",
-						["UniqueID"] = "3654474475",
-						["InputMultiplier"] = 2.5,
-						["Min"] = -0.2,
-						["Input"] = "voice_volume",
-						["VariableName"] = "Size",
-					},
-				},
-				[2] = {
-					["children"] = {
-					},
-					["self"] = {
-						["Event"] = "is_voice_chatting",
-						["ClassName"] = "event",
-						["Invert"] = true,
-						["UniqueID"] = "3467523253",
-					},
-				},
-			},
-			["self"] = {
-				["Position"] = Vector(-4.3955078125, -19.46484375, 0.654541015625),
-				["Model"] = "models/hunter/plates/plate1x1.mdl",
-				["Name"] = "mouth",
-				["Scale"] = Vector(1, 1, 0.0010000000474975),
-				["Alpha"] = 0.999,
-				["Angles"] = Angle(90, -91.15625, 0),
-				["Size"] = 0,
-				["UniqueID"] = "463513559",
-				["ClassName"] = "model",
-				["Fullbright"] = true,
-				["Translucent"] = true,
-				["Material"] = "https://dl.dropboxusercontent.com/u/183209082/sounds%20%2B%20textures/scratch/eye%201.png",
-			},
-		},
-		[2] = {
-			["children"] = {
-				[1] = {
-					["children"] = {
-					},
-					["self"] = {
 						["Max"] = 0.1,
 						["ClassName"] = "proxy",
 						["UniqueID"] = "858271440",
@@ -58,9 +17,9 @@
 				},
 			},
 			["self"] = {
-				["Position"] = Vector(4.5068359375, -17.72998046875, 7.503662109375),
-				["Model"] = "models/hunter/plates/plate1x1.mdl",
 				["UniqueID"] = "2339473336",
+				["Model"] = "models/hunter/plates/plate1x1.mdl",
+				["Position"] = Vector(4.5068359375, -17.72998046875, 7.503662109375),
 				["Name"] = "eye 1",
 				["Scale"] = Vector(1, 1, 0.0010000000474975),
 				["Alpha"] = 0.999,
@@ -73,36 +32,112 @@
 				["Material"] = "https://dl.dropboxusercontent.com/s/k5ng49x93x2vcdv/eye%201.png?dl=0",
 			},
 		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["HideEntity"] = true,
+				["Size"] = 0.4,
+				["UniqueID"] = "959324289",
+				["DrawWeapon"] = false,
+				["ClassName"] = "entity",
+			},
+		},
 		[3] = {
 			["children"] = {
 				[1] = {
 					["children"] = {
-						[1] = {
-							["children"] = {
-							},
-							["self"] = {
-								["ClassName"] = "event",
-								["UniqueID"] = "936977832",
-								["Event"] = "speed",
-								["Operator"] = "equal or above",
-								["Arguments"] = "230",
-								["Invert"] = true,
-							},
-						},
 					},
 					["self"] = {
-						["Max"] = 255,
-						["UniqueID"] = "1937551953",
-						["Axis"] = "r",
-						["Input"] = "random",
-						["VariableName"] = "Color",
-						["ClassName"] = "proxy",
-						["InputMultiplier"] = 10,
-						["Function"] = "cos",
-						["EditorExpand"] = true,
+						["ClassName"] = "model",
+						["UniqueID"] = "45382221",
+						["Position"] = Vector(0.001220703125, -0.004638671875, -5.4931640625),
+						["Color"] = Vector(0, 0, 0),
+						["Size"] = 0.675,
+						["Model"] = "models/pac/default.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
 					},
 				},
-				[2] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-0.017578125, 0.0009765625, -7.300048828125),
+				["Name"] = "leg right",
+				["Scale"] = Vector(1, 1, 1.5),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Size"] = 0.875,
+				["Angles"] = Angle(89.96875, -15, 0),
+				["Color"] = Vector(0, 0, 0),
+				["Bone"] = "right calf",
+				["Model"] = "models/holograms/hq_rcylinder.mdl",
+				["UniqueID"] = "1586981474",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "1210571325",
+						["Position"] = Vector(0.001220703125, -0.004638671875, -5.4931640625),
+						["Color"] = Vector(0, 0, 0),
+						["Size"] = 0.675,
+						["Model"] = "models/pac/default.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(0, 0, 7.2979998588562),
+				["Name"] = "leg left",
+				["Scale"] = Vector(1, 1, 1.5),
+				["Material"] = "models/ihvtest/eyeball_l",
+				["ClassName"] = "model",
+				["Size"] = 0.875,
+				["Angles"] = Angle(89.96875, -15, 0),
+				["Color"] = Vector(0, 0, 0),
+				["Bone"] = "left calf",
+				["Model"] = "models/holograms/hq_rcylinder.mdl",
+				["UniqueID"] = "1401576861",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Max"] = 0.1,
+						["ClassName"] = "proxy",
+						["UniqueID"] = "3415309553",
+						["Axis"] = "y",
+						["Pow"] = 200,
+						["Min"] = 1,
+						["VariableName"] = "Scale",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3694843393",
+				["Model"] = "models/hunter/plates/plate1x1.mdl",
+				["Name"] = "eye 2",
+				["Scale"] = Vector(1, 1, 0.0010000000474975),
+				["Alpha"] = 0.999,
+				["Angles"] = Angle(-73.96875, -56.21875, 157.46875),
+				["Size"] = 0.25,
+				["Position"] = Vector(4.080078125, -18.6767578125, -6.51171875),
+				["ClassName"] = "model",
+				["Fullbright"] = true,
+				["Translucent"] = true,
+				["Material"] = "https://dl.dropboxusercontent.com/s/k5ng49x93x2vcdv/eye%201.png?dl=0",
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
 					["children"] = {
 						[1] = {
 							["children"] = {
@@ -129,32 +164,61 @@
 						["EditorExpand"] = true,
 					},
 				},
-				[3] = {
+				[2] = {
 					["children"] = {
 					},
 					["self"] = {
-						["SizeY"] = 1.2,
-						["ClassName"] = "sprite",
-						["Position"] = Vector(-1.5009765625, 0.0048828125, 0),
-						["SpritePath"] = "https://dl.dropboxusercontent.com/s/nfpu8wau0wbc7gq/head.png?dl=0",
-						["Color"] = Vector(0, 0, 0),
-						["Size"] = 52.825,
-						["EditorExpand"] = true,
 						["UniqueID"] = "3117506862",
+						["SpritePath"] = "https://dl.dropboxusercontent.com/s/nfpu8wau0wbc7gq/head.png?dl=0",
+						["Alpha"] = 0.999,
+						["ClassName"] = "sprite",
+						["Size"] = 52.825,
+						["SizeY"] = 1.2,
+						["Color"] = Vector(0, 0, 0),
+						["EditorExpand"] = true,
+						["Position"] = Vector(-1.5009765625, 0.0048828125, 0),
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "936977832",
+								["Event"] = "speed",
+								["Operator"] = "equal or above",
+								["Arguments"] = "230",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Max"] = 255,
+						["UniqueID"] = "1937551953",
+						["Axis"] = "r",
+						["Input"] = "random",
+						["VariableName"] = "Color",
+						["ClassName"] = "proxy",
+						["InputMultiplier"] = 10,
+						["Function"] = "cos",
+						["EditorExpand"] = true,
 					},
 				},
 				[4] = {
 					["children"] = {
 					},
 					["self"] = {
-						["Position"] = Vector(1.1484375, 0.0047607421875, -0.1630859375),
+						["UniqueID"] = "711447770",
 						["SpritePath"] = "https://dl.dropboxusercontent.com/s/nfpu8wau0wbc7gq/head.png?dl=0",
+						["Alpha"] = 0.999,
 						["ClassName"] = "sprite",
 						["Size"] = -52.825,
 						["SizeY"] = 1.2,
 						["Color"] = Vector(0, 0, 0),
-						["UniqueID"] = "711447770",
 						["EditorExpand"] = true,
+						["Position"] = Vector(1.1484375, 0.0047607421875, -0.1630859375),
 						["Angles"] = Angle(3.4375, 0, 0),
 					},
 				},
@@ -187,17 +251,18 @@
 				},
 			},
 			["self"] = {
-				["Model"] = "models/pac/default.mdl",
-				["ClassName"] = "model",
-				["Position"] = Vector(0, 0, -0.000244140625),
-				["Size"] = 2.425,
-				["Color"] = Vector(0.41589990258217, 53.931640625, 90.962226867676),
 				["UniqueID"] = "2414073033",
 				["Name"] = "head",
+				["ClassName"] = "model",
+				["Size"] = 2.425,
+				["Position"] = Vector(0, 0, -0.000244140625),
+				["Color"] = Vector(139.78221130371, 251.8917388916, 51.27271270752),
 				["Material"] = "models/ihvtest/eyeball_l",
+				["Model"] = "models/pac/default.mdl",
+				["EditorExpand"] = true,
 			},
 		},
-		[4] = {
+		[7] = {
 			["children"] = {
 			},
 			["self"] = {
@@ -206,80 +271,48 @@
 				["UniqueID"] = "4264257919",
 			},
 		},
-		[5] = {
+		[8] = {
 			["children"] = {
 				[1] = {
 					["children"] = {
 					},
 					["self"] = {
-						["ClassName"] = "model",
-						["Position"] = Vector(0.001220703125, -0.004638671875, -5.4931640625),
-						["UniqueID"] = "45382221",
-						["Color"] = Vector(0, 0, 0),
-						["Size"] = 0.675,
-						["Model"] = "models/pac/default.mdl",
-						["Material"] = "models/ihvtest/eyeball_l",
-					},
-				},
-			},
-			["self"] = {
-				["UniqueID"] = "1586981474",
-				["Name"] = "leg right",
-				["Scale"] = Vector(1, 1, 1.5),
-				["Material"] = "models/ihvtest/eyeball_l",
-				["ClassName"] = "model",
-				["Size"] = 0.875,
-				["Angles"] = Angle(89.96875, -15, 0),
-				["Color"] = Vector(0, 0, 0),
-				["Bone"] = "right calf",
-				["Model"] = "models/holograms/hq_rcylinder.mdl",
-				["Position"] = Vector(-0.017578125, 0.0009765625, -7.300048828125),
-			},
-		},
-		[6] = {
-			["children"] = {
-				[1] = {
-					["children"] = {
-					},
-					["self"] = {
-						["Max"] = 0.1,
+						["Max"] = 0.2,
 						["ClassName"] = "proxy",
-						["UniqueID"] = "3415309553",
-						["Axis"] = "y",
-						["Pow"] = 200,
-						["Min"] = 1,
-						["VariableName"] = "Scale",
+						["UniqueID"] = "3654474475",
+						["InputMultiplier"] = 2.5,
+						["Min"] = -0.2,
+						["Input"] = "voice_volume",
+						["VariableName"] = "Size",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_voice_chatting",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "3467523253",
 					},
 				},
 			},
 			["self"] = {
-				["Position"] = Vector(4.080078125, -18.6767578125, -6.51171875),
+				["UniqueID"] = "463513559",
 				["Model"] = "models/hunter/plates/plate1x1.mdl",
-				["Name"] = "eye 2",
+				["Name"] = "mouth",
 				["Scale"] = Vector(1, 1, 0.0010000000474975),
 				["Alpha"] = 0.999,
-				["Angles"] = Angle(-73.96875, -56.21875, 157.46875),
-				["Size"] = 0.25,
-				["UniqueID"] = "3694843393",
+				["Angles"] = Angle(90, -91.15625, 0),
+				["Size"] = 0,
+				["Position"] = Vector(-4.3955078125, -19.46484375, 0.654541015625),
 				["ClassName"] = "model",
 				["Fullbright"] = true,
 				["Translucent"] = true,
-				["Material"] = "https://dl.dropboxusercontent.com/s/k5ng49x93x2vcdv/eye%201.png?dl=0",
+				["Material"] = "https://dl.dropboxusercontent.com/u/183209082/sounds%20%2B%20textures/scratch/eye%201.png",
 			},
 		},
-		[7] = {
-			["children"] = {
-			},
-			["self"] = {
-				["EditorExpand"] = true,
-				["HideEntity"] = true,
-				["Size"] = 0.4,
-				["UniqueID"] = "959324289",
-				["DrawWeapon"] = false,
-				["ClassName"] = "entity",
-			},
-		},
-		[8] = {
+		[9] = {
 			["children"] = {
 				[1] = {
 					["children"] = {
@@ -293,48 +326,18 @@
 				},
 			},
 			["self"] = {
-				["Position"] = Vector(0, 0, 0.1865234375),
+				["UniqueID"] = "559325932",
 				["Model"] = "models/hunter/plates/plate1x1.mdl",
 				["Name"] = "shadow",
 				["Scale"] = Vector(1, 1, 0),
 				["Alpha"] = 0.749,
 				["ClassName"] = "model",
 				["Size"] = 1.25,
-				["UniqueID"] = "559325932",
-				["Material"] = "https://dl.dropboxusercontent.com/s/nfpu8wau0wbc7gq/head.png?dl=0",
+				["Position"] = Vector(0, 0, 0.1865234375),
+				["Fullbright"] = true,
 				["Bone"] = "none",
 				["Translucent"] = true,
-				["Fullbright"] = true,
-			},
-		},
-		[9] = {
-			["children"] = {
-				[1] = {
-					["children"] = {
-					},
-					["self"] = {
-						["ClassName"] = "model",
-						["Position"] = Vector(0.001220703125, -0.004638671875, -5.4931640625),
-						["UniqueID"] = "1210571325",
-						["Color"] = Vector(0, 0, 0),
-						["Size"] = 0.675,
-						["Model"] = "models/pac/default.mdl",
-						["Material"] = "models/ihvtest/eyeball_l",
-					},
-				},
-			},
-			["self"] = {
-				["UniqueID"] = "1401576861",
-				["Name"] = "leg left",
-				["Scale"] = Vector(1, 1, 1.5),
-				["Material"] = "models/ihvtest/eyeball_l",
-				["ClassName"] = "model",
-				["Size"] = 0.875,
-				["Angles"] = Angle(89.96875, -15, 0),
-				["Color"] = Vector(0, 0, 0),
-				["Bone"] = "left calf",
-				["Model"] = "models/holograms/hq_rcylinder.mdl",
-				["Position"] = Vector(0, 0, 7.2979998588562),
+				["Material"] = "https://dl.dropboxusercontent.com/s/nfpu8wau0wbc7gq/head.png?dl=0",
 			},
 		},
 	},

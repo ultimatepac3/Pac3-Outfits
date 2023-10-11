@@ -1,0 +1,78 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "clip",
+						["UniqueID"] = "4231567621",
+						["Position"] = Vector(-24.38818359375, 0, 0),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(90, 0, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "385221043",
+						["Position"] = Vector(66.1044921875, 0.010009765625, 12.3662109375),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(0, -90, 0),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Position"] = Vector(0, -15.920654296875, 33.275390625),
+				["UniqueID"] = "4024223809",
+				["Model"] = "models/props_vehicles/truck003a.mdl",
+				["AngleOffset"] = Angle(0, 0, 3.28125),
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -27.25, 0),
+						["ClassName"] = "clip",
+						["UniqueID"] = "3674641755",
+						["Position"] = Vector(27.658203125, -14.295471191406, -0.0654296875),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-78.048843383789, 42.373470306396, -65.341011047363),
+						["ClassName"] = "clip",
+						["UniqueID"] = "4168901759",
+						["Position"] = Vector(97.26708984375, 0.13623046875, -69.7470703125),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 90, 0),
+				["ClassName"] = "model",
+				["DoubleFace"] = true,
+				["PositionOffset"] = Vector(0, 9.8999996185303, 0),
+				["Position"] = Vector(0, -35.28076171875, 37.8193359375),
+				["UniqueID"] = "3894704558",
+				["Model"] = "models/props_vehicles/truck002a_cab.mdl",
+				["AngleOffset"] = Angle(-8.59375, 26.28125, 6.28125),
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["OwnerName"] = "111",
+		["UniqueID"] = "178710154",
+		["EditorExpand"] = true,
+		["Name"] = "semi",
+		["Description"] = "add parts to me!",
+	},
+},

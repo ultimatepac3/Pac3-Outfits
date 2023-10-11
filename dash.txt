@@ -1,0 +1,87 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1621500603",
+				["Event"] = "speed",
+				["Operator"] = "above",
+				["Arguments"] = "250",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "2526380692",
+								["Event"] = "timer",
+								["Arguments"] = "0.5",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "proxy",
+						["UniqueID"] = "1270806266",
+						["Expression"] = "10",
+						["EditorExpand"] = true,
+						["VariableName"] = "Speed",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "timer",
+								["Arguments"] = "0.5",
+								["UniqueID"] = "1913166479",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "proxy",
+						["UniqueID"] = "478306728",
+						["Expression"] = "0",
+						["EditorExpand"] = true,
+						["VariableName"] = "Speed",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "3157111075",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "jiggle",
+				["UniqueID"] = "3801659638",
+				["Speed"] = 10,
+				["Bone"] = "none",
+				["EditorExpand"] = true,
+				["Position"] = Vector(0, 0, 47.340225219727),
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "2886393758",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},

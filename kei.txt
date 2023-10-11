@@ -1,0 +1,1790 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1751309468",
+								["Event"] = "is_crouching",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Event"] = "speed",
+												["UniqueID"] = "1039947369",
+												["Operator"] = "above",
+												["ClassName"] = "event",
+												["Arguments"] = "100",
+											},
+										},
+										[2] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["URL"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/animations/kei%20idle.txt",
+														["ClassName"] = "custom_animation",
+														["UniqueID"] = "1628022551",
+														["EditorExpand"] = true,
+													},
+												},
+												[2] = {
+													["children"] = {
+													},
+													["self"] = {
+														["SequenceName"] = "idle_all_01",
+														["ClassName"] = "animation",
+														["UniqueID"] = "304991185",
+														["Rate"] = 0.01,
+													},
+												},
+											},
+											["self"] = {
+												["ClassName"] = "group",
+												["UniqueID"] = "3409775976",
+												["EditorExpand"] = true,
+											},
+										},
+									},
+									["self"] = {
+										["ClassName"] = "group",
+										["UniqueID"] = "2061167435",
+										["EditorExpand"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "attack@@1",
+										["UniqueID"] = "1075975768",
+										["Event"] = "animation_event",
+										["ClassName"] = "event",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "group",
+								["UniqueID"] = "1961072395",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "idle",
+						["ClassName"] = "group",
+						["UniqueID"] = "3483786777",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_on_ground",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "1741231807",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3597536731",
+				["ClassName"] = "group",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Run"] = "run_all_02",
+				["ClassName"] = "holdtype",
+				["UniqueID"] = "190378331",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "276814992",
+		["Name"] = "animations",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "right finger 2",
+				["UniqueID"] = "4146560162",
+				["ClassName"] = "bone",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["EditorExpand"] = true,
+				["UniqueID"] = "857491234",
+				["ClassName"] = "bone",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "left finger 01",
+				["UniqueID"] = "3054724216",
+				["ClassName"] = "bone",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "left finger 02",
+				["UniqueID"] = "2332542772",
+				["ClassName"] = "bone",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "left finger 21",
+				["UniqueID"] = "1649267615",
+				["ClassName"] = "bone",
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "bone",
+				["UniqueID"] = "3747650312",
+				["Bone"] = "right thigh",
+				["Size"] = 0.1,
+				["Position"] = Vector(-2.40625, 0.0048828125, -0.00238037109375),
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "left finger 22",
+				["UniqueID"] = "561946559",
+				["ClassName"] = "bone",
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "bone",
+				["UniqueID"] = "600533491",
+				["Bone"] = "left thigh",
+				["Size"] = 0.1,
+				["Position"] = Vector(1.1640625, -0.00390625, 0.00506591796875),
+			},
+		},
+		[9] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2466656088",
+				["Bone"] = "right foot",
+				["Position"] = Vector(-8.4833984375, -0.0009765625, -0.0020751953125),
+				["ClassName"] = "bone",
+			},
+		},
+		[10] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "left finger 11",
+				["UniqueID"] = "3068235414",
+				["ClassName"] = "bone",
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "right finger 21",
+				["UniqueID"] = "3839467825",
+				["ClassName"] = "bone",
+			},
+		},
+		[12] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "right finger 02",
+				["UniqueID"] = "2135483175",
+				["ClassName"] = "bone",
+			},
+		},
+		[13] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "left finger 0",
+				["UniqueID"] = "4225484147",
+				["ClassName"] = "bone",
+			},
+		},
+		[14] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.4,
+				["Bone"] = "spine",
+				["UniqueID"] = "3926535874",
+				["ClassName"] = "bone",
+			},
+		},
+		[15] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "right finger 12",
+				["UniqueID"] = "2468045130",
+				["ClassName"] = "bone",
+			},
+		},
+		[16] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "left finger 2",
+				["UniqueID"] = "3401659648",
+				["ClassName"] = "bone",
+			},
+		},
+		[17] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "left finger 1",
+				["UniqueID"] = "896297726",
+				["ClassName"] = "bone",
+			},
+		},
+		[18] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "left finger 12",
+				["UniqueID"] = "2870367424",
+				["ClassName"] = "bone",
+			},
+		},
+		[19] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.475,
+				["Bone"] = "pelvis",
+				["UniqueID"] = "2059699540",
+				["ClassName"] = "bone",
+			},
+		},
+		[20] = {
+			["children"] = {
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["UniqueID"] = "2886244092",
+				["Bone"] = "attach left hand",
+				["Size"] = 0.1,
+				["ClassName"] = "bone",
+			},
+		},
+		[21] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "right finger 01",
+				["UniqueID"] = "814159574",
+				["ClassName"] = "bone",
+			},
+		},
+		[22] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2326832940",
+				["Bone"] = "right toe",
+				["Position"] = Vector(-3.48828125, 0.646484375, -0.147705078125),
+				["ClassName"] = "bone",
+			},
+		},
+		[23] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.825,
+				["Bone"] = "left calf",
+				["UniqueID"] = "940975344",
+				["ClassName"] = "bone",
+			},
+		},
+		[24] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "attach right hand",
+				["UniqueID"] = "3861651237",
+				["ClassName"] = "bone",
+			},
+		},
+		[25] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "speed",
+						["Arguments"] = "100",
+						["UniqueID"] = "216200962",
+						["ClassName"] = "event",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-6.691999912262, 7.7366748882923e-006, 1.7407519408152e-005),
+						["Bone"] = "left upperarm",
+						["UniqueID"] = "1836078203",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(6.6921200752258, 7.7366748882923e-006, 1.7407519408152e-005),
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "2465734679",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-1.366037849948e-005, -2.1344341803342e-005, 36.655883789063),
+								["Bone"] = "right hand",
+								["UniqueID"] = "3494987753",
+								["ClassName"] = "bone",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1903824927",
+								["Event"] = "weapon_class",
+								["Arguments"] = "crowbar",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["Name"] = "sword",
+						["ClassName"] = "group",
+						["UniqueID"] = "3336066640",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "4246766614",
+				["Name"] = "run",
+			},
+		},
+		[26] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "1795601829",
+				["Bone"] = "left foot",
+				["Position"] = Vector(-8.4833984375, -0.0009765625, -0.0020751953125),
+				["ClassName"] = "bone",
+			},
+		},
+		[27] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Bone"] = "right finger 1",
+				["UniqueID"] = "27125413",
+				["ClassName"] = "bone",
+			},
+		},
+		[28] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "spine 4",
+				["UniqueID"] = "2624004693",
+				["ClassName"] = "bone",
+			},
+		},
+		[29] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "right finger 22",
+				["UniqueID"] = "3873371595",
+				["ClassName"] = "bone",
+			},
+		},
+		[30] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "right finger 0",
+				["UniqueID"] = "3619947960",
+				["ClassName"] = "bone",
+			},
+		},
+		[31] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.1,
+				["Bone"] = "right finger 11",
+				["UniqueID"] = "4264606043",
+				["ClassName"] = "bone",
+			},
+		},
+		[32] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Size"] = 0.825,
+				["Bone"] = "right calf",
+				["UniqueID"] = "3405976182",
+				["ClassName"] = "bone",
+			},
+		},
+		[33] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2124709507",
+				["Bone"] = "left toe",
+				["Position"] = Vector(-6.10302734375, -0.005859375, 0.0009765625),
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2055215467",
+		["Name"] = "bones",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 125,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "1084841866",
+								["Axis"] = "r",
+								["InputMultiplier"] = 25,
+								["VariableName"] = "Color",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-90, 180, -180),
+								["ClassName"] = "clip",
+								["UniqueID"] = "4000269744",
+								["Position"] = Vector(0, 0, -2.2724609375),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 0.5,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "4095880098",
+								["InputMultiplier"] = 25,
+								["Min"] = 0.4,
+								["VariableName"] = "Alpha",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "1958572983",
+						["Model"] = "models/holograms/hq_rcylinder_thick.mdl",
+						["EditorExpand"] = true,
+						["Scale"] = Vector(1, 1, 19.89999961853),
+						["Alpha"] = 0.48367745066132,
+						["ClassName"] = "model",
+						["Size"] = 0.3,
+						["PositionOffset"] = Vector(0.40081828832626, 0, 0),
+						["Color"] = Vector(104.5968170166, 255, 255),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["Translucent"] = true,
+						["Position"] = Vector(-0.3427734375, 0.00244140625, 26.7373046875),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2494937759",
+						["Scale"] = Vector(1, 1, 1.3999999761581),
+						["Material"] = "models/debug/debugwhite",
+						["EditorExpand"] = true,
+						["Size"] = 0.1,
+						["Angles"] = Angle(0, 180, -180),
+						["Color"] = Vector(182, 182, 182),
+						["Position"] = Vector(0, 0, 25.2978515625),
+						["Model"] = "models/hunter/misc/cone1x1.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "4001905880",
+								["Scale"] = Vector(1, 1, 1.6000000238419),
+								["ClassName"] = "model",
+								["Size"] = 0.2,
+								["Position"] = Vector(0, 0, -0.69999998807907),
+								["Color"] = Vector(255, 191, 0),
+								["Angles"] = Angle(0, 0.0001025031961035, 0),
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Material"] = "models/debug/debugwhite",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "227808796",
+						["Scale"] = Vector(1, 1, 1.6000000238419),
+						["Material"] = "models/debug/debugwhite",
+						["EditorExpand"] = true,
+						["Size"] = 0.275,
+						["Angles"] = Angle(-25, -121.90000152588, 0),
+						["Color"] = Vector(182, 182, 182),
+						["Position"] = Vector(-1.20361328125, -2.26953125, 26.044921875),
+						["Model"] = "models/props_junk/PopCan01a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "3448078817",
+						["Scale"] = Vector(1, 1, 0.20000000298023),
+						["Material"] = "models/debug/debugwhite",
+						["EditorExpand"] = true,
+						["Size"] = 0.04,
+						["Position"] = Vector(0, 0, 0.16796875),
+						["Color"] = Vector(255, 236, 131),
+						["Bone"] = "none",
+						["Model"] = "models/hunter/tubes/tube1x1x4.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "718715683",
+								["Scale"] = Vector(1, 1, 1.6000000238419),
+								["ClassName"] = "model",
+								["Size"] = 0.2,
+								["Position"] = Vector(0, 0, -0.69999998807907),
+								["Color"] = Vector(255, 191, 0),
+								["Angles"] = Angle(0, 0.0001025031961035, 0),
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Material"] = "models/debug/debugwhite",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3080437654",
+						["Scale"] = Vector(1, 1, 1.6000000238419),
+						["Material"] = "models/debug/debugwhite",
+						["EditorExpand"] = true,
+						["Size"] = 0.275,
+						["Angles"] = Angle(-25, 0.0001025031961035, -6.3393628124686e-007),
+						["Color"] = Vector(182, 182, 182),
+						["Position"] = Vector(2.7999999523163, 0, 26),
+						["Model"] = "models/props_junk/PopCan01a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[6] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "model",
+								["UniqueID"] = "3232385434",
+								["Position"] = Vector(0, 0, -1.6533203125),
+								["Color"] = Vector(47, 78, 255),
+								["Size"] = 0.019,
+								["Model"] = "models/props_phx/wheels/747wheel.mdl",
+								["Material"] = "models/debug/debugwhite",
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "models/debug/debugwhite",
+						["ClassName"] = "model",
+						["UniqueID"] = "1235429663",
+						["Size"] = 0.05,
+						["Color"] = Vector(182, 182, 182),
+						["EditorExpand"] = true,
+						["Model"] = "models/mechanics/wheels/wheel_rounded_36.mdl",
+						["Scale"] = Vector(1, 1, 2.2999999523163),
+					},
+				},
+				[7] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "1562794021",
+								["Scale"] = Vector(1, 1, 1.6000000238419),
+								["ClassName"] = "model",
+								["Size"] = 0.2,
+								["Position"] = Vector(0, 0, -0.69999998807907),
+								["Color"] = Vector(255, 191, 0),
+								["Angles"] = Angle(0, 0.0001025031961035, 0),
+								["Model"] = "models/props_junk/PopCan01a.mdl",
+								["Material"] = "models/debug/debugwhite",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2285192177",
+						["Scale"] = Vector(1, 1, 1.6000000238419),
+						["Material"] = "models/debug/debugwhite",
+						["EditorExpand"] = true,
+						["Size"] = 0.275,
+						["Angles"] = Angle(-25, 113.60000610352, 0),
+						["Color"] = Vector(182, 182, 182),
+						["Position"] = Vector(-1.04541015625, 2.27001953125, 26.1240234375),
+						["Model"] = "models/props_junk/PopCan01a.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[8] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "447336747",
+								["Scale"] = Vector(1, 1, 1.6000000238419),
+								["ClassName"] = "model",
+								["Size"] = 0.05,
+								["Position"] = Vector(0, 0, -0.46875),
+								["Color"] = Vector(2, 103, 59),
+								["Angles"] = Angle(0, -179.99996948242, 180),
+								["Model"] = "models/Mechanics/wheels/wheel_extruded_48.mdl",
+								["Material"] = "models/debug/debugwhite",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Material"] = "models/ihvtest/arm",
+						["Position"] = Vector(0, 0, 27.1435546875),
+						["Size"] = 0.025,
+						["EditorExpand"] = true,
+						["UniqueID"] = "2199288342",
+						["Model"] = "models/hunter/misc/shell2x2a.mdl",
+						["Scale"] = Vector(1, 1, 7.6999998092651),
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2241982366",
+						["Scale"] = Vector(1, 1, 0.40000000596046),
+						["ClassName"] = "model",
+						["Size"] = 0.1,
+						["Material"] = "models/debug/debugwhite",
+						["Color"] = Vector(182, 182, 182),
+						["Position"] = Vector(0, 0, 25.48828125),
+						["Model"] = "models/mechanics/wheels/wheel_rounded_36.mdl",
+						["EditorExpand"] = true,
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2002860002",
+						["Scale"] = Vector(1, 1, 0.20000000298023),
+						["Material"] = "models/debug/debugwhite",
+						["EditorExpand"] = true,
+						["Size"] = 0.04,
+						["Position"] = Vector(0, 0, 20.6552734375),
+						["Color"] = Vector(0, 31, 127),
+						["Bone"] = "none",
+						["Model"] = "models/hunter/tubes/tube1x1x4.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[11] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3545663134",
+						["Event"] = "weapon_class",
+						["Arguments"] = "crowbar",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(3.7060546875, -2.46728515625, 16.533203125),
+				["Material"] = "models/debug/debugwhite",
+				["Name"] = "sword",
+				["Scale"] = Vector(1, 1, 3),
+				["EditorExpand"] = true,
+				["ClassName"] = "model",
+				["Size"] = 0.0375,
+				["Angles"] = Angle(0, -179.99993896484, -179.99996948242),
+				["Color"] = Vector(47, 78, 255),
+				["Bone"] = "right hand",
+				["Model"] = "models/hunter/tubes/tube1x1x4.mdl",
+				["UniqueID"] = "3211029424",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1356560049",
+		["Name"] = "weapons",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 10,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "738785602",
+								["InputMultiplier"] = 10,
+								["EditorExpand"] = true,
+								["Min"] = 8,
+								["VariableName"] = "Size",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "sprite",
+						["Position"] = Vector(-19.751953125, -7.4912109375, -4.39892578125),
+						["SpritePath"] = "sprites/glow04_noz",
+						["Color"] = Vector(0, 161, 255),
+						["Size"] = 9.2913138309878,
+						["EditorExpand"] = true,
+						["UniqueID"] = "1328666940",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2032121863",
+				["Angles"] = Angle(0, -179.9995880127, 179.99993896484),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(7).png",
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(21.5, 9.3999996185303, 4.9000000953674),
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20righthand.obj",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3663912247",
+				["ClassName"] = "model",
+				["Angles"] = Angle(-89.999954223633, 180, 0),
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(4.6999998092651, 40.799999237061, -22.200000762939),
+				["AngleOffset"] = Angle(0, 0, -32),
+				["Bone"] = "right foot",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20footright.obj",
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(7).png",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(0.5361328125, -1.2978515625, 0.0048828125),
+				["Name"] = "neck",
+				["Material"] = "models/debug/debugwhite",
+				["ClassName"] = "model",
+				["Size"] = 0.825,
+				["Angles"] = Angle(89.999984741211, 22.518060684204, 0),
+				["Color"] = Vector(229, 164, 117),
+				["Bone"] = "neck",
+				["Model"] = "models/props_junk/PopCan01a.mdl",
+				["UniqueID"] = "170584211",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3958606572",
+				["Angles"] = Angle(-90, -103.55251312256, 0),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(1).png",
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(-0.60000002384186, 14.10000038147, 5.4000000953674),
+				["ClassName"] = "model",
+				["Bone"] = "spine 4",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20jacket.obj",
+				["Position"] = Vector(-0.9208984375, 0.21923828125, -0.00390625),
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(3).png",
+				["Angles"] = Angle(89.999969482422, -74.291000366211, 0),
+				["DoubleFace"] = true,
+				["PositionOffset"] = Vector(-1, 4, 3.2000000476837),
+				["Size"] = 3.75,
+				["UniqueID"] = "1202941290",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20face.obj",
+				["ClassName"] = "model",
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "591131127",
+				["Scale"] = Vector(1, 0.80000001192093, 1),
+				["Position"] = Vector(0.041015625, -0.5361328125, -0.0001220703125),
+				["ClassName"] = "model",
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(-5.0999999046326, -24, 2.4000000953674),
+				["Angles"] = Angle(-89.999954223633, 93.592582702637, 0),
+				["Bone"] = "left thigh",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/leg%20left.obj",
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(4).png",
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "4093586518",
+				["Scale"] = Vector(1, 0.80000001192093, 1),
+				["Position"] = Vector(0.009765625, 0.6279296875, 0.0107421875),
+				["ClassName"] = "model",
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(5.0999999046326, -24, 2.4000000953674),
+				["Angles"] = Angle(-81.578407287598, 90.000030517578, 9.8373939181329e-006),
+				["Bone"] = "right thigh",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/leg%20right.obj",
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(4).png",
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "1415862421",
+				["Name"] = "hair",
+				["ClassName"] = "model",
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(-1, 4, 3.2000000476837),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(8).png",
+				["Angles"] = Angle(90, -74.291000366211, 0),
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20hair.obj",
+				["DoubleFace"] = true,
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.119140625, -0.03369140625, -0.00048828125),
+						["Name"] = "spikes",
+						["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(6).png",
+						["ClassName"] = "model",
+						["DoubleFace"] = true,
+						["PositionOffset"] = Vector(-1, 4, 3.2000000476837),
+						["Size"] = 3.75,
+						["Angles"] = Angle(90, -74.291000366211, 0),
+						["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20spikes.obj",
+						["UniqueID"] = "3225161422",
+					},
+				},
+			},
+			["self"] = {
+				["ConstrainY"] = true,
+				["UniqueID"] = "3498951615",
+				["Speed"] = 10,
+				["EditorExpand"] = true,
+				["ConstrainZ"] = true,
+				["ClassName"] = "jiggle",
+				["ConstrainX"] = true,
+			},
+		},
+		[10] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-89.999984741211, -97.806999206543, 0),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(7).png",
+				["UniqueID"] = "4292916534",
+				["PositionOffset"] = Vector(-0.60000002384186, -40.299999237061, 5.5),
+				["Size"] = 3.75,
+				["Bone"] = "spine 2",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/shirt%20bottom.obj",
+				["ClassName"] = "model",
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-89.999984741211, -100.50649261475, 0),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(7).png",
+				["UniqueID"] = "780884779",
+				["PositionOffset"] = Vector(-0.60000002384186, -46.5, 5.5),
+				["Size"] = 3.75,
+				["Bone"] = "spine 4",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/shirt%20top.obj",
+				["ClassName"] = "model",
+			},
+		},
+		[12] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-2.5036978721619, -179.99995422363, -90.000015258789),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(2).png",
+				["UniqueID"] = "563263945",
+				["PositionOffset"] = Vector(2.4000000953674, -47.299999237061, 5),
+				["Size"] = 3.75,
+				["Bone"] = "right upperarm",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/right%20shoulder.obj",
+				["ClassName"] = "model",
+			},
+		},
+		[13] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "842909638",
+				["Name"] = "goggles",
+				["ClassName"] = "model",
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(-1, 4, 3.2000000476837),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(7).png",
+				["Angles"] = Angle(90, -74.291000366211, 0),
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20goggles.obj",
+				["DoubleFace"] = true,
+			},
+		},
+		[14] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["DeathRagdollizeParent"] = true,
+				["Size"] = 0.8,
+				["DrawWeapon"] = false,
+				["UniqueID"] = "3497551868",
+			},
+		},
+		[15] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left finger 2",
+						["UniqueID"] = "4155123259",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.75,
+						["Bone"] = "right forearm",
+						["UniqueID"] = "3869328828",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left finger 02",
+						["UniqueID"] = "3394006937",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.325,
+						["Bone"] = "neck",
+						["UniqueID"] = "270262203",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "spine 4",
+						["UniqueID"] = "821601953",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.5,
+						["Bone"] = "left bicep",
+						["UniqueID"] = "2808592264",
+						["ClassName"] = "bone",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.75,
+						["Bone"] = "left upperarm",
+						["UniqueID"] = "3611909921",
+						["ClassName"] = "bone",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "eyes",
+						["UniqueID"] = "3619403215",
+						["ClassName"] = "bone",
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right trapezius",
+						["UniqueID"] = "3478518111",
+						["ClassName"] = "bone",
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left foot",
+						["UniqueID"] = "2592210474",
+						["ClassName"] = "bone",
+					},
+				},
+				[11] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "invalidbone",
+						["UniqueID"] = "3678866462",
+						["ClassName"] = "bone",
+					},
+				},
+				[12] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left toe",
+						["UniqueID"] = "553725896",
+						["ClassName"] = "bone",
+					},
+				},
+				[13] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "spine 2",
+						["UniqueID"] = "3096918308",
+						["ClassName"] = "bone",
+					},
+				},
+				[14] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "forward",
+						["UniqueID"] = "17873980",
+						["ClassName"] = "bone",
+					},
+				},
+				[15] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.5,
+						["Bone"] = "left wrist",
+						["UniqueID"] = "1289231671",
+						["ClassName"] = "bone",
+					},
+				},
+				[16] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right foot",
+						["UniqueID"] = "1446053213",
+						["ClassName"] = "bone",
+					},
+				},
+				[17] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "mouth",
+						["UniqueID"] = "2875843767",
+						["ClassName"] = "bone",
+					},
+				},
+				[18] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left finger 22",
+						["UniqueID"] = "2341117357",
+						["ClassName"] = "bone",
+					},
+				},
+				[19] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "pelvis",
+						["UniqueID"] = "1742282688",
+						["ClassName"] = "bone",
+					},
+				},
+				[20] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "attach left hand",
+						["UniqueID"] = "4149791957",
+						["ClassName"] = "bone",
+					},
+				},
+				[21] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right finger 02",
+						["UniqueID"] = "1040403338",
+						["ClassName"] = "bone",
+					},
+				},
+				[22] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left calf",
+						["UniqueID"] = "4031123177",
+						["ClassName"] = "bone",
+					},
+				},
+				[23] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right calf",
+						["UniqueID"] = "569623846",
+						["ClassName"] = "bone",
+					},
+				},
+				[24] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "anim_attachment_lh",
+						["UniqueID"] = "220131075",
+						["ClassName"] = "bone",
+					},
+				},
+				[25] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.75,
+						["Bone"] = "right thigh",
+						["UniqueID"] = "3130027486",
+						["ClassName"] = "bone",
+					},
+				},
+				[26] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right finger 01",
+						["UniqueID"] = "101613056",
+						["ClassName"] = "bone",
+					},
+				},
+				[27] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "attach right hand",
+						["UniqueID"] = "2641221368",
+						["ClassName"] = "bone",
+					},
+				},
+				[28] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0,
+						["Bone"] = "right elbow",
+						["UniqueID"] = "3401483639",
+						["ClassName"] = "bone",
+					},
+				},
+				[29] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.5,
+						["Bone"] = "right wrist",
+						["UniqueID"] = "4221859076",
+						["ClassName"] = "bone",
+					},
+				},
+				[30] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.75,
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "1373449615",
+						["ClassName"] = "bone",
+					},
+				},
+				[31] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left clavicle",
+						["UniqueID"] = "3127019312",
+						["ClassName"] = "bone",
+					},
+				},
+				[32] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right finger 11",
+						["UniqueID"] = "4116682799",
+						["ClassName"] = "bone",
+					},
+				},
+				[33] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left hand",
+						["UniqueID"] = "1825148611",
+						["ClassName"] = "bone",
+					},
+				},
+				[34] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left finger 1",
+						["UniqueID"] = "1942743681",
+						["ClassName"] = "bone",
+					},
+				},
+				[35] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.5,
+						["Bone"] = "left ulna",
+						["UniqueID"] = "2525998357",
+						["ClassName"] = "bone",
+					},
+				},
+				[36] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "chest",
+						["UniqueID"] = "3932028013",
+						["ClassName"] = "bone",
+					},
+				},
+				[37] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.5,
+						["Bone"] = "right ulna",
+						["UniqueID"] = "2273627794",
+						["ClassName"] = "bone",
+					},
+				},
+				[38] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left finger 0",
+						["UniqueID"] = "2272666748",
+						["ClassName"] = "bone",
+					},
+				},
+				[39] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right finger 12",
+						["UniqueID"] = "3060585487",
+						["ClassName"] = "bone",
+					},
+				},
+				[40] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right finger 1",
+						["UniqueID"] = "3937343107",
+						["ClassName"] = "bone",
+					},
+				},
+				[41] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "spine 1",
+						["UniqueID"] = "1909243515",
+						["ClassName"] = "bone",
+					},
+				},
+				[42] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "anim_attachment_rh",
+						["UniqueID"] = "1614100242",
+						["ClassName"] = "bone",
+					},
+				},
+				[43] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right toe",
+						["UniqueID"] = "1574141616",
+						["ClassName"] = "bone",
+					},
+				},
+				[44] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2777811356",
+						["Bone"] = "right shoulder",
+						["Size"] = 0.1,
+						["Scale"] = Vector(0, 0, 0),
+					},
+				},
+				[45] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.75,
+						["Bone"] = "left forearm",
+						["UniqueID"] = "484927082",
+						["ClassName"] = "bone",
+					},
+				},
+				[46] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.75,
+						["Bone"] = "left thigh",
+						["UniqueID"] = "1815831597",
+						["ClassName"] = "bone",
+					},
+				},
+				[47] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "spine",
+						["UniqueID"] = "1006903152",
+						["ClassName"] = "bone",
+					},
+				},
+				[48] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left trapezius",
+						["UniqueID"] = "1022817694",
+						["ClassName"] = "bone",
+					},
+				},
+				[49] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right hand",
+						["UniqueID"] = "67709690",
+						["ClassName"] = "bone",
+					},
+				},
+				[50] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right clavicle",
+						["UniqueID"] = "1087786504",
+						["ClassName"] = "bone",
+					},
+				},
+				[51] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left finger 01",
+						["UniqueID"] = "3444747685",
+						["ClassName"] = "bone",
+					},
+				},
+				[52] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right finger 0",
+						["UniqueID"] = "2894449765",
+						["ClassName"] = "bone",
+					},
+				},
+				[53] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right finger 22",
+						["UniqueID"] = "1277884377",
+						["ClassName"] = "bone",
+					},
+				},
+				[54] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left finger 11",
+						["UniqueID"] = "471174276",
+						["ClassName"] = "bone",
+					},
+				},
+				[55] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right finger 21",
+						["UniqueID"] = "771593753",
+						["ClassName"] = "bone",
+					},
+				},
+				[56] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "anim_attachment_head",
+						["UniqueID"] = "183683025",
+						["ClassName"] = "bone",
+					},
+				},
+				[57] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left shoulder",
+						["UniqueID"] = "991616332",
+						["ClassName"] = "bone",
+					},
+				},
+				[58] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.5,
+						["Bone"] = "right bicep",
+						["UniqueID"] = "1899910293",
+						["ClassName"] = "bone",
+					},
+				},
+				[59] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left finger 12",
+						["UniqueID"] = "31610578",
+						["ClassName"] = "bone",
+					},
+				},
+				[60] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left elbow",
+						["UniqueID"] = "3326229670",
+						["ClassName"] = "bone",
+					},
+				},
+				[61] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "right finger 2",
+						["UniqueID"] = "3249411188",
+						["ClassName"] = "bone",
+					},
+				},
+				[62] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2811583846",
+						["ClassName"] = "bone",
+					},
+				},
+				[63] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "left finger 21",
+						["UniqueID"] = "2100299690",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "378058592",
+				["Color"] = Vector(229, 164, 117),
+				["Model"] = "models/player/group01/male_04.mdl",
+				["Name"] = "skin",
+				["Material"] = "models/debug/debugwhite",
+			},
+		},
+		[16] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "1121553534",
+				["ClassName"] = "model",
+				["Angles"] = Angle(-89.999954223633, 180, 0),
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(-6.0999999046326, 40.799999237061, -22.200000762939),
+				["AngleOffset"] = Angle(0, 0, -32),
+				["Bone"] = "left foot",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20footleft.obj",
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(7).png",
+			},
+		},
+		[17] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "423199652",
+				["Name"] = "ears",
+				["Angles"] = Angle(90, -74.291000366211, 0),
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(-1, 4, 3.2000000476837),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(5).png",
+				["ClassName"] = "model",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20ears.obj",
+				["EditorExpand"] = true,
+			},
+		},
+		[18] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["StartColor"] = Vector(33, 255, 0),
+						["ClassName"] = "trail",
+						["UniqueID"] = "2751257342",
+						["Bone"] = "left hand",
+						["Length"] = 10,
+						["StartSize"] = 10,
+						["Position"] = Vector(26.0556640625, -7.6875, -5.2359619140625),
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 13,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "3171573547",
+								["InputMultiplier"] = 15,
+								["Min"] = 11,
+								["VariableName"] = "Size",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "sprite",
+						["Position"] = Vector(25.9375, -7.34765625, -5.5595703125),
+						["SpritePath"] = "sprites/glow04_noz",
+						["Color"] = Vector(86, 255, 60),
+						["Size"] = 12.429013084804,
+						["EditorExpand"] = true,
+						["UniqueID"] = "428442030",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2047165584",
+				["Angles"] = Angle(3.8846701500006e-005, 0, 2.6466987037566e-005),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(7).png",
+				["Size"] = 3.75,
+				["PositionOffset"] = Vector(-22.700000762939, 9, 5.3000001907349),
+				["ClassName"] = "model",
+				["Bone"] = "left hand",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/kei%20lefthand.obj",
+				["EditorExpand"] = true,
+			},
+		},
+		[19] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(0, -2.2479760446004e-005, 90.000099182129),
+				["Material"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/Kei%20(2).png",
+				["UniqueID"] = "880210886",
+				["PositionOffset"] = Vector(-4.4000000953674, -47.299999237061, 4.5),
+				["Size"] = 3.75,
+				["Bone"] = "left upperarm",
+				["Model"] = "https://raw.githubusercontent.com/BoNana25/Pac3-Hosting/master/Kei/left%20shoulder.obj",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "3453857876",
+		["ClassName"] = "group",
+		["Name"] = "kei outfit",
+		["Description"] = "add parts to me!",
+	},
+},

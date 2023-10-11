@@ -6,6 +6,17 @@
 					["children"] = {
 					},
 					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "4175328452",
+						["Event"] = "button",
+						["Arguments"] = "q",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
 						["UniqueID"] = "832023705",
 						["Model"] = "http://puu.sh/jvAmr/03286e39ab.obj",
 						["Position"] = Vector(-0.001953125, 18.80517578125, -0.0009307861328125),
@@ -17,17 +28,6 @@
 						["Bone"] = "none",
 						["Translucent"] = true,
 						["Material"] = "http://puu.sh/jJK0f/a7f3d2a309.jpg",
-					},
-				},
-				[2] = {
-					["children"] = {
-					},
-					["self"] = {
-						["ClassName"] = "event",
-						["UniqueID"] = "4175328452",
-						["Event"] = "command",
-						["Arguments"] = "menu",
-						["Invert"] = true,
 					},
 				},
 			},

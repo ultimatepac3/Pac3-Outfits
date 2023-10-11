@@ -1,0 +1,241 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2076316433",
+				["Event"] = "button",
+				["Arguments"] = "r",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "timer",
+						["Arguments"] = "0.2",
+						["UniqueID"] = "3970005007",
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "1446578540",
+				["Speed"] = 10000,
+				["RemoveOnCollide"] = true,
+				["EditorExpand"] = true,
+				["Mass"] = 100000,
+				["ClassName"] = "projectile",
+				["BulletImpact"] = true,
+				["Physical"] = true,
+				["OutfitPartUID"] = "4030478582",
+				["Damage"] = 100000,
+				["EyeAngles"] = true,
+				["Gravity"] = false,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "timer",
+						["Arguments"] = "0.2",
+						["UniqueID"] = "3306237557",
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["Overlapping"] = true,
+				["ClassName"] = "sound",
+				["UniqueID"] = "2597079369",
+				["EditorExpand"] = true,
+				["Sound"] = "weapons/alyx_gun/alyx_gun_fire5.wav",
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "1289120185",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 25,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "2105967854",
+								["InputMultiplier"] = 100,
+								["Min"] = 20,
+								["VariableName"] = "Size",
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "1216149291",
+						["SpritePath"] = "sprites/glow04_noz",
+						["Size"] = 20.325757047204,
+						["ClassName"] = "sprite",
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "1019794799",
+				["Model"] = "models/pac/default.mdl",
+				["Bone"] = "hitpos",
+				["Name"] = "hitpos",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Alpha"] = 0.75,
+						["AngleOffset"] = Angle(0, 18, 6.3000001907349),
+						["UniqueID"] = "1877478038",
+						["PositionOffset"] = Vector(3.0999999046326, -5.4000000953674, -1.8999999761581),
+						["Position"] = Vector(0.002197265625, 3.8607177734375, -0.0029296875),
+						["Size"] = 0.05,
+						["Model"] = "models/combine_apc_destroyed_gib03.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["EndPointName"] = "hitpos",
+								["Position"] = Vector(2.7122192382813, 0.0087890625, 0.000244140625),
+								["Bend"] = 0,
+								["ClassName"] = "beam",
+								["EndPointUID"] = "1019794799",
+								["UniqueID"] = "3452498435",
+								["Material"] = "trails/laser",
+								["Translucent"] = true,
+								["StartAlpha"] = 0.5,
+								["EditorExpand"] = true,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "3832166296",
+										["Event"] = "button",
+										["Arguments"] = "r@@0.1",
+										["Invert"] = true,
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Event"] = "timer",
+												["Arguments"] = "0.2",
+												["UniqueID"] = "295311021",
+												["ClassName"] = "event",
+											},
+										},
+									},
+									["self"] = {
+										["ClassName"] = "effect",
+										["UniqueID"] = "308662349",
+										["Rate"] = 0.4,
+										["EditorExpand"] = true,
+										["Effect"] = "muzzle_shotgun",
+										["Follow"] = false,
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["UniqueID"] = "1844594720",
+								["Size"] = 0.01,
+								["Model"] = "models/pac/default.mdl",
+								["EditorExpand"] = true,
+							},
+						},
+						[3] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 5,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "2899476264",
+										["InputMultiplier"] = 100,
+										["Min"] = 6,
+										["VariableName"] = "Size",
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "sprite",
+								["Position"] = Vector(2.8271484375, 0.001953125, -4.57763671875e-005),
+								["SpritePath"] = "sprites/glow04_noz",
+								["Size"] = 5.9348485905591,
+								["EditorExpand"] = true,
+								["UniqueID"] = "364208665",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "3447956167",
+						["Model"] = "models/alyx_emptool_prop.mdl",
+						["EditorExpand"] = true,
+						["Position"] = Vector(-0.00244140625, 3.6918029785156, -0.01953125),
+						["EyeAngles"] = true,
+						["Angles"] = Angle(0, 0.00010591326281428, -90.000350952148),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(4.18349118263e-005, -90, -90.000015258789),
+				["Position"] = Vector(2.1884765625, -2.040283203125, -0.001678466796875),
+				["ClassName"] = "model",
+				["Size"] = 1.125,
+				["EditorExpand"] = true,
+				["Model"] = "models/barneyhelmet.mdl",
+				["UniqueID"] = "26758591",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "4126530722",
+		["EditorExpand"] = true,
+	},
+},

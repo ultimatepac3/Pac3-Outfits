@@ -1,0 +1,58 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "ogg",
+						["UniqueID"] = "2885619153",
+						["URL"] = "https://dl.dropboxusercontent.com/u/183209082/Inglorious%20Basterds%20-%20BONJOURNO.ogg",
+						["Name"] = "inglorious%20basterds%20-%20bonjourno",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["Angles"] = Angle(90, 0, 0),
+						["UniqueID"] = "299470411",
+						["Material"] = "http://i.imgur.com/sl7JA7e.png",
+						["Position"] = Vector(0, 0, 22.05029296875),
+						["Bone"] = "none",
+						["Model"] = "models/hunter/plates/plate1x1.mdl",
+						["Scale"] = Vector(1, 1, 0.0010000000474975),
+					},
+				},
+			},
+			["self"] = {
+				["AffectChildrenOnly"] = true,
+				["ClassName"] = "event",
+				["UniqueID"] = "2119421247",
+				["Event"] = "is_on_ground",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3061359706",
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["DrawShadow"] = false,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["OwnerName"] = "202",
+		["UniqueID"] = "3999276904",
+		["EditorExpand"] = true,
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},

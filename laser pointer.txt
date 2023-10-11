@@ -1,0 +1,192 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["AngleOffset"] = Angle(49.799999237061, 27.39999961853, 21.200000762939),
+						["Position"] = Vector(0, 0, 1.8999999761581),
+						["UniqueID"] = "3779473631",
+						["Angles"] = Angle(5.7202836615033e-005, 0, -7.6839634857606e-005),
+						["Bone"] = "left hand",
+						["ClassName"] = "bone",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(5.7202836615033e-005, 0, -7.6839634857606e-005),
+						["UniqueID"] = "4152756927",
+						["Bone"] = "right hand",
+						["ClassName"] = "bone",
+						["AngleOffset"] = Angle(-36.599998474121, 0, 0),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["WeaponHoldType"] = "revolver",
+						["ClassName"] = "animation",
+						["UniqueID"] = "919013896",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "r",
+										["Invert"] = true,
+										["Event"] = "button",
+										["UniqueID"] = "2696758593",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["EndPointName"] = "hitpos",
+								["Position"] = Vector(2.7122192382813, 0.0087890625, 0.000244140625),
+								["Bend"] = 0,
+								["UniqueID"] = "3452498435",
+								["EditorExpand"] = true,
+								["ClassName"] = "beam",
+								["EndPointUID"] = "1019794799",
+								["StartColor"] = Vector(255, 0, 0),
+								["Translucent"] = true,
+								["EndColor"] = Vector(255, 0, 0),
+								["StartAlpha"] = 0.5,
+								["Material"] = "sprites/physbeama",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Max"] = 5,
+										["ClassName"] = "proxy",
+										["UniqueID"] = "2899476264",
+										["InputMultiplier"] = 100,
+										["Min"] = 6,
+										["VariableName"] = "Size",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["ClassName"] = "event",
+										["UniqueID"] = "1496108054",
+										["Event"] = "button",
+										["Arguments"] = "r",
+										["Invert"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["ClassName"] = "sprite",
+								["Position"] = Vector(2.8271484375, 0.001953125, -4.57763671875e-005),
+								["SpritePath"] = "sprites/glow04_noz",
+								["Color"] = Vector(255, 0, 0),
+								["Size"] = 5.0663255104152,
+								["EditorExpand"] = true,
+								["UniqueID"] = "364208665",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(45.087001800537, -0.00017924974963535, -90.000305175781),
+						["UniqueID"] = "3447956167",
+						["Position"] = Vector(3.267822265625, -1.318359375, -1.34423828125),
+						["Bone"] = "right hand",
+						["Model"] = "models/alyx_emptool_prop.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Max"] = 25,
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2105967854",
+												["InputMultiplier"] = 100,
+												["Min"] = 20,
+												["VariableName"] = "Size",
+											},
+										},
+									},
+									["self"] = {
+										["EditorExpand"] = true,
+										["UniqueID"] = "1216149291",
+										["SpritePath"] = "sprites/glow04_noz",
+										["Color"] = Vector(255, 0, 0),
+										["Size"] = 21.41862159742,
+										["ClassName"] = "sprite",
+									},
+								},
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["UniqueID"] = "1019794799",
+								["Bone"] = "hitpos",
+								["Name"] = "hitpos",
+								["Model"] = "models/pac/default.mdl",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "sound",
+								["UniqueID"] = "3700441401",
+								["Sound"] = "buttons/button22.wav",
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["Event"] = "button",
+						["UniqueID"] = "3890195652",
+						["Arguments"] = "r",
+					},
+				},
+			},
+			["self"] = {
+				["AffectChildrenOnly"] = true,
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["Event"] = "command",
+				["Arguments"] = "four",
+				["UniqueID"] = "2250847895",
+				["Name"] = "laser pointer",
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "laser pointer",
+		["ClassName"] = "group",
+		["UniqueID"] = "4126530722",
+		["EditorExpand"] = true,
+	},
+},
